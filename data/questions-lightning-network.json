@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "q381",
+      "question": "What is the Lightning Network?",
+      "options": {
+        "a": "A faster version of Bitcoin",
+        "b": "A Layer 2 payment network built on top of Bitcoin",
+        "c": "A new cryptocurrency",
+        "d": "A Bitcoin mining pool"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Lightning Network",
+      "explanation": "The Lightning Network is a Layer 2 scaling solution that enables fast, cheap Bitcoin payments through off-chain payment channels.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q382",
+      "question": "What is a Lightning payment channel?",
+      "options": {
+        "a": "A direct connection between two Lightning nodes",
+        "b": "A type of Bitcoin address",
+        "c": "A mining pool for Lightning",
+        "d": "A Lightning wallet feature"
+      },
+      "correct_answer": "a",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "A payment channel is a direct connection between two Lightning nodes that allows them to transact without broadcasting every payment to the Bitcoin blockchain.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q383",
+      "question": "How are Lightning Network transactions different from regular Bitcoin transactions?",
+      "options": {
+        "a": "They use different cryptography",
+        "b": "They don't require confirmation on the Bitcoin blockchain for each payment",
+        "c": "They cost more in fees",
+        "d": "They can only send small amounts"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "Lightning transactions happen off-chain between channel partners, only requiring blockchain confirmation when opening or closing channels.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q384",
+      "question": "What is routing in the Lightning Network?",
+      "options": {
+        "a": "Finding the best internet connection",
+        "b": "Finding a path of channels to send payments to someone you don't have a direct channel with",
+        "c": "Organizing Lightning node addresses",
+        "d": "Managing channel capacity"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Routing allows payments to reach any node on the network by finding a path through interconnected payment channels.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q385",
+      "question": "What is channel liquidity in Lightning Network?",
+      "options": {
+        "a": "How fast payments process",
+        "b": "The amount of bitcoin available to send in each direction of a channel",
+        "c": "The number of channels a node has",
+        "d": "How stable the connection is"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Channel liquidity refers to the balance distribution in a channel - how much bitcoin each party can send to the other.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q386",
+      "question": "What is required to open a Lightning channel?",
+      "options": {
+        "a": "Permission from Lightning Labs",
+        "b": "An on-chain Bitcoin transaction",
+        "c": "A minimum of 1 BTC",
+        "d": "Government registration"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "Opening a Lightning channel requires an on-chain Bitcoin transaction to lock funds into a multi-signature address shared by both parties.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q387",
+      "question": "What happens when you close a Lightning channel?",
+      "options": {
+        "a": "The funds are lost",
+        "b": "An on-chain transaction distributes the final balances",
+        "c": "The funds stay locked forever",
+        "d": "Only one party gets their funds back"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "Closing a channel triggers an on-chain transaction that distributes the final channel balances back to each party's Bitcoin addresses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q388",
+      "question": "What is a Lightning invoice?",
+      "options": {
+        "a": "A bill for Lightning Network services",
+        "b": "A payment request containing amount and destination details",
+        "c": "A receipt for completed payments",
+        "d": "A record of channel fees"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "A Lightning invoice is a payment request that contains the amount, destination, and other details needed to complete a Lightning payment.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q389",
+      "question": "What is inbound liquidity in Lightning Network?",
+      "options": {
+        "a": "Your ability to receive Lightning payments",
+        "b": "Your ability to send Lightning payments",
+        "c": "The speed of your internet connection",
+        "d": "The number of channels you have"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Lightning Network",
+      "explanation": "Inbound liquidity is the amount of bitcoin that others have on their side of channels with you, determining how much you can receive.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q390",
+      "question": "What is a watchtower in Lightning Network?",
+      "options": {
+        "a": "A physical tower for Lightning infrastructure",
+        "b": "A service that monitors channels for fraud attempts while you're offline",
+        "c": "A high-capacity Lightning node",
+        "d": "A Lightning Network explorer"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Lightning Network",
+      "explanation": "Watchtowers monitor the blockchain for fraudulent channel closures and can broadcast penalty transactions to protect your funds when you're offline.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q391",
+      "question": "What is the main scaling benefit of Lightning Network?",
+      "options": {
+        "a": "Unlimited transaction capacity",
+        "b": "Thousands of payments per second with instant settlement",
+        "c": "Cheaper mining fees",
+        "d": "Larger block sizes"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Lightning enables thousands of instant payments per second off-chain, dramatically scaling Bitcoin's transaction capacity.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q392",
+      "question": "What are Hash Time-Locked Contracts (HTLCs) used for in Lightning?",
+      "options": {
+        "a": "To lock funds permanently",
+        "b": "To enable secure multi-hop payments",
+        "c": "To increase channel capacity",
+        "d": "To prevent channel closures"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Lightning Network",
+      "explanation": "HTLCs enable atomic payments across multiple channels by ensuring all parts of a routed payment either succeed together or fail together.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q393",
+      "question": "What is channel rebalancing?",
+      "options": {
+        "a": "Fixing broken channels",
+        "b": "Moving liquidity to optimize sending and receiving capacity",
+        "c": "Updating channel software",
+        "d": "Increasing channel fees"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Lightning Network",
+      "explanation": "Rebalancing moves funds between channels to optimize your ability to send and receive payments in different directions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q394",
+      "question": "What is submarine swapping?",
+      "options": {
+        "a": "Trading Lightning bitcoin for on-chain bitcoin",
+        "b": "Moving funds between different Lightning wallets",
+        "c": "Exchanging bitcoin for other cryptocurrencies",
+        "d": "Backing up Lightning channels"
+      },
+      "correct_answer": "a",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Lightning Network",
+      "explanation": "Submarine swaps allow trustless exchange between Lightning bitcoin and on-chain bitcoin without requiring channel operations.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q395",
+      "question": "What is the Lightning Network's approach to privacy?",
+      "options": {
+        "a": "All payments are completely anonymous",
+        "b": "Better privacy than on-chain but not perfect",
+        "c": "No privacy improvements over Bitcoin",
+        "d": "Requires KYC for all transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Lightning Network",
+      "explanation": "Lightning provides better privacy than on-chain Bitcoin since payments don't appear on the public blockchain, but channel states and routing can still leak some information.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q396",
+      "question": "What is a Lightning Address?",
+      "options": {
+        "a": "The IP address of a Lightning node",
+        "b": "An email-like identifier for receiving Lightning payments",
+        "c": "A Bitcoin address for Lightning channels",
+        "d": "A physical mailing address for Lightning services"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Lightning Address is a protocol that allows users to receive Lightning payments using familiar email-like identifiers (user@domain.com).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q397",
+      "question": "What are the main types of Lightning wallets?",
+      "options": {
+        "a": "Hot and cold wallets only",
+        "b": "Custodial and non-custodial wallets",
+        "c": "Desktop and mobile wallets only",
+        "d": "Public and private wallets"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Lightning wallets are primarily categorized as custodial (service provider manages channels) or non-custodial (you manage your own channels and keys).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q398",
+      "question": "What is force closing a Lightning channel?",
+      "options": {
+        "a": "Closing a channel immediately without the other party's cooperation",
+        "b": "Closing multiple channels at once",
+        "c": "Closing a channel with maximum fees",
+        "d": "Permanently deleting a channel"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Lightning Network",
+      "explanation": "Force closing broadcasts the latest channel state to the blockchain unilaterally, useful if the other party becomes unresponsive.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q399",
+      "question": "What is the Lightning Network's solution to the micropayment problem?",
+      "options": {
+        "a": "It eliminates all transaction fees",
+        "b": "It enables payments smaller than typical Bitcoin on-chain fees",
+        "c": "It only allows large payments",
+        "d": "It uses a different currency for small payments"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "Lightning's low fees make it economical to send very small amounts that would be uneconomical on the Bitcoin base layer due to mining fees.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q400",
+      "question": "What are the main trade-offs of using Lightning Network?",
+      "options": {
+        "a": "No trade-offs - it's better in every way",
+        "b": "Speed and low fees vs. liquidity management and online requirements",
+        "c": "Only works for large payments",
+        "d": "Requires government permission"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Lightning Network",
+      "explanation": "Lightning provides speed and low fees but requires managing channel liquidity and staying online, plus initial setup complexity compared to simple on-chain transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    }
+  ]
+}

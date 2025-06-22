@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "id": "q085",
+      "id": "q001",
       "question": "What specific message was embedded in Bitcoin's genesis block?",
       "options": {
         "a": "Bitcoin: A Peer-to-Peer Electronic Cash System",
@@ -17,23 +17,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q086",
-      "question": "What is the maximum possible target value in Bitcoin (in hex)?",
-      "options": {
-        "a": "0x00000000FFFF0000000000000000000000000000000000000000000000000000",
-        "b": "0x00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
-        "c": "0x1d00ffff",
-        "d": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
-      },
-      "correct_answer": "a",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Mining",
-      "explanation": "The maximum target is defined in the Bitcoin source code as 0x00000000FFFF0000000000000000000000000000000000000000000000000000.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q087",
+      "id": "q002",
       "question": "What is the specific elliptic curve equation used by Bitcoin?",
       "options": {
         "a": "y² = x³ + 7",
@@ -49,23 +33,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q088",
-      "question": "What is the coinbase maturity period in Bitcoin?",
-      "options": {
-        "a": "6 blocks",
-        "b": "100 blocks",
-        "c": "120 blocks",
-        "d": "144 blocks"
-      },
-      "correct_answer": "b",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Mining",
-      "explanation": "Newly mined bitcoins cannot be spent until 100 blocks have been mined on top of the block containing the coinbase transaction.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q089",
+      "id": "q003",
       "question": "What is the maximum script size in Bitcoin?",
       "options": {
         "a": "520 bytes",
@@ -81,7 +49,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q090",
+      "id": "q004",
       "question": "What was the block height of the 2024 Bitcoin halving?",
       "options": {
         "a": "740,000",
@@ -97,7 +65,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q091",
+      "id": "q005",
       "question": "What is the minimum relay fee in Bitcoin Core (as of v0.21)?",
       "options": {
         "a": "1 sat/byte",
@@ -113,23 +81,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q092",
-      "question": "What opcode was disabled due to the value overflow bug in 2010?",
-      "options": {
-        "a": "OP_LSHIFT",
-        "b": "OP_CAT",
-        "c": "OP_MUL",
-        "d": "OP_2MUL"
-      },
-      "correct_answer": "a",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Security",
-      "explanation": "OP_LSHIFT and OP_RSHIFT were disabled after the value overflow incident that created 184 billion bitcoins.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q093",
+      "id": "q006",
       "question": "What is the maximum number of public keys in a standard multisig script?",
       "options": {
         "a": "3",
@@ -145,7 +97,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q094",
+      "id": "q007",
       "question": "What BIP introduced the concept of mnemonic seed phrases?",
       "options": {
         "a": "BIP 32",
@@ -161,87 +113,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q095",
-      "question": "What is the size of a Bitcoin block header?",
-      "options": {
-        "a": "80 bytes",
-        "b": "100 bytes",
-        "c": "256 bytes",
-        "d": "512 bytes"
-      },
-      "correct_answer": "a",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Technology",
-      "explanation": "Bitcoin block headers are exactly 80 bytes, containing version, previous block hash, merkle root, timestamp, bits, and nonce.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q096",
-      "question": "What port does Bitcoin Core use for mainnet P2P connections?",
-      "options": {
-        "a": "8080",
-        "b": "8332",
-        "c": "8333",
-        "d": "18333"
-      },
-      "correct_answer": "c",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Network",
-      "explanation": "Bitcoin Core uses port 8333 for mainnet P2P connections (18333 for testnet).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q097",
-      "question": "What is the maximum allowed OP_RETURN data size after the 2016 increase?",
-      "options": {
-        "a": "40 bytes",
-        "b": "80 bytes",
-        "c": "83 bytes",
-        "d": "120 bytes"
-      },
-      "correct_answer": "c",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Technology",
-      "explanation": "OP_RETURN data size was increased to 83 bytes (80 bytes of data + 3 bytes for opcodes).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q098",
-      "question": "What vulnerability did CVE-2010-5139 address in Bitcoin?",
-      "options": {
-        "a": "Double-spend attack",
-        "b": "Value overflow bug",
-        "c": "Denial-of-service via alert system",
-        "d": "Transaction malleability"
-      },
-      "correct_answer": "b",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Security",
-      "explanation": "CVE-2010-5139 was the value overflow bug that allowed creation of 184 billion bitcoins in block 74638.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q099",
-      "question": "What is the base point G for secp256k1 (x-coordinate in hex)?",
-      "options": {
-        "a": "0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798",
-        "b": "0x483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8",
-        "c": "0x2DFD2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D",
-        "d": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141"
-      },
-      "correct_answer": "a",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Technology",
-      "explanation": "The base point G x-coordinate for secp256k1 starts with 0x79BE667E...",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q100",
+      "id": "q008",
       "question": "What is the significance of block 478558?",
       "options": {
         "a": "First SegWit block",
@@ -257,7 +129,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q101",
+      "id": "q009",
       "question": "What is the witness scale factor in SegWit?",
       "options": {
         "a": "2",
@@ -273,23 +145,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q102",
-      "question": "What is the maximum valid private key value in Bitcoin?",
-      "options": {
-        "a": "2^256 - 1",
-        "b": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364140",
-        "c": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE",
-        "d": "2^255 - 1"
-      },
-      "correct_answer": "b",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Technology",
-      "explanation": "The maximum valid private key is n-1, where n is the order of the secp256k1 curve.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q103",
+      "id": "q010",
       "question": "What BIP introduced Schnorr signatures to Bitcoin?",
       "options": {
         "a": "BIP 340",
@@ -305,39 +161,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q104",
-      "question": "What is the minimum difficulty target in Bitcoin?",
-      "options": {
-        "a": "1",
-        "b": "0x1d00ffff",
-        "c": "0x1f00ffff",
-        "d": "0x207fffff"
-      },
-      "correct_answer": "b",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Mining",
-      "explanation": "The minimum difficulty target is 0x1d00ffff, representing difficulty 1.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q105",
-      "question": "What is the lock time value for time-based locks (vs block height)?",
-      "options": {
-        "a": ">= 100,000",
-        "b": ">= 500,000",
-        "c": ">= 500,000,000",
-        "d": ">= 1,000,000,000"
-      },
-      "correct_answer": "c",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Transactions",
-      "explanation": "Lock time values >= 500,000,000 are interpreted as Unix timestamps rather than block heights.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q106",
+      "id": "q011",
       "question": "What was the first BIP to use the version bits activation method?",
       "options": {
         "a": "BIP 9",
@@ -353,23 +177,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q107",
-      "question": "What is the P2P protocol message size limit in Bitcoin?",
-      "options": {
-        "a": "32 MB",
-        "b": "4 MB",
-        "c": "2 MB",
-        "d": "1 MB"
-      },
-      "correct_answer": "a",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Network",
-      "explanation": "The maximum P2P protocol message size is 32 MB (increased from 2 MB).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q108",
+      "id": "q012",
       "question": "In which block was the first non-coinbase transaction included?",
       "options": {
         "a": "Block 1",
@@ -385,23 +193,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q109",
-      "question": "What is the exact value of the secp256k1 field prime p?",
-      "options": {
-        "a": "2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 - 1",
-        "b": "2^255 - 19",
-        "c": "2^256 - 2^224 + 2^192 + 2^96 - 1",
-        "d": "2^256 - 1"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "The secp256k1 field prime is exactly 2^256 - 2^32 - 977.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q110",
+      "id": "q013",
       "question": "What was the block reward for blocks 0-209,999?",
       "options": {
         "a": "25 BTC",
@@ -417,87 +209,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q111",
-      "question": "In Bitcoin Script, what does OP_CHECKMULTISIG incorrectly pop from the stack?",
-      "options": {
-        "a": "An extra signature",
-        "b": "An extra public key",
-        "c": "An extra value",
-        "d": "Nothing extra"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "Due to a bug, OP_CHECKMULTISIG pops an extra value from the stack, requiring a dummy value (usually 0).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q112",
-      "question": "What specific CVE addressed the 1 RETURN bug?",
-      "options": {
-        "a": "CVE-2010-5137",
-        "b": "CVE-2010-5139",
-        "c": "CVE-2010-5141",
-        "d": "CVE-2012-2459"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Security",
-      "explanation": "CVE-2010-5137 fixed the bug where a script ending with OP_1 OP_RETURN was considered valid.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q113",
-      "question": "What is the exact timestamp of the genesis block?",
-      "options": {
-        "a": "2009-01-03 18:05:05 UTC",
-        "b": "2009-01-03 18:15:05 UTC",
-        "c": "2009-01-03 19:15:05 UTC",
-        "d": "2009-01-09 02:54:25 UTC"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 10,
-      "category": "History",
-      "explanation": "The genesis block timestamp is 1231006505 (2009-01-03 18:15:05 UTC).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q114",
-      "question": "What is the maximum possible sigop count in a block with Taproot?",
-      "options": {
-        "a": "80,000",
-        "b": "100,000",
-        "c": "400,000",
-        "d": "No limit"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "Even with Taproot, the sigop limit remains 80,000 per block (Tapscript has different counting).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q115",
-      "question": "What was the nonce value of the genesis block?",
-      "options": {
-        "a": "2083236893",
-        "b": "2573394688",
-        "c": "1234567890",
-        "d": "4294967295"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "History",
-      "explanation": "The genesis block nonce is 2083236893.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q116",
+      "id": "q014",
       "question": "Which block had the overflow bug that created 184 billion BTC?",
       "options": {
         "a": "74637",
@@ -513,71 +225,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q117",
-      "question": "What is the witness commitment header in coinbase for SegWit blocks?",
-      "options": {
-        "a": "0xaa21a9ed",
-        "b": "0x6a24aa21a9ed",
-        "c": "0xdeadbeef",
-        "d": "0x5345475749544e455353"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "SegWit blocks include a witness commitment in coinbase starting with 0x6a24aa21a9ed.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q118",
-      "question": "What is the maximum stack size during script execution?",
-      "options": {
-        "a": "520 elements",
-        "b": "1000 elements",
-        "c": "201 elements",
-        "d": "Unlimited"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "Bitcoin Script execution is limited to a maximum stack size of 1000 elements.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q119",
-      "question": "What port does Bitcoin Core RPC use by default on mainnet?",
-      "options": {
-        "a": "8332",
-        "b": "8333",
-        "c": "18332",
-        "d": "18333"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Network",
-      "explanation": "Bitcoin Core RPC uses port 8332 on mainnet (18332 on testnet).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q120",
-      "question": "What is the maximum valid target for minimum difficulty on testnet?",
-      "options": {
-        "a": "0x1d00ffff",
-        "b": "0x1f00ffff",
-        "c": "0x207fffff",
-        "d": "0x2100ffff"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Mining",
-      "explanation": "Testnet has a special rule allowing difficulty 1 blocks with target 0x207fffff after 20 minutes.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q121",
+      "id": "q015",
       "question": "What year will the last Bitcoin be mined (approximately)?",
       "options": {
         "a": "2100",
@@ -593,7 +241,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q122",
+      "id": "q016",
       "question": "What is the Nakamoto coefficient measuring?",
       "options": {
         "a": "Transaction throughput",
@@ -609,7 +257,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q123",
+      "id": "q017",
       "question": "What is Bitcoin's 'thermodynamic security'?",
       "options": {
         "a": "Cold storage protection",
@@ -625,7 +273,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q124",
+      "id": "q018",
       "question": "What is a 'submarine swap' in Bitcoin?",
       "options": {
         "a": "Underwater mining operation",
@@ -641,7 +289,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q125",
+      "id": "q019",
       "question": "What is Bitcoin's 'ASIC resistance' status?",
       "options": {
         "a": "Fully ASIC resistant",
@@ -657,7 +305,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q126",
+      "id": "q020",
       "question": "What is the 'Bitcoin Days Destroyed' metric?",
       "options": {
         "a": "Lost Bitcoin count",
@@ -673,7 +321,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q127",
+      "id": "q021",
       "question": "What is 'colored coins' on Bitcoin?",
       "options": {
         "a": "Bitcoin with different values",
@@ -689,7 +337,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q128",
+      "id": "q022",
       "question": "What is a 'dust attack' in Bitcoin?",
       "options": {
         "a": "Mining with old hardware",
@@ -705,7 +353,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q129",
+      "id": "q023",
       "question": "What is Bitcoin's 'stock-to-flow' model measuring?",
       "options": {
         "a": "Transaction volume",
@@ -721,7 +369,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q130",
+      "id": "q024",
       "question": "What is 'BitVM' proposing for Bitcoin?",
       "options": {
         "a": "Virtual mining",
@@ -737,7 +385,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q131",
+      "id": "q025",
       "question": "What is the 'Cambridge Bitcoin Electricity Consumption Index' measuring?",
       "options": {
         "a": "Mining pool distribution",
@@ -753,7 +401,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q132",
+      "id": "q026",
       "question": "What is 'eltoo' in Bitcoin development?",
       "options": {
         "a": "New mining algorithm",
@@ -769,7 +417,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q133",
+      "id": "q027",
       "question": "What is Bitcoin's approach to quantum resistance?",
       "options": {
         "a": "Already quantum resistant",
@@ -785,7 +433,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q134",
+      "id": "q028",
       "question": "What is 'MASF' in Bitcoin governance?",
       "options": {
         "a": "Mining Algorithm Security Framework",
@@ -801,7 +449,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q135",
+      "id": "q029",
       "question": "What is the 'Howey Test' relevance to Bitcoin?",
       "options": {
         "a": "Mining efficiency test",
@@ -817,7 +465,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q136",
+      "id": "q030",
       "question": "What is 'CoinSwap' in Bitcoin?",
       "options": {
         "a": "Exchange platform",
@@ -833,7 +481,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q137",
+      "id": "q031",
       "question": "What is 'Stratum V2' improving?",
       "options": {
         "a": "Block size",
@@ -849,7 +497,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q138",
+      "id": "q032",
       "question": "What is 'SIGHASH_ANYPREVOUT'?",
       "options": {
         "a": "Signature type for flexible transactions",
@@ -865,7 +513,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q139",
+      "id": "q033",
       "question": "What is the 'Great Consensus Cleanup' proposal?",
       "options": {
         "a": "Removing old transactions",
@@ -881,7 +529,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q140",
+      "id": "q034",
       "question": "What is 'BIP 300' proposing?",
       "options": {
         "a": "Drivechains/sidechains",
@@ -897,7 +545,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q141",
+      "id": "q035",
       "question": "What is 'Simplicity' in Bitcoin context?",
       "options": {
         "a": "User interface standard",
@@ -913,7 +561,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q142",
+      "id": "q036",
       "question": "What is 'Miniscript'?",
       "options": {
         "a": "Compressed transaction format",
@@ -929,7 +577,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q143",
+      "id": "q037",
       "question": "What is 'Erlay' protocol?",
       "options": {
         "a": "Error correction for blocks",
@@ -945,7 +593,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q144",
+      "id": "q038",
       "question": "What is 'assumeutxo' feature?",
       "options": {
         "a": "UTXO compression",
@@ -961,7 +609,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q145",
+      "id": "q039",
       "question": "What mathematical property makes Bitcoin mining a Poisson process?",
       "options": {
         "a": "Deterministic outcomes",
@@ -977,7 +625,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q146",
+      "id": "q040",
       "question": "What is 'BIP 324' implementing?",
       "options": {
         "a": "Version 2 P2P transport",
@@ -993,7 +641,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q147",
+      "id": "q041",
       "question": "What is 'OP_CHECKTEMPLATEVERIFY' (CTV)?",
       "options": {
         "a": "Template validation for wallets",
@@ -1009,7 +657,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q148",
+      "id": "q042",
       "question": "What is the 'Bellare-Neven' signature scheme relevance?",
       "options": {
         "a": "Used in original Bitcoin",
@@ -1025,7 +673,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q149",
+      "id": "q043",
       "question": "What is 'BIP 47' payment codes?",
       "options": {
         "a": "QR code standard",
@@ -1041,7 +689,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q150",
+      "id": "q044",
       "question": "What is 'Compact Block Filters' (BIP 157/158)?",
       "options": {
         "a": "Block compression method",
@@ -1057,7 +705,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q151",
+      "id": "q045",
       "question": "What is the 'birthday paradox' relevance to Bitcoin?",
       "options": {
         "a": "Genesis block date",
@@ -1073,7 +721,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q152",
+      "id": "q046",
       "question": "What is 'Dandelion' protocol?",
       "options": {
         "a": "Block propagation method",
@@ -1089,7 +737,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q153",
+      "id": "q047",
       "question": "What is 'UTXO commitments' proposing?",
       "options": {
         "a": "Committing to spend UTXOs",
@@ -1105,7 +753,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q154",
+      "id": "q048",
       "question": "What is 'OP_VAULT' proposal?",
       "options": {
         "a": "Cold storage standard",
@@ -1121,7 +769,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q155",
+      "id": "q049",
       "question": "What is 'Ark' protocol?",
       "options": {
         "a": "New blockchain",
@@ -1137,7 +785,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q156",
+      "id": "q050",
       "question": "What is 'Cross-Input Signature Aggregation'?",
       "options": {
         "a": "Combining signatures across inputs",
@@ -1153,7 +801,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q157",
+      "id": "q051",
       "question": "What is Bitcoin's 'Genesis PSBT'?",
       "options": {
         "a": "First PSBT transaction",
@@ -1169,7 +817,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q158",
+      "id": "q052",
       "question": "What consensus change did Satoshi make in version 0.3.7?",
       "options": {
         "a": "Added OP_RETURN",
@@ -1185,7 +833,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q159",
+      "id": "q053",
       "question": "What is the 'Dual EC DRBG' concern for Bitcoin?",
       "options": {
         "a": "Used in Bitcoin Core",
@@ -1201,7 +849,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q160",
+      "id": "q054",
       "question": "What block had the first P2SH transaction?",
       "options": {
         "a": "170,060",
@@ -1217,7 +865,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q161",
+      "id": "q055",
       "question": "What is the 'TimeLock.Zone' bug bounty amount?",
       "options": {
         "a": "This is not a real Bitcoin protocol feature",
@@ -1233,7 +881,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q162",
+      "id": "q056",
       "question": "What exact height activated P2SH?",
       "options": {
         "a": "170,060",
@@ -1249,7 +897,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q163",
+      "id": "q057",
       "question": "What is Bitcoin Core's 'headers-first' sync block?",
       "options": {
         "a": "295,000",
@@ -1265,7 +913,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q164",
+      "id": "q058",
       "question": "What's special about Bitcoin address '1BitcoinEaterAddressDontSendf59kuE'?",
       "options": {
         "a": "Satoshi's address",
@@ -1281,39 +929,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q165",
-      "question": "What vulnerability is CVE-2018-17144?",
-      "options": {
-        "a": "Value overflow",
-        "b": "Inflation bug via duplicate inputs",
-        "c": "DoS via large blocks",
-        "d": "Key generation weakness"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 14,
-      "category": "Security",
-      "explanation": "CVE-2018-17144 was a critical bug allowing inflation through duplicate inputs.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q166",
-      "question": "What's the consensus-critical bug in OP_CODESEPARATOR?",
-      "options": {
-        "a": "Stack overflow",
-        "b": "FindAndDelete consensus failure",
-        "c": "Infinite loop",
-        "d": "No bug exists"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 14,
-      "category": "Technology",
-      "explanation": "OP_CODESEPARATOR has consensus-critical behavior with FindAndDelete operation.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q167",
+      "id": "q059",
       "question": "What exact timestamp triggers BIP16 activation?",
       "options": {
         "a": "1329264000",
@@ -1326,22 +942,6 @@
       "level": 14,
       "category": "History",
       "explanation": "BIP16 (P2SH) activated at Unix timestamp 1333238400 (April 1, 2012).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q168",
-      "question": "What's the maximum OP_CHECKMULTISIG key limit bug?",
-      "options": {
-        "a": "20 keys with 520-byte limit",
-        "b": "15 keys standard",
-        "c": "201 opcodes consensus",
-        "d": "All are correct constraints"
-      },
-      "correct_answer": "d",
-      "difficulty": 10,
-      "level": 14,
-      "category": "Technology",
-      "explanation": "Multiple limits interact: 20 key max, 520-byte push, 201 opcode limit.",
       "created_at": "2025-01-22T00:00:00Z"
     }
   ]

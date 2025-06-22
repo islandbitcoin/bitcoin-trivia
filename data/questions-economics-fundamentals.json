@@ -1,0 +1,404 @@
+{
+  "questions": [
+    {
+      "id": "q321",
+      "question": "What is the main economic problem that Bitcoin was designed to solve?",
+      "options": {
+        "a": "High transaction fees",
+        "b": "Need for trusted third parties in digital payments",
+        "c": "Slow transaction speeds",
+        "d": "Limited payment options"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Economics",
+      "explanation": "Bitcoin eliminates the need for trusted third parties like banks in digital transactions, solving the double-spending problem without intermediaries.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q322",
+      "question": "What type of monetary policy does Bitcoin have?",
+      "options": {
+        "a": "Inflationary",
+        "b": "Deflationary",
+        "c": "Fixed supply with predictable issuance",
+        "d": "Government controlled"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Bitcoin has a predetermined monetary policy with a fixed 21 million coin cap and predictable issuance schedule through halvings.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q323",
+      "question": "How often does the Bitcoin mining reward halve?",
+      "options": {
+        "a": "Every 2 years",
+        "b": "Every 4 years",
+        "c": "Every 210,000 blocks",
+        "d": "Both B and C are correct"
+      },
+      "correct_answer": "d",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Economics",
+      "explanation": "Bitcoin halvings occur every 210,000 blocks, which is approximately every 4 years given the 10-minute block target.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q324",
+      "question": "What is the economic incentive for Bitcoin miners?",
+      "options": {
+        "a": "Government subsidies",
+        "b": "Block rewards plus transaction fees",
+        "c": "Interest from staking",
+        "d": "Fixed salary payments"
+      },
+      "correct_answer": "b",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Economics",
+      "explanation": "Miners are incentivized by block rewards (newly created bitcoin) plus transaction fees from included transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q325",
+      "question": "What economic principle explains why Bitcoin has value?",
+      "options": {
+        "a": "Government backing",
+        "b": "Scarcity and utility",
+        "c": "Gold standard",
+        "d": "Corporate guarantees"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Bitcoin derives value from its scarcity (limited supply) and utility (censorship resistance, store of value, medium of exchange).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q326",
+      "question": "What is 'sound money' in economic terms?",
+      "options": {
+        "a": "Money that makes noise",
+        "b": "Money with stable purchasing power",
+        "c": "Government-issued currency",
+        "d": "Digital payments"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Sound money maintains stable purchasing power over time, isn't easily debased, and serves as a reliable store of value.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q327",
+      "question": "What is inflation in monetary terms?",
+      "options": {
+        "a": "Rising prices of goods",
+        "b": "Increase in money supply",
+        "c": "Economic growth",
+        "d": "Currency appreciation"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Inflation is the increase in money supply. Rising prices are typically a consequence of monetary inflation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q328",
+      "question": "How does Bitcoin's supply compare to gold?",
+      "options": {
+        "a": "Both have unlimited supply",
+        "b": "Bitcoin is unlimited, gold is limited",
+        "c": "Both are limited, but Bitcoin's limit is known exactly",
+        "d": "Gold is unlimited, Bitcoin is limited"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Both Bitcoin and gold have limited supplies, but Bitcoin's exact cap of 21 million is precisely known and programmatically enforced.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q329",
+      "question": "What is the 'stock-to-flow' ratio?",
+      "options": {
+        "a": "Price to earnings ratio",
+        "b": "Existing supply divided by new production",
+        "c": "Trading volume metric",
+        "d": "Market capitalization formula"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Stock-to-flow is the ratio of existing supply (stock) to new annual production (flow), measuring scarcity and hardness of money.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q330",
+      "question": "What economic school of thought aligns most with Bitcoin's design?",
+      "options": {
+        "a": "Keynesian economics",
+        "b": "Austrian economics",
+        "c": "Monetarism",
+        "d": "Modern Monetary Theory"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Austrian economics emphasizes sound money, limited government intervention, and free markets - principles embedded in Bitcoin's design.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q331",
+      "question": "What is Gresham's Law?",
+      "options": {
+        "a": "Good money drives out bad money",
+        "b": "Bad money drives out good money",
+        "c": "All money is equally good",
+        "d": "Government money is always preferred"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Economics",
+      "explanation": "Gresham's Law states that bad money drives out good money from circulation when both are accepted at equal value.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q332",
+      "question": "What creates Bitcoin's network effect?",
+      "options": {
+        "a": "More users make it more valuable",
+        "b": "Higher price attracts more users",
+        "c": "Government adoption",
+        "d": "Corporate backing"
+      },
+      "correct_answer": "a",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Network effects occur when the value of Bitcoin increases as more people use it, creating positive feedback loops.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q333",
+      "question": "What is 'time preference' in economics?",
+      "options": {
+        "a": "Preferred trading hours",
+        "b": "Valuing present goods over future goods",
+        "c": "Time zone preferences",
+        "d": "Schedule preferences"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Economics",
+      "explanation": "Time preference is the tendency to value immediate goods more than identical goods in the future, affecting saving and spending decisions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q334",
+      "question": "How does Bitcoin mining difficulty adjustment serve economic purposes?",
+      "options": {
+        "a": "Controls Bitcoin price",
+        "b": "Maintains predictable issuance schedule",
+        "c": "Limits transaction fees",
+        "d": "Prevents market manipulation"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Difficulty adjustment ensures blocks are found every ~10 minutes regardless of hashrate, maintaining Bitcoin's predictable monetary policy.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q335",
+      "question": "What is the 'Cantillon Effect'?",
+      "options": {
+        "a": "Network effects in technology",
+        "b": "Unequal distribution of inflation's effects",
+        "c": "Price volatility patterns",
+        "d": "Mining profitability cycles"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Economics",
+      "explanation": "The Cantillon Effect describes how new money creation benefits those who receive it first, creating wealth inequality.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q336",
+      "question": "What role do transaction fees play in Bitcoin's long-term economics?",
+      "options": {
+        "a": "They will replace block rewards as miner incentive",
+        "b": "They prevent spam transactions only",
+        "c": "They fund development",
+        "d": "They control inflation"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "As block rewards diminish through halvings, transaction fees will become the primary economic incentive for miners to secure the network.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q337",
+      "question": "What is 'unit of account' in money's functions?",
+      "options": {
+        "a": "Counting physical coins",
+        "b": "Standard measure for pricing goods and services",
+        "c": "Account management",
+        "d": "Bookkeeping method"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Unit of account is one of money's three functions - providing a standard measure to price and compare the value of goods and services.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q338",
+      "question": "How does Bitcoin's divisibility support its economic function?",
+      "options": {
+        "a": "Allows for precise payments and micro-transactions",
+        "b": "Makes it easier to store",
+        "c": "Increases total supply",
+        "d": "Improves security"
+      },
+      "correct_answer": "a",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Economics",
+      "explanation": "Bitcoin's divisibility to 8 decimal places (satoshis) allows for precise payments and enables micro-transactions as the value appreciates.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q339",
+      "question": "What is 'hyperbitcoinization'?",
+      "options": {
+        "a": "Excessive Bitcoin marketing",
+        "b": "Bitcoin adoption replacing fiat currencies",
+        "c": "Bitcoin price going to infinity",
+        "d": "Too many Bitcoin transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Hyperbitcoinization is the theoretical scenario where Bitcoin adoption accelerates rapidly, potentially displacing fiat currencies globally.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q340",
+      "question": "What economic advantage does Bitcoin's portability provide?",
+      "options": {
+        "a": "Easy to carry large amounts of value",
+        "b": "Works on mobile devices",
+        "c": "Faster than cash",
+        "d": "Cheaper than banks"
+      },
+      "correct_answer": "a",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Economics",
+      "explanation": "Bitcoin's digital nature allows easy transport of any amount of value without physical constraints, unlike gold or cash.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q341",
+      "question": "What is the economic significance of Bitcoin's 'hardness'?",
+      "options": {
+        "a": "Difficult to break or hack",
+        "b": "Resistance to supply inflation",
+        "c": "Requires powerful computers",
+        "d": "Hard to understand"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Monetary hardness refers to resistance to supply inflation - Bitcoin is 'harder' than fiat because its supply cannot be arbitrarily increased.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q342",
+      "question": "How does Bitcoin address the 'calculation problem' in economics?",
+      "options": {
+        "a": "Provides better calculators",
+        "b": "Enables true price discovery without central planning",
+        "c": "Automates economic calculations",
+        "d": "Reduces mathematical complexity"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Economics",
+      "explanation": "The calculation problem shows central planners can't efficiently allocate resources without market prices - Bitcoin enables free market price discovery.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q343",
+      "question": "What is 'monetary premium' in Bitcoin's context?",
+      "options": {
+        "a": "Extra cost for premium services",
+        "b": "Value above industrial/consumption use",
+        "c": "Premium membership fees",
+        "d": "Higher transaction fees"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Monetary premium is value attributed to an asset's monetary properties beyond its utility value - Bitcoin's entire value is monetary premium.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q344",
+      "question": "What economic concept explains why people save in Bitcoin?",
+      "options": {
+        "a": "Fear of missing out",
+        "b": "Lower time preference / deferred gratification",
+        "c": "Speculative gambling",
+        "d": "Social pressure"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Lower time preference means valuing future goods more relative to present consumption, encouraging saving in appreciating assets like Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q345",
+      "question": "How does Bitcoin's censorship resistance provide economic value?",
+      "options": {
+        "a": "Prevents spam transactions",
+        "b": "Enables permissionless economic participation",
+        "c": "Blocks illegal activities",
+        "d": "Reduces transaction costs"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Censorship resistance allows anyone to participate in the Bitcoin economy without permission, providing economic freedom and inclusion.",
+      "created_at": "2025-01-22T00:00:00Z"
+    }
+  ]
+}

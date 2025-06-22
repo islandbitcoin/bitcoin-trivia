@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "q366",
+      "question": "You want to make a Bitcoin payment that confirms quickly during high network congestion. What should you do?",
+      "options": {
+        "a": "Wait for network congestion to decrease",
+        "b": "Use a higher transaction fee",
+        "c": "Split the payment into smaller amounts",
+        "d": "Send the transaction multiple times"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "During congestion, miners prioritize transactions with higher fees. Increasing your fee rate improves the chance of quick confirmation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q367",
+      "question": "Your Bitcoin wallet shows 'unconfirmed' for a transaction you sent 30 minutes ago. What is most likely happening?",
+      "options": {
+        "a": "The transaction failed",
+        "b": "The transaction is still in the mempool waiting for confirmation",
+        "c": "Your wallet is broken",
+        "d": "The recipient rejected the payment"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Practical Usage",
+      "explanation": "Unconfirmed transactions are valid but haven't been included in a block yet. This is normal during congestion or with low fees.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q368",
+      "question": "You're setting up a new Bitcoin wallet. What is the MOST important thing to do first?",
+      "options": {
+        "a": "Send a test transaction",
+        "b": "Securely backup your seed phrase",
+        "c": "Set a strong password",
+        "d": "Download transaction history"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Practical Usage",
+      "explanation": "Your seed phrase is the master key to all your bitcoin. Without a secure backup, you risk losing everything if your device fails.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q369",
+      "question": "Someone asks you to send Bitcoin to their address. What should you verify before sending?",
+      "options": {
+        "a": "That you typed the address correctly",
+        "b": "That the address format looks valid",
+        "c": "Both A and B",
+        "d": "Only the amount you're sending"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "Always verify the address is typed correctly (copy-paste is safer) and that it's a valid Bitcoin address format to avoid losing funds.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q370",
+      "question": "You receive an email claiming to be from your wallet provider asking for your seed phrase. What should you do?",
+      "options": {
+        "a": "Provide the seed phrase for verification",
+        "b": "Never share your seed phrase with anyone",
+        "c": "Call the support number in the email",
+        "d": "Share only half of the words"
+      },
+      "correct_answer": "b",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Practical Usage",
+      "explanation": "Legitimate services will never ask for your seed phrase. This is always a scam attempt to steal your bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q371",
+      "question": "You want to buy something online with Bitcoin but want to protect your privacy. What technique should you consider?",
+      "options": {
+        "a": "Use a VPN",
+        "b": "Generate a new receiving address for change",
+        "c": "Use coin mixing or CoinJoin",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Practical Usage",
+      "explanation": "Privacy requires multiple techniques: VPNs hide IP addresses, fresh addresses prevent linking, and mixing breaks transaction history links.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q372",
+      "question": "Your transaction has been stuck unconfirmed for hours. What are your options?",
+      "options": {
+        "a": "Wait it out or use Replace-By-Fee (RBF) if enabled",
+        "b": "Contact Bitcoin support",
+        "c": "Restart your wallet",
+        "d": "Create a new wallet"
+      },
+      "correct_answer": "a",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Practical Usage",
+      "explanation": "You can wait for confirmation or use RBF to replace the transaction with a higher fee. There's no Bitcoin support to contact.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q373",
+      "question": "You're traveling internationally and want to access your Bitcoin. What's the most important thing to bring?",
+      "options": {
+        "a": "Your laptop with the wallet",
+        "b": "Printed copies of your private keys",
+        "c": "Your seed phrase memorized or securely stored",
+        "d": "USB drives with wallet backups"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "With your seed phrase, you can restore your wallet on any device anywhere. Physical devices can be lost, stolen, or confiscated.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q374",
+      "question": "You want to receive regular Bitcoin payments from clients. What's the best practice?",
+      "options": {
+        "a": "Give everyone the same address",
+        "b": "Generate a unique address for each payment",
+        "c": "Use only paper wallet addresses",
+        "d": "Share your public key instead"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "Unique addresses for each payment improve privacy and make it easier to track which clients have paid.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q375",
+      "question": "Your friend sends you a Bitcoin transaction ID and says 'the payment is sent.' How can you verify this?",
+      "options": {
+        "a": "Check a blockchain explorer with the transaction ID",
+        "b": "Wait for your wallet to update",
+        "c": "Call Bitcoin customer service",
+        "d": "Ask for a receipt"
+      },
+      "correct_answer": "a",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Practical Usage",
+      "explanation": "Blockchain explorers let you independently verify any transaction using its ID, confirming the payment exists and its details.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q376",
+      "question": "You accidentally sent Bitcoin to a wrong address. What can you do?",
+      "options": {
+        "a": "Contact Bitcoin support to reverse it",
+        "b": "File a dispute with your bank",
+        "c": "Nothing - Bitcoin transactions are irreversible",
+        "d": "Report it to the police"
+      },
+      "correct_answer": "c",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Practical Usage",
+      "explanation": "Bitcoin transactions are final and irreversible by design. Always double-check addresses before sending.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q377",
+      "question": "You run a business and want to accept Bitcoin payments. What should you consider for tax purposes?",
+      "options": {
+        "a": "Bitcoin payments aren't taxable",
+        "b": "Keep records of Bitcoin received and its USD value at time of receipt",
+        "c": "Only cash payments need documentation",
+        "d": "Wait until you convert to cash to report"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Practical Usage",
+      "explanation": "In most jurisdictions, Bitcoin payments are taxable events requiring documentation of the amount and USD value when received.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q378",
+      "question": "Your phone with your Bitcoin wallet app is stolen. What should you do immediately?",
+      "options": {
+        "a": "Report it to the police only",
+        "b": "Transfer your Bitcoin to a new wallet using your seed phrase",
+        "c": "Cancel your phone service",
+        "d": "Wait to see if you get the phone back"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "Immediately move your Bitcoin to a new wallet using your seed phrase backup before the thief can access your funds.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q379",
+      "question": "You want to give Bitcoin as a gift to someone new to cryptocurrency. What's the safest approach?",
+      "options": {
+        "a": "Send it to an exchange account for them",
+        "b": "Create a paper wallet and help them set up proper storage",
+        "c": "Give them your wallet's private key",
+        "d": "Send it to their email address"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Practical Usage",
+      "explanation": "A paper wallet gives them immediate ownership while you help them learn proper security practices for long-term storage.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q380",
+      "question": "You're buying Bitcoin from someone in person. What safety precautions should you take?",
+      "options": {
+        "a": "Meet in a public place and verify the transaction before paying",
+        "b": "Always pay first to show good faith",
+        "c": "Meet at your home for privacy",
+        "d": "Bring large amounts of cash"
+      },
+      "correct_answer": "a",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "Meet in public for safety, and always verify the Bitcoin transaction has been sent and confirmed before handing over payment.",
+      "created_at": "2025-01-22T00:00:00Z"
+    }
+  ]
+}

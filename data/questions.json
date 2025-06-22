@@ -577,7 +577,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q037",
+      "id": "q001",
       "question": "What is the target block time for Bitcoin, and how is it maintained?",
       "options": {
         "a": "10 minutes, maintained by increasing block size",
@@ -593,7 +593,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q038",
+      "id": "q002",
       "question": "What is a Bitcoin Improvement Proposal (BIP)?",
       "options": {
         "a": "A mandatory update all nodes must install",
@@ -609,7 +609,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q039",
+      "id": "q003",
       "question": "What is the purpose of Bitcoin's nonce in mining?",
       "options": {
         "a": "To encrypt transaction data",
@@ -625,7 +625,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q040",
+      "id": "q004",
       "question": "What is a soft fork in Bitcoin?",
       "options": {
         "a": "A backwards-compatible protocol upgrade",
@@ -641,7 +641,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q041",
+      "id": "q005",
       "question": "What is Bitcoin's replace-by-fee (RBF)?",
       "options": {
         "a": "A way to cancel confirmed transactions",
@@ -657,7 +657,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q042",
+      "id": "q006",
       "question": "What is the significance of block height 210,000 in Bitcoin?",
       "options": {
         "a": "First transaction occurred",
@@ -673,7 +673,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q043",
+      "id": "q007",
       "question": "What is a Bitcoin full node's primary function?",
       "options": {
         "a": "Mining new blocks",
@@ -689,7 +689,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q044",
+      "id": "q008",
       "question": "What is Bitcoin's coinbase transaction?",
       "options": {
         "a": "A transaction to the Coinbase exchange",
@@ -705,7 +705,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q045",
+      "id": "q009",
       "question": "What cryptographic curve does Bitcoin use for signatures?",
       "options": {
         "a": "RSA-2048",
@@ -721,7 +721,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q046",
+      "id": "q010",
       "question": "What is Bitcoin's lock time feature used for?",
       "options": {
         "a": "Preventing double spends",
@@ -737,7 +737,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q047",
+      "id": "q011",
       "question": "What is the purpose of Bitcoin testnet?",
       "options": {
         "a": "Mining bitcoin faster",
@@ -753,7 +753,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q048",
+      "id": "q012",
       "question": "What happens to lost Bitcoin?",
       "options": {
         "a": "They are redistributed to miners",
@@ -769,7 +769,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q049",
+      "id": "q013",
       "question": "What is SegWit in Bitcoin?",
       "options": {
         "a": "A type of wallet",
@@ -785,7 +785,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q050",
+      "id": "q014",
       "question": "What is the maximum size of a standard Bitcoin transaction?",
       "options": {
         "a": "100 KB",
@@ -801,7 +801,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q051",
+      "id": "q015",
       "question": "What is Bitcoin's 'dust limit'?",
       "options": {
         "a": "The minimum mining fee",
@@ -817,7 +817,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q052",
+      "id": "q016",
       "question": "What consensus mechanism did Satoshi implement to prevent sybil attacks?",
       "options": {
         "a": "Proof of Stake",
@@ -833,7 +833,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q053",
+      "id": "q017",
       "question": "What is a Bitcoin HD wallet?",
       "options": {
         "a": "High Definition wallet with better graphics",
@@ -849,7 +849,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q054",
+      "id": "q018",
       "question": "What is the purpose of Bitcoin's checkpoint system?",
       "options": {
         "a": "To speed up initial sync",
@@ -865,7 +865,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q055",
+      "id": "q019",
       "question": "What is Bitcoin's UTXO set?",
       "options": {
         "a": "Unconfirmed Transaction eXchange Order",
@@ -881,7 +881,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q056",
+      "id": "q020",
       "question": "What year did Bitcoin first reach parity with the US dollar?",
       "options": {
         "a": "2009",
@@ -897,7 +897,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q057",
+      "id": "q021",
       "question": "What is a Bitcoin covenant?",
       "options": {
         "a": "A promise between miners",
@@ -913,7 +913,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q058",
+      "id": "q022",
       "question": "What is Bitcoin's ban score?",
       "options": {
         "a": "A user's reputation rating",
@@ -929,7 +929,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q059",
+      "id": "q023",
       "question": "What is the purpose of Bitcoin's version bits?",
       "options": {
         "a": "To identify wallet software",
@@ -945,7 +945,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q060",
+      "id": "q024",
       "question": "What is Bitcoin's assumevalid feature?",
       "options": {
         "a": "Assuming all transactions are valid",
@@ -961,7 +961,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q061",
+      "id": "q025",
       "question": "What is the difference between P2PKH and P2SH addresses?",
       "options": {
         "a": "P2PKH is newer than P2SH",
@@ -977,7 +977,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q062",
+      "id": "q026",
       "question": "What is Bitcoin's compact block relay?",
       "options": {
         "a": "A way to compress the blockchain",
@@ -993,7 +993,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q063",
+      "id": "q027",
       "question": "What is the purpose of Bitcoin's CHECKSEQUENCEVERIFY opcode?",
       "options": {
         "a": "To verify transaction order",
@@ -1009,7 +1009,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q064",
+      "id": "q028",
       "question": "What attack does Bitcoin's 'first seen' rule help prevent?",
       "options": {
         "a": "51% attacks",
@@ -1025,7 +1025,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q065",
+      "id": "q029",
       "question": "What is Bitcoin's BIP 32 about?",
       "options": {
         "a": "Block size increase",
@@ -1041,7 +1041,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q066",
+      "id": "q030",
       "question": "What is the purpose of Bitcoin's bloom filters?",
       "options": {
         "a": "To encrypt transactions",
@@ -1057,7 +1057,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q067",
+      "id": "q031",
       "question": "What is Bitcoin's transaction malleability issue?",
       "options": {
         "a": "Transactions can be reversed",
@@ -1073,7 +1073,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q068",
+      "id": "q032",
       "question": "What is the 'nothing at stake' problem?",
       "options": {
         "a": "A Bitcoin mining issue",
@@ -1089,7 +1089,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q069",
+      "id": "q033",
       "question": "What is Bitcoin's fee estimation based on?",
       "options": {
         "a": "Fixed rates set by miners",
@@ -1105,7 +1105,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q070",
+      "id": "q034",
       "question": "What is a Bitcoin watch-only address?",
       "options": {
         "a": "An address that can only receive",
@@ -1121,7 +1121,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q071",
+      "id": "q035",
       "question": "What is the role of Bitcoin's 'inv' message?",
       "options": {
         "a": "To invite new nodes",
@@ -1137,7 +1137,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q072",
+      "id": "q036",
       "question": "What percentage of Bitcoin's supply is estimated to be permanently lost?",
       "options": {
         "a": "1-5%",
@@ -1153,7 +1153,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q073",
+      "id": "q037",
       "question": "What is Taproot in Bitcoin?",
       "options": {
         "a": "A privacy-focused wallet",
@@ -1169,7 +1169,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q074",
+      "id": "q038",
       "question": "What is MAST in the context of Bitcoin?",
       "options": {
         "a": "Mining Algorithm Security Test",
@@ -1185,7 +1185,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q075",
+      "id": "q039",
       "question": "What is the purpose of Bitcoin's OP_RETURN?",
       "options": {
         "a": "To return funds to sender",
@@ -1201,7 +1201,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q076",
+      "id": "q040",
       "question": "What is Bitcoin's selfish mining attack?",
       "options": {
         "a": "Mining only for personal profit",
@@ -1217,7 +1217,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q077",
+      "id": "q041",
       "question": "What is the difference between hot and cold storage?",
       "options": {
         "a": "Temperature requirements for hardware",
@@ -1233,7 +1233,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q078",
+      "id": "q042",
       "question": "What is Bitcoin's PSBT?",
       "options": {
         "a": "Public Secure Bitcoin Transfer",
@@ -1249,7 +1249,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q079",
+      "id": "q043",
       "question": "What is the Byzantine Generals Problem?",
       "options": {
         "a": "A Bitcoin scaling issue",
@@ -1265,7 +1265,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q080",
+      "id": "q044",
       "question": "What is Bitcoin's coin selection algorithm optimizing for?",
       "options": {
         "a": "Maximum privacy",
@@ -1281,7 +1281,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q081",
+      "id": "q045",
       "question": "What is a Bitcoin eclipse attack?",
       "options": {
         "a": "Blocking sunlight from mining farms",
@@ -1297,7 +1297,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q082",
+      "id": "q046",
       "question": "What was the Bitcoin Alert System?",
       "options": {
         "a": "Price alert notifications",
@@ -1313,7 +1313,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q083",
+      "id": "q047",
       "question": "What is Bitcoin's sigop limit?",
       "options": {
         "a": "Maximum signatures per wallet",
@@ -1329,7 +1329,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q084",
+      "id": "q048",
       "question": "What is the purpose of Bitcoin's witness discount?",
       "options": {
         "a": "Cheaper transactions for witnesses",
@@ -1345,7 +1345,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q085",
+      "id": "q001",
       "question": "What specific message was embedded in Bitcoin's genesis block?",
       "options": {
         "a": "Bitcoin: A Peer-to-Peer Electronic Cash System",
@@ -1361,23 +1361,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q086",
-      "question": "What is the maximum possible target value in Bitcoin (in hex)?",
-      "options": {
-        "a": "0x00000000FFFF0000000000000000000000000000000000000000000000000000",
-        "b": "0x00000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF",
-        "c": "0x1d00ffff",
-        "d": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF"
-      },
-      "correct_answer": "a",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Mining",
-      "explanation": "The maximum target is defined in the Bitcoin source code as 0x00000000FFFF0000000000000000000000000000000000000000000000000000.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q087",
+      "id": "q002",
       "question": "What is the specific elliptic curve equation used by Bitcoin?",
       "options": {
         "a": "y² = x³ + 7",
@@ -1393,23 +1377,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q088",
-      "question": "What is the coinbase maturity period in Bitcoin?",
-      "options": {
-        "a": "6 blocks",
-        "b": "100 blocks",
-        "c": "120 blocks",
-        "d": "144 blocks"
-      },
-      "correct_answer": "b",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Mining",
-      "explanation": "Newly mined bitcoins cannot be spent until 100 blocks have been mined on top of the block containing the coinbase transaction.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q089",
+      "id": "q003",
       "question": "What is the maximum script size in Bitcoin?",
       "options": {
         "a": "520 bytes",
@@ -1425,7 +1393,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q090",
+      "id": "q004",
       "question": "What was the block height of the 2024 Bitcoin halving?",
       "options": {
         "a": "740,000",
@@ -1441,7 +1409,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q091",
+      "id": "q005",
       "question": "What is the minimum relay fee in Bitcoin Core (as of v0.21)?",
       "options": {
         "a": "1 sat/byte",
@@ -1457,23 +1425,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q092",
-      "question": "What opcode was disabled due to the value overflow bug in 2010?",
-      "options": {
-        "a": "OP_LSHIFT",
-        "b": "OP_CAT",
-        "c": "OP_MUL",
-        "d": "OP_2MUL"
-      },
-      "correct_answer": "a",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Security",
-      "explanation": "OP_LSHIFT and OP_RSHIFT were disabled after the value overflow incident that created 184 billion bitcoins.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q093",
+      "id": "q006",
       "question": "What is the maximum number of public keys in a standard multisig script?",
       "options": {
         "a": "3",
@@ -1489,7 +1441,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q094",
+      "id": "q007",
       "question": "What BIP introduced the concept of mnemonic seed phrases?",
       "options": {
         "a": "BIP 32",
@@ -1505,87 +1457,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q095",
-      "question": "What is the size of a Bitcoin block header?",
-      "options": {
-        "a": "80 bytes",
-        "b": "100 bytes",
-        "c": "256 bytes",
-        "d": "512 bytes"
-      },
-      "correct_answer": "a",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Technology",
-      "explanation": "Bitcoin block headers are exactly 80 bytes, containing version, previous block hash, merkle root, timestamp, bits, and nonce.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q096",
-      "question": "What port does Bitcoin Core use for mainnet P2P connections?",
-      "options": {
-        "a": "8080",
-        "b": "8332",
-        "c": "8333",
-        "d": "18333"
-      },
-      "correct_answer": "c",
-      "difficulty": 8,
-      "level": 8,
-      "category": "Network",
-      "explanation": "Bitcoin Core uses port 8333 for mainnet P2P connections (18333 for testnet).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q097",
-      "question": "What is the maximum allowed OP_RETURN data size after the 2016 increase?",
-      "options": {
-        "a": "40 bytes",
-        "b": "80 bytes",
-        "c": "83 bytes",
-        "d": "120 bytes"
-      },
-      "correct_answer": "c",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Technology",
-      "explanation": "OP_RETURN data size was increased to 83 bytes (80 bytes of data + 3 bytes for opcodes).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q098",
-      "question": "What vulnerability did CVE-2010-5139 address in Bitcoin?",
-      "options": {
-        "a": "Double-spend attack",
-        "b": "Value overflow bug",
-        "c": "Denial-of-service via alert system",
-        "d": "Transaction malleability"
-      },
-      "correct_answer": "b",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Security",
-      "explanation": "CVE-2010-5139 was the value overflow bug that allowed creation of 184 billion bitcoins in block 74638.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q099",
-      "question": "What is the base point G for secp256k1 (x-coordinate in hex)?",
-      "options": {
-        "a": "0x79BE667EF9DCBBAC55A06295CE870B07029BFCDB2DCE28D959F2815B16F81798",
-        "b": "0x483ADA7726A3C4655DA4FBFC0E1108A8FD17B448A68554199C47D08FFB10D4B8",
-        "c": "0x2DFD2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D2D",
-        "d": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364141"
-      },
-      "correct_answer": "a",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Technology",
-      "explanation": "The base point G x-coordinate for secp256k1 starts with 0x79BE667E...",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q100",
+      "id": "q008",
       "question": "What is the significance of block 478558?",
       "options": {
         "a": "First SegWit block",
@@ -1601,7 +1473,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q101",
+      "id": "q009",
       "question": "What is the witness scale factor in SegWit?",
       "options": {
         "a": "2",
@@ -1617,23 +1489,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q102",
-      "question": "What is the maximum valid private key value in Bitcoin?",
-      "options": {
-        "a": "2^256 - 1",
-        "b": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFEBAAEDCE6AF48A03BBFD25E8CD0364140",
-        "c": "0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFE",
-        "d": "2^255 - 1"
-      },
-      "correct_answer": "b",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Technology",
-      "explanation": "The maximum valid private key is n-1, where n is the order of the secp256k1 curve.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q103",
+      "id": "q010",
       "question": "What BIP introduced Schnorr signatures to Bitcoin?",
       "options": {
         "a": "BIP 340",
@@ -1649,39 +1505,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q104",
-      "question": "What is the minimum difficulty target in Bitcoin?",
-      "options": {
-        "a": "1",
-        "b": "0x1d00ffff",
-        "c": "0x1f00ffff",
-        "d": "0x207fffff"
-      },
-      "correct_answer": "b",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Mining",
-      "explanation": "The minimum difficulty target is 0x1d00ffff, representing difficulty 1.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q105",
-      "question": "What is the lock time value for time-based locks (vs block height)?",
-      "options": {
-        "a": ">= 100,000",
-        "b": ">= 500,000",
-        "c": ">= 500,000,000",
-        "d": ">= 1,000,000,000"
-      },
-      "correct_answer": "c",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Transactions",
-      "explanation": "Lock time values >= 500,000,000 are interpreted as Unix timestamps rather than block heights.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q106",
+      "id": "q011",
       "question": "What was the first BIP to use the version bits activation method?",
       "options": {
         "a": "BIP 9",
@@ -1697,23 +1521,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q107",
-      "question": "What is the P2P protocol message size limit in Bitcoin?",
-      "options": {
-        "a": "32 MB",
-        "b": "4 MB",
-        "c": "2 MB",
-        "d": "1 MB"
-      },
-      "correct_answer": "a",
-      "difficulty": 9,
-      "level": 9,
-      "category": "Network",
-      "explanation": "The maximum P2P protocol message size is 32 MB (increased from 2 MB).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q108",
+      "id": "q012",
       "question": "In which block was the first non-coinbase transaction included?",
       "options": {
         "a": "Block 1",
@@ -1729,23 +1537,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q109",
-      "question": "What is the exact value of the secp256k1 field prime p?",
-      "options": {
-        "a": "2^256 - 2^32 - 2^9 - 2^8 - 2^7 - 2^6 - 2^4 - 1",
-        "b": "2^255 - 19",
-        "c": "2^256 - 2^224 + 2^192 + 2^96 - 1",
-        "d": "2^256 - 1"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "The secp256k1 field prime is exactly 2^256 - 2^32 - 977.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q110",
+      "id": "q013",
       "question": "What was the block reward for blocks 0-209,999?",
       "options": {
         "a": "25 BTC",
@@ -1761,87 +1553,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q111",
-      "question": "In Bitcoin Script, what does OP_CHECKMULTISIG incorrectly pop from the stack?",
-      "options": {
-        "a": "An extra signature",
-        "b": "An extra public key",
-        "c": "An extra value",
-        "d": "Nothing extra"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "Due to a bug, OP_CHECKMULTISIG pops an extra value from the stack, requiring a dummy value (usually 0).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q112",
-      "question": "What specific CVE addressed the 1 RETURN bug?",
-      "options": {
-        "a": "CVE-2010-5137",
-        "b": "CVE-2010-5139",
-        "c": "CVE-2010-5141",
-        "d": "CVE-2012-2459"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Security",
-      "explanation": "CVE-2010-5137 fixed the bug where a script ending with OP_1 OP_RETURN was considered valid.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q113",
-      "question": "What is the exact timestamp of the genesis block?",
-      "options": {
-        "a": "2009-01-03 18:05:05 UTC",
-        "b": "2009-01-03 18:15:05 UTC",
-        "c": "2009-01-03 19:15:05 UTC",
-        "d": "2009-01-09 02:54:25 UTC"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 10,
-      "category": "History",
-      "explanation": "The genesis block timestamp is 1231006505 (2009-01-03 18:15:05 UTC).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q114",
-      "question": "What is the maximum possible sigop count in a block with Taproot?",
-      "options": {
-        "a": "80,000",
-        "b": "100,000",
-        "c": "400,000",
-        "d": "No limit"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "Even with Taproot, the sigop limit remains 80,000 per block (Tapscript has different counting).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q115",
-      "question": "What was the nonce value of the genesis block?",
-      "options": {
-        "a": "2083236893",
-        "b": "2573394688",
-        "c": "1234567890",
-        "d": "4294967295"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "History",
-      "explanation": "The genesis block nonce is 2083236893.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q116",
+      "id": "q014",
       "question": "Which block had the overflow bug that created 184 billion BTC?",
       "options": {
         "a": "74637",
@@ -1857,71 +1569,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q117",
-      "question": "What is the witness commitment header in coinbase for SegWit blocks?",
-      "options": {
-        "a": "0xaa21a9ed",
-        "b": "0x6a24aa21a9ed",
-        "c": "0xdeadbeef",
-        "d": "0x5345475749544e455353"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "SegWit blocks include a witness commitment in coinbase starting with 0x6a24aa21a9ed.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q118",
-      "question": "What is the maximum stack size during script execution?",
-      "options": {
-        "a": "520 elements",
-        "b": "1000 elements",
-        "c": "201 elements",
-        "d": "Unlimited"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Technology",
-      "explanation": "Bitcoin Script execution is limited to a maximum stack size of 1000 elements.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q119",
-      "question": "What port does Bitcoin Core RPC use by default on mainnet?",
-      "options": {
-        "a": "8332",
-        "b": "8333",
-        "c": "18332",
-        "d": "18333"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Network",
-      "explanation": "Bitcoin Core RPC uses port 8332 on mainnet (18332 on testnet).",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q120",
-      "question": "What is the maximum valid target for minimum difficulty on testnet?",
-      "options": {
-        "a": "0x1d00ffff",
-        "b": "0x1f00ffff",
-        "c": "0x207fffff",
-        "d": "0x2100ffff"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 10,
-      "category": "Mining",
-      "explanation": "Testnet has a special rule allowing difficulty 1 blocks with target 0x207fffff after 20 minutes.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q121",
+      "id": "q015",
       "question": "What year will the last Bitcoin be mined (approximately)?",
       "options": {
         "a": "2100",
@@ -1937,7 +1585,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q122",
+      "id": "q016",
       "question": "What is the Nakamoto coefficient measuring?",
       "options": {
         "a": "Transaction throughput",
@@ -1953,7 +1601,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q123",
+      "id": "q017",
       "question": "What is Bitcoin's 'thermodynamic security'?",
       "options": {
         "a": "Cold storage protection",
@@ -1969,7 +1617,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q124",
+      "id": "q018",
       "question": "What is a 'submarine swap' in Bitcoin?",
       "options": {
         "a": "Underwater mining operation",
@@ -1985,7 +1633,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q125",
+      "id": "q019",
       "question": "What is Bitcoin's 'ASIC resistance' status?",
       "options": {
         "a": "Fully ASIC resistant",
@@ -2001,7 +1649,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q126",
+      "id": "q020",
       "question": "What is the 'Bitcoin Days Destroyed' metric?",
       "options": {
         "a": "Lost Bitcoin count",
@@ -2017,7 +1665,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q127",
+      "id": "q021",
       "question": "What is 'colored coins' on Bitcoin?",
       "options": {
         "a": "Bitcoin with different values",
@@ -2033,7 +1681,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q128",
+      "id": "q022",
       "question": "What is a 'dust attack' in Bitcoin?",
       "options": {
         "a": "Mining with old hardware",
@@ -2049,7 +1697,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q129",
+      "id": "q023",
       "question": "What is Bitcoin's 'stock-to-flow' model measuring?",
       "options": {
         "a": "Transaction volume",
@@ -2065,7 +1713,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q130",
+      "id": "q024",
       "question": "What is 'BitVM' proposing for Bitcoin?",
       "options": {
         "a": "Virtual mining",
@@ -2081,7 +1729,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q131",
+      "id": "q025",
       "question": "What is the 'Cambridge Bitcoin Electricity Consumption Index' measuring?",
       "options": {
         "a": "Mining pool distribution",
@@ -2097,7 +1745,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q132",
+      "id": "q026",
       "question": "What is 'eltoo' in Bitcoin development?",
       "options": {
         "a": "New mining algorithm",
@@ -2113,7 +1761,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q133",
+      "id": "q027",
       "question": "What is Bitcoin's approach to quantum resistance?",
       "options": {
         "a": "Already quantum resistant",
@@ -2129,7 +1777,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q134",
+      "id": "q028",
       "question": "What is 'MASF' in Bitcoin governance?",
       "options": {
         "a": "Mining Algorithm Security Framework",
@@ -2145,7 +1793,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q135",
+      "id": "q029",
       "question": "What is the 'Howey Test' relevance to Bitcoin?",
       "options": {
         "a": "Mining efficiency test",
@@ -2161,7 +1809,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q136",
+      "id": "q030",
       "question": "What is 'CoinSwap' in Bitcoin?",
       "options": {
         "a": "Exchange platform",
@@ -2177,7 +1825,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q137",
+      "id": "q031",
       "question": "What is 'Stratum V2' improving?",
       "options": {
         "a": "Block size",
@@ -2193,7 +1841,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q138",
+      "id": "q032",
       "question": "What is 'SIGHASH_ANYPREVOUT'?",
       "options": {
         "a": "Signature type for flexible transactions",
@@ -2209,7 +1857,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q139",
+      "id": "q033",
       "question": "What is the 'Great Consensus Cleanup' proposal?",
       "options": {
         "a": "Removing old transactions",
@@ -2225,7 +1873,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q140",
+      "id": "q034",
       "question": "What is 'BIP 300' proposing?",
       "options": {
         "a": "Drivechains/sidechains",
@@ -2241,7 +1889,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q141",
+      "id": "q035",
       "question": "What is 'Simplicity' in Bitcoin context?",
       "options": {
         "a": "User interface standard",
@@ -2257,7 +1905,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q142",
+      "id": "q036",
       "question": "What is 'Miniscript'?",
       "options": {
         "a": "Compressed transaction format",
@@ -2273,7 +1921,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q143",
+      "id": "q037",
       "question": "What is 'Erlay' protocol?",
       "options": {
         "a": "Error correction for blocks",
@@ -2289,7 +1937,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q144",
+      "id": "q038",
       "question": "What is 'assumeutxo' feature?",
       "options": {
         "a": "UTXO compression",
@@ -2305,7 +1953,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q145",
+      "id": "q039",
       "question": "What mathematical property makes Bitcoin mining a Poisson process?",
       "options": {
         "a": "Deterministic outcomes",
@@ -2321,7 +1969,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q146",
+      "id": "q040",
       "question": "What is 'BIP 324' implementing?",
       "options": {
         "a": "Version 2 P2P transport",
@@ -2337,7 +1985,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q147",
+      "id": "q041",
       "question": "What is 'OP_CHECKTEMPLATEVERIFY' (CTV)?",
       "options": {
         "a": "Template validation for wallets",
@@ -2353,7 +2001,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q148",
+      "id": "q042",
       "question": "What is the 'Bellare-Neven' signature scheme relevance?",
       "options": {
         "a": "Used in original Bitcoin",
@@ -2369,7 +2017,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q149",
+      "id": "q043",
       "question": "What is 'BIP 47' payment codes?",
       "options": {
         "a": "QR code standard",
@@ -2385,7 +2033,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q150",
+      "id": "q044",
       "question": "What is 'Compact Block Filters' (BIP 157/158)?",
       "options": {
         "a": "Block compression method",
@@ -2401,7 +2049,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q151",
+      "id": "q045",
       "question": "What is the 'birthday paradox' relevance to Bitcoin?",
       "options": {
         "a": "Genesis block date",
@@ -2417,7 +2065,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q152",
+      "id": "q046",
       "question": "What is 'Dandelion' protocol?",
       "options": {
         "a": "Block propagation method",
@@ -2433,7 +2081,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q153",
+      "id": "q047",
       "question": "What is 'UTXO commitments' proposing?",
       "options": {
         "a": "Committing to spend UTXOs",
@@ -2449,7 +2097,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q154",
+      "id": "q048",
       "question": "What is 'OP_VAULT' proposal?",
       "options": {
         "a": "Cold storage standard",
@@ -2465,7 +2113,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q155",
+      "id": "q049",
       "question": "What is 'Ark' protocol?",
       "options": {
         "a": "New blockchain",
@@ -2481,7 +2129,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q156",
+      "id": "q050",
       "question": "What is 'Cross-Input Signature Aggregation'?",
       "options": {
         "a": "Combining signatures across inputs",
@@ -2497,7 +2145,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q157",
+      "id": "q051",
       "question": "What is Bitcoin's 'Genesis PSBT'?",
       "options": {
         "a": "First PSBT transaction",
@@ -2513,7 +2161,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q158",
+      "id": "q052",
       "question": "What consensus change did Satoshi make in version 0.3.7?",
       "options": {
         "a": "Added OP_RETURN",
@@ -2529,7 +2177,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q159",
+      "id": "q053",
       "question": "What is the 'Dual EC DRBG' concern for Bitcoin?",
       "options": {
         "a": "Used in Bitcoin Core",
@@ -2545,7 +2193,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q160",
+      "id": "q054",
       "question": "What block had the first P2SH transaction?",
       "options": {
         "a": "170,060",
@@ -2561,7 +2209,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q161",
+      "id": "q055",
       "question": "What is the 'TimeLock.Zone' bug bounty amount?",
       "options": {
         "a": "This is not a real Bitcoin protocol feature",
@@ -2577,7 +2225,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q162",
+      "id": "q056",
       "question": "What exact height activated P2SH?",
       "options": {
         "a": "170,060",
@@ -2593,7 +2241,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q163",
+      "id": "q057",
       "question": "What is Bitcoin Core's 'headers-first' sync block?",
       "options": {
         "a": "295,000",
@@ -2609,7 +2257,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q164",
+      "id": "q058",
       "question": "What's special about Bitcoin address '1BitcoinEaterAddressDontSendf59kuE'?",
       "options": {
         "a": "Satoshi's address",
@@ -2625,39 +2273,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q165",
-      "question": "What vulnerability is CVE-2018-17144?",
-      "options": {
-        "a": "Value overflow",
-        "b": "Inflation bug via duplicate inputs",
-        "c": "DoS via large blocks",
-        "d": "Key generation weakness"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 14,
-      "category": "Security",
-      "explanation": "CVE-2018-17144 was a critical bug allowing inflation through duplicate inputs.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q166",
-      "question": "What's the consensus-critical bug in OP_CODESEPARATOR?",
-      "options": {
-        "a": "Stack overflow",
-        "b": "FindAndDelete consensus failure",
-        "c": "Infinite loop",
-        "d": "No bug exists"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 14,
-      "category": "Technology",
-      "explanation": "OP_CODESEPARATOR has consensus-critical behavior with FindAndDelete operation.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q167",
+      "id": "q059",
       "question": "What exact timestamp triggers BIP16 activation?",
       "options": {
         "a": "1329264000",
@@ -2673,23 +2289,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q168",
-      "question": "What's the maximum OP_CHECKMULTISIG key limit bug?",
-      "options": {
-        "a": "20 keys with 520-byte limit",
-        "b": "15 keys standard",
-        "c": "201 opcodes consensus",
-        "d": "All are correct constraints"
-      },
-      "correct_answer": "d",
-      "difficulty": 10,
-      "level": 14,
-      "category": "Technology",
-      "explanation": "Multiple limits interact: 20 key max, 520-byte push, 201 opcode limit.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q169",
+      "id": "q001",
       "question": "What is the theoretical minimum time between blocks if all miners collaborated?",
       "options": {
         "a": "0 seconds",
@@ -2705,7 +2305,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q170",
+      "id": "q002",
       "question": "What is 'Transaction Pinning' attack?",
       "options": {
         "a": "Freezing transactions",
@@ -2721,7 +2321,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q171",
+      "id": "q003",
       "question": "What is 'BIP 125' defining?",
       "options": {
         "a": "SegWit activation",
@@ -2737,7 +2337,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q172",
+      "id": "q004",
       "question": "What is 'Package Relay' improving?",
       "options": {
         "a": "Block propagation",
@@ -2753,7 +2353,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q173",
+      "id": "q005",
       "question": "What is the 'Stale Block' rate target?",
       "options": {
         "a": "0%",
@@ -2769,7 +2369,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q174",
+      "id": "q006",
       "question": "What is 'Blind Merged Mining'?",
       "options": {
         "a": "Anonymous mining",
@@ -2785,7 +2385,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q175",
+      "id": "q007",
       "question": "What is 'OP_CHECKDATASIG' proposal?",
       "options": {
         "a": "Data validation opcode",
@@ -2801,7 +2401,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q176",
+      "id": "q008",
       "question": "What is 'Epoch' in Bitcoin context?",
       "options": {
         "a": "2016 blocks difficulty period",
@@ -2817,7 +2417,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q177",
+      "id": "q009",
       "question": "What is 'BIP 152' Compact Blocks mode?",
       "options": {
         "a": "High-bandwidth and low-bandwidth",
@@ -2833,7 +2433,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q178",
+      "id": "q010",
       "question": "What is 'Graftroot' proposal?",
       "options": {
         "a": "Alternative to Taproot",
@@ -2849,7 +2449,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q179",
+      "id": "q011",
       "question": "What is Bitcoin's 'IBD' phase?",
       "options": {
         "a": "Initial Block Download",
@@ -2865,7 +2465,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q180",
+      "id": "q012",
       "question": "What is 'BIP 70' payment protocol status?",
       "options": {
         "a": "Widely used",
@@ -2881,7 +2481,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q181",
+      "id": "q013",
       "question": "What specific BIP activated OP_CHECKLOCKTIMEVERIFY?",
       "options": {
         "a": "BIP 62",
@@ -2897,7 +2497,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q182",
+      "id": "q014",
       "question": "What is the 'CAT-20' incident?",
       "options": {
         "a": "OP_CAT vulnerability",
@@ -2913,7 +2513,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q183",
+      "id": "q015",
       "question": "What exact version introduced 'sendheaders' message?",
       "options": {
         "a": "0.11.0",
@@ -2929,7 +2529,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q184",
+      "id": "q016",
       "question": "What is Bitcoin's 'policy' vs 'consensus' distinction?",
       "options": {
         "a": "Same thing",
@@ -2945,7 +2545,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q185",
+      "id": "q017",
       "question": "What is 'BIP 30' addressing?",
       "options": {
         "a": "Duplicate coinbase transactions",
@@ -2961,7 +2561,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q186",
+      "id": "q018",
       "question": "What is 'wtxid' in SegWit?",
       "options": {
         "a": "Witness transaction ID",
@@ -2977,7 +2577,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q187",
+      "id": "q019",
       "question": "What block contains duplicate coinbase transactions?",
       "options": {
         "a": "Block 91,722 and 91,880",
@@ -2993,7 +2593,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q188",
+      "id": "q020",
       "question": "What is 'signet' in Bitcoin?",
       "options": {
         "a": "Signature network",
@@ -3009,7 +2609,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q189",
+      "id": "q021",
       "question": "What's the maximum coinbase script size?",
       "options": {
         "a": "100 bytes",
@@ -3025,7 +2625,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q190",
+      "id": "q022",
       "question": "What is 'TXINDEX' in Bitcoin Core?",
       "options": {
         "a": "Transaction position in block",
@@ -3041,7 +2641,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q191",
+      "id": "q023",
       "question": "What consensus rule does 'SCRIPT_VERIFY_NULLFAIL' enforce?",
       "options": {
         "a": "Null data in scripts fails",
@@ -3057,23 +2657,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q192",
-      "question": "What's the 'nLockTime' overflow behavior?",
-      "options": {
-        "a": "Wraps around",
-        "b": "Transaction invalid",
-        "c": "Interpreted as block height",
-        "d": "No overflow possible"
-      },
-      "correct_answer": "d",
-      "difficulty": 9,
-      "level": 16,
-      "category": "Technology",
-      "explanation": "nLockTime is a 32-bit field; values >= 500000000 are timestamps, no overflow.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q193",
+      "id": "q024",
       "question": "Which soft fork fixed the 'timewarp' bug?",
       "options": {
         "a": "SegWit",
@@ -3089,7 +2673,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q194",
+      "id": "q025",
       "question": "What's special about block 501726?",
       "options": {
         "a": "First SegWit block",
@@ -3105,39 +2689,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q195",
-      "question": "What exact byte sequence starts a mainnet message?",
-      "options": {
-        "a": "0xF9BEB4D9",
-        "b": "0xFABFB5DA",
-        "c": "0x0B110907",
-        "d": "0xFFFFFFFF"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Network",
-      "explanation": "Bitcoin mainnet messages start with magic bytes 0xF9BEB4D9.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q196",
-      "question": "What's the consensus bug in OP_LSHIFT?",
-      "options": {
-        "a": "Buffer overflow",
-        "b": "Sign extension issue",
-        "c": "It's disabled, no bug",
-        "d": "Shift by negative"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Technology",
-      "explanation": "OP_LSHIFT is disabled; the question about its bug is misleading.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q197",
+      "id": "q026",
       "question": "What BIP number is assigned to 'OP_CAT revival'?",
       "options": {
         "a": "BIP 347",
@@ -3153,23 +2705,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q198",
-      "question": "What's the FindAndDelete consensus quirk?",
-      "options": {
-        "a": "Removes all occurrences",
-        "b": "Only in executed branch",
-        "c": "Consensus-critical comparison",
-        "d": "All of the above"
-      },
-      "correct_answer": "d",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Technology",
-      "explanation": "FindAndDelete has multiple consensus-critical quirks in script execution.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q199",
+      "id": "q027",
       "question": "When did Bitcoin first process 1MB+ blocks?",
       "options": {
         "a": "Never before SegWit",
@@ -3185,39 +2721,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q200",
-      "question": "What's the BIP 34 consensus bug?",
-      "options": {
-        "a": "Coinbase height encoding",
-        "b": "Version 2 blocks only",
-        "c": "Off-by-one error potential",
-        "d": "No bug exists"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Security",
-      "explanation": "BIP 34 has a potential off-by-one error in height encoding validation.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q201",
-      "question": "What's the 'negative zero' script behavior?",
-      "options": {
-        "a": "Treated as false",
-        "b": "Treated as true",
-        "c": "Consensus failure",
-        "d": "Arithmetic operations differ"
-      },
-      "correct_answer": "d",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Technology",
-      "explanation": "Script has quirky negative zero handling in arithmetic vs boolean context.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q202",
+      "id": "q028",
       "question": "What exact nonce overflow behavior occurs?",
       "options": {
         "a": "Wraps to 0",
@@ -3233,23 +2737,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q203",
-      "question": "What's CHECKSEQUENCEVERIFY's relative lock precision?",
-      "options": {
-        "a": "1 second",
-        "b": "512 seconds",
-        "c": "600 seconds",
-        "d": "1 block"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Technology",
-      "explanation": "CSV time-based locks have 512-second granularity.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q204",
+      "id": "q029",
       "question": "What's the pruning minimum in Bitcoin Core?",
       "options": {
         "a": "288 blocks",
@@ -3265,7 +2753,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q205",
+      "id": "q030",
       "question": "What exploit used 'anyone-can-spend' before SegWit activation?",
       "options": {
         "a": "No exploit occurred",
@@ -3281,7 +2769,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q206",
+      "id": "q031",
       "question": "What's the 'BIP 91' significance?",
       "options": {
         "a": "Direct SegWit activation",
@@ -3297,7 +2785,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q207",
+      "id": "q032",
       "question": "What's 'MINIMALIF' consensus rule?",
       "options": {
         "a": "IF conditions must be 0 or 1",
@@ -3313,7 +2801,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q208",
+      "id": "q033",
       "question": "What's Bitcoin's 'natural fork rate'?",
       "options": {
         "a": "0.1%",
@@ -3329,7 +2817,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q209",
+      "id": "q034",
       "question": "What's 'BIP 143' defining?",
       "options": {
         "a": "SegWit address format",
@@ -3345,7 +2833,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q210",
+      "id": "q035",
       "question": "What's 'rolling UTXO set hashes' purpose?",
       "options": {
         "a": "Consensus enforcement",
@@ -3361,7 +2849,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q211",
+      "id": "q036",
       "question": "What's the 'BIP 66' strict DER bug?",
       "options": {
         "a": "Rejected valid signatures",
@@ -3377,7 +2865,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q212",
+      "id": "q037",
       "question": "What's 'descriptor wallets' in Bitcoin Core?",
       "options": {
         "a": "Legacy wallet type",
@@ -3393,7 +2881,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q213",
+      "id": "q038",
       "question": "What's the 'bech32 length extension' bug?",
       "options": {
         "a": "Accepts invalid addresses",
@@ -3409,7 +2897,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q214",
+      "id": "q039",
       "question": "What's 'FIBRE' network for?",
       "options": {
         "a": "Fast Internet Bitcoin Relay Engine",
@@ -3425,7 +2913,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q215",
+      "id": "q040",
       "question": "What's 'BIP 340' tag hashing for?",
       "options": {
         "a": "Domain separation",
@@ -3441,7 +2929,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q216",
+      "id": "q041",
       "question": "What's the 'CSV activation' block?",
       "options": {
         "a": "419,328",
@@ -3457,7 +2945,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q217",
+      "id": "q042",
       "question": "What prevents 'block withholding' in pools?",
       "options": {
         "a": "Cryptographic proofs",
@@ -3473,7 +2961,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q218",
+      "id": "q043",
       "question": "What's the 'clean stack' rule?",
       "options": {
         "a": "Stack must be empty after execution",
@@ -3489,7 +2977,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q219",
+      "id": "q044",
       "question": "What exact timestamp has special handling?",
       "options": {
         "a": "500,000,000",
@@ -3505,7 +2993,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q220",
+      "id": "q045",
       "question": "What's 'sigops cost' in Taproot?",
       "options": {
         "a": "0 for key path",
@@ -3521,7 +3009,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q221",
+      "id": "q046",
       "question": "What causes 'transaction eviction'?",
       "options": {
         "a": "Time limits",
@@ -3537,7 +3025,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q222",
+      "id": "q047",
       "question": "What's 'BIP 113' median time rule?",
       "options": {
         "a": "Median of 3 blocks",
@@ -3553,7 +3041,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q223",
+      "id": "q048",
       "question": "What's the 'quadratic sighash' problem?",
       "options": {
         "a": "O(n²) hashing time",
@@ -3569,23 +3057,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q224",
-      "question": "What opcode is 0x63?",
-      "options": {
-        "a": "OP_IF",
-        "b": "OP_NOTIF",
-        "c": "OP_ELSE",
-        "d": "OP_ENDIF"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 19,
-      "category": "Technology",
-      "explanation": "Opcode 0x63 is OP_IF in Bitcoin Script.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q225",
+      "id": "q049",
       "question": "What's 'transaction sponsorship'?",
       "options": {
         "a": "Implemented fee bumping",
@@ -3601,7 +3073,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q226",
+      "id": "q050",
       "question": "What's unique about block 629,999?",
       "options": {
         "a": "Last before halving",
@@ -3617,7 +3089,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q227",
+      "id": "q051",
       "question": "What's 'witness unknown' spending?",
       "options": {
         "a": "Always valid",
@@ -3633,7 +3105,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q228",
+      "id": "q052",
       "question": "What's the 'UTREEXO' proposal?",
       "options": {
         "a": "UTXO compression",
@@ -3649,23 +3121,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q229",
-      "question": "In Script, what does '0x01 0x81' evaluate to?",
-      "options": {
-        "a": "-1",
-        "b": "129",
-        "c": "-129",
-        "d": "Script fails"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 20,
-      "category": "Technology",
-      "explanation": "0x81 with length 0x01 represents -1 in Script number encoding.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q230",
+      "id": "q053",
       "question": "What's the 'March 2013 fork' root cause?",
       "options": {
         "a": "Database lock limits",
@@ -3681,7 +3137,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q231",
+      "id": "q054",
       "question": "What's 'OP_CODESEPARATOR' consensus impact?",
       "options": {
         "a": "Changes signature hash",
@@ -3697,7 +3153,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q232",
+      "id": "q055",
       "question": "What's block 490,897's significance?",
       "options": {
         "a": "Empty block",
@@ -3713,7 +3169,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q233",
+      "id": "q056",
       "question": "What exact version fixed transaction malleability?",
       "options": {
         "a": "0.8.0",
@@ -3729,23 +3185,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q234",
-      "question": "What's 'OP_SHA256' hex opcode?",
-      "options": {
-        "a": "0xa8",
-        "b": "0xa9",
-        "c": "0xaa",
-        "d": "0xab"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 20,
-      "category": "Technology",
-      "explanation": "OP_SHA256 is opcode 0xa8 in Bitcoin Script.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q235",
+      "id": "q057",
       "question": "What causes 'bad-blk-sigops' rejection?",
       "options": {
         "a": "Too many legacy sigops",
@@ -3761,23 +3201,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q236",
-      "question": "What's 'OP_PUSHDATA4' maximum?",
-      "options": {
-        "a": "520 bytes",
-        "b": "4,294,967,295 bytes",
-        "c": "Limited by script size",
-        "d": "No limit"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 20,
-      "category": "Technology",
-      "explanation": "OP_PUSHDATA4 can specify 4GB but limited by 10KB script size.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q237",
+      "id": "q058",
       "question": "What's the 'sigop flood' attack vector?",
       "options": {
         "a": "Bare multisig outputs",
@@ -3793,7 +3217,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q238",
+      "id": "q059",
       "question": "What's 'SINGLE|ANYONECANPAY' vulnerability?",
       "options": {
         "a": "Fee sniping",
@@ -3809,23 +3233,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q239",
-      "question": "What timestamp causes nLockTime ambiguity?",
-      "options": {
-        "a": "November 1985",
-        "b": "January 1987",
-        "c": "September 2001",
-        "d": "No ambiguity exists"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 20,
-      "category": "Technology",
-      "explanation": "Timestamps near 500,000,000 (Nov 1985) could be confused with block heights.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q240",
+      "id": "q060",
       "question": "What's consensus-critical in 'OP_CHECKMULTISIG' ordering?",
       "options": {
         "a": "Pubkey order matters",
@@ -3841,7 +3249,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q241",
+      "id": "q061",
       "question": "What block had the inflation bug fix?",
       "options": {
         "a": "74,638",
@@ -3857,7 +3265,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q242",
+      "id": "q062",
       "question": "What's 'SCRIPT_VERIFY_CONST_SCRIPTCODE' preventing?",
       "options": {
         "a": "OP_CODESEPARATOR in SegWit",
@@ -3873,7 +3281,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q243",
+      "id": "q063",
       "question": "What exact block activated P2SH on testnet?",
       "options": {
         "a": "Block 1",
@@ -3889,7 +3297,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q244",
+      "id": "q064",
       "question": "What's the 'BIP 50' incident?",
       "options": {
         "a": "March 2013 fork",
@@ -3905,7 +3313,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q245",
+      "id": "q065",
       "question": "What's special about script '0x51'?",
       "options": {
         "a": "OP_TRUE",
@@ -3921,7 +3329,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q246",
+      "id": "q066",
       "question": "What's the 'coinbase maturity' rationale?",
       "options": {
         "a": "Prevent spending orphaned coinbase",
@@ -3937,7 +3345,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q247",
+      "id": "q067",
       "question": "What's 'standardness' rule for bare multisig?",
       "options": {
         "a": "Maximum 3-of-3",
@@ -3953,7 +3361,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q248",
+      "id": "q068",
       "question": "When can OP_RETURN outputs be spent?",
       "options": {
         "a": "Never",
@@ -3969,7 +3377,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q249",
+      "id": "q069",
       "question": "What's the 'time warp' attack period?",
       "options": {
         "a": "2 weeks",
@@ -3985,7 +3393,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q250",
+      "id": "q070",
       "question": "What's Bitcoin's 'economic finality'?",
       "options": {
         "a": "6 confirmations",
@@ -4001,7 +3409,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q251",
+      "id": "q071",
       "question": "What's unique about block 666,833?",
       "options": {
         "a": "Empty block",
@@ -4017,7 +3425,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q252",
+      "id": "q072",
       "question": "What happens at block 6,930,000?",
       "options": {
         "a": "Last satoshi mined",
@@ -4030,6 +3438,3366 @@
       "level": 21,
       "category": "Economics",
       "explanation": "Around block 6,930,000 (year 2140), the 33rd halving reduces subsidy to 0.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q001",
+      "question": "In Script, what's the result of '0x4c 0x01 0x01'?",
+      "options": {
+        "a": "Pushes 1",
+        "b": "Script failure",
+        "c": "Pushes 0x01",
+        "d": "OP_PUSHDATA1 with 1"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 22,
+      "category": "Technology",
+      "explanation": "0x4c is OP_PUSHDATA1, followed by length 0x01, then data 0x01.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q002",
+      "question": "What's the 'nChainWork' of block 0?",
+      "options": {
+        "a": "0x0",
+        "b": "0x1",
+        "c": "0x100",
+        "d": "0x100001"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 22,
+      "category": "Technology",
+      "explanation": "Genesis block has chainwork 0x100001 (4295032833 in decimal).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q003",
+      "question": "What BIP introduced 'NULLDUMMY' rule?",
+      "options": {
+        "a": "BIP 146",
+        "b": "BIP 147",
+        "c": "BIP 148",
+        "d": "BIP 149"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 22,
+      "category": "Development",
+      "explanation": "BIP 147 introduced NULLDUMMY, requiring dummy element in CHECKMULTISIG to be empty.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q004",
+      "question": "What's the maximum serialized size of a P2WSH witness script?",
+      "options": {
+        "a": "520 bytes",
+        "b": "3,600 bytes",
+        "c": "10,000 bytes",
+        "d": "No limit"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 22,
+      "category": "Technology",
+      "explanation": "P2WSH scripts are limited to 3,600 bytes when serialized.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q005",
+      "question": "What's special about Bitcoin's difficulty 1 target?",
+      "options": {
+        "a": "0x1d00ffff represents max target",
+        "b": "It's exactly 2^224",
+        "c": "Both A and B are correct",
+        "d": "Neither is correct"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 22,
+      "category": "Mining",
+      "explanation": "0x1d00ffff is the compact representation of maximum target, not exactly 2^224.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q006",
+      "question": "What consensus bug was in Bitcoin 0.15.0?",
+      "options": {
+        "a": "Mining invalid blocks",
+        "b": "Inflation via duplicate inputs",
+        "c": "DoS via memory exhaustion",
+        "d": "Incorrect script validation"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 22,
+      "category": "Security",
+      "explanation": "Bitcoin Core 0.15.0 had CVE-2018-17144 allowing inflation through duplicate inputs.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q007",
+      "question": "What's the 'annex' in Taproot?",
+      "options": {
+        "a": "Required witness element",
+        "b": "Optional data starting with 0x50",
+        "c": "Script path data",
+        "d": "Signature aggregation data"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 22,
+      "category": "Technology",
+      "explanation": "The annex is optional witness data that must start with 0x50 if present.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q008",
+      "question": "What block height activated BIP 68/112/113?",
+      "options": {
+        "a": "419,328",
+        "b": "481,824",
+        "c": "388,381",
+        "d": "439,264"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 22,
+      "category": "History",
+      "explanation": "BIP 68 (sequence), 112 (CSV), and 113 (median time) activated at block 419,328.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q009",
+      "question": "What's the witness v0 program size for P2WPKH?",
+      "options": {
+        "a": "20 bytes exactly",
+        "b": "22 bytes exactly",
+        "c": "32 bytes exactly",
+        "d": "Variable size"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 22,
+      "category": "Technology",
+      "explanation": "P2WPKH uses exactly 20 bytes for the witness program (key hash).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q010",
+      "question": "What prevents spending witness v1+ outputs currently?",
+      "options": {
+        "a": "They're invalid",
+        "b": "Consensus allows but non-standard",
+        "c": "Requires special signature",
+        "d": "Time-locked until activation"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 22,
+      "category": "Technology",
+      "explanation": "Witness versions 1+ are valid by consensus but non-standard, reserved for upgrades.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q011",
+      "question": "What's the P2P service bit for witness support?",
+      "options": {
+        "a": "Bit 0",
+        "b": "Bit 1",
+        "c": "Bit 3",
+        "d": "Bit 8"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 22,
+      "category": "Network",
+      "explanation": "NODE_WITNESS is bit 3 (value 8) in the services field.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q012",
+      "question": "What's the maximum taproot control block size?",
+      "options": {
+        "a": "33 bytes",
+        "b": "129 bytes",
+        "c": "4,129 bytes",
+        "d": "No limit"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 23,
+      "category": "Technology",
+      "explanation": "Control block: 33 (internal key) + 32 * 128 (max path) = 4,129 bytes.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q013",
+      "question": "What happens if OP_CHECKSIG is given exactly 1 stack item?",
+      "options": {
+        "a": "Uses empty signature",
+        "b": "Script fails immediately",
+        "c": "Treats as pubkey only",
+        "d": "Returns false"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 23,
+      "category": "Technology",
+      "explanation": "OP_CHECKSIG requires exactly 2 stack items or script fails.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q014",
+      "question": "What's unique about block 209,999's timestamp?",
+      "options": {
+        "a": "Last 50 BTC reward block",
+        "b": "Timestamp before 209,998",
+        "c": "First halving preparation",
+        "d": "Nothing unique"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 23,
+      "category": "History",
+      "explanation": "Block 209,999 has timestamp before 209,998 due to 2-hour future time allowance.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q015",
+      "question": "What's the Script stack limit after OP_CHECKMULTISIG?",
+      "options": {
+        "a": "Must be empty",
+        "b": "One true value only",
+        "c": "Original + true",
+        "d": "Reduced by key count + 1"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 23,
+      "category": "Technology",
+      "explanation": "CHECKMULTISIG removes n pubkeys + m signatures + 1 dummy value.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q016",
+      "question": "What's the coinbase height format in BIP 34?",
+      "options": {
+        "a": "Little-endian push",
+        "b": "Big-endian push",
+        "c": "Compact size integer",
+        "d": "Fixed 4 bytes"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 23,
+      "category": "Technology",
+      "explanation": "BIP 34 requires block height as little-endian push in coinbase.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q017",
+      "question": "What's Bitcoin's policy on OP_RETURN relay?",
+      "options": {
+        "a": "One per transaction",
+        "b": "Maximum 83 bytes",
+        "c": "Both A and B",
+        "d": "No restrictions"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 23,
+      "category": "Network",
+      "explanation": "Standard policy allows one OP_RETURN output up to 83 bytes.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q018",
+      "question": "What's the BIP 125 RBF signal?",
+      "options": {
+        "a": "nSequence < 0xfffffffe",
+        "b": "nSequence = 0xffffffff",
+        "c": "nLockTime > 0",
+        "d": "Version = 2"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 23,
+      "category": "Transactions",
+      "explanation": "BIP 125 signals RBF when any input has nSequence < 0xfffffffe.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q019",
+      "question": "What's the signet challenge default?",
+      "options": {
+        "a": "OP_TRUE",
+        "b": "1-of-1 multisig",
+        "c": "2-of-2 multisig",
+        "d": "Empty script"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 23,
+      "category": "Development",
+      "explanation": "Default signet uses 1-of-1 multisig as the challenge script.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q020",
+      "question": "What's witness serialization format flag?",
+      "options": {
+        "a": "0x00",
+        "b": "0x01",
+        "c": "0x0001",
+        "d": "0xff"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 23,
+      "category": "Technology",
+      "explanation": "Witness transactions use marker 0x00 and flag 0x01 (0x0001).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q021",
+      "question": "What prevents 'timewarp' attack?",
+      "options": {
+        "a": "MAX_FUTURE_BLOCK_TIME",
+        "b": "Median time past rule",
+        "c": "Nothing currently",
+        "d": "Difficulty adjustment cap"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 23,
+      "category": "Security",
+      "explanation": "The timewarp attack exploiting retarget periods isn't fixed yet.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q022",
+      "question": "What's the first block with witness commitment?",
+      "options": {
+        "a": "481,824",
+        "b": "481,825",
+        "c": "481,826",
+        "d": "481,827"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 23,
+      "category": "History",
+      "explanation": "Block 481,824 was the first to include witness commitment after SegWit activation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q023",
+      "question": "What exactly does MINIMALDATA enforce?",
+      "options": {
+        "a": "Smallest push opcode only",
+        "b": "No zero-padding",
+        "c": "Canonical number representation",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 24,
+      "category": "Technology",
+      "explanation": "MINIMALDATA enforces minimal push opcodes and canonical data encoding.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q024",
+      "question": "What's the Taproot spending key tweak?",
+      "options": {
+        "a": "SHA256(P || merkle_root)",
+        "b": "Tagged hash of P and root",
+        "c": "P + H(P || root) * G",
+        "d": "ECDH(P, root)"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 24,
+      "category": "Technology",
+      "explanation": "Taproot tweaks the internal key: Q = P + hash(P||root)*G.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q025",
+      "question": "What's 'mixed timelock' problem?",
+      "options": {
+        "a": "Using CLTV and CSV together",
+        "b": "Height and time in same script",
+        "c": "Incompatible timelock types",
+        "d": "No such problem"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 24,
+      "category": "Technology",
+      "explanation": "Mixing block height and timestamp timelocks in one script path causes issues.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q026",
+      "question": "What's special about 0x4f in Script?",
+      "options": {
+        "a": "OP_1NEGATE",
+        "b": "Push -1",
+        "c": "Both A and B",
+        "d": "Invalid opcode"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 24,
+      "category": "Technology",
+      "explanation": "0x4f is OP_1NEGATE which pushes -1 onto the stack.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q027",
+      "question": "What's Bitcoin's 'activation logic' for Taproot?",
+      "options": {
+        "a": "BIP 9 version bits",
+        "b": "BIP 8 with LOT=true",
+        "c": "Speedy Trial",
+        "d": "Flag day activation"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 24,
+      "category": "Development",
+      "explanation": "Taproot used Speedy Trial - a short signaling period with lower threshold.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q028",
+      "question": "What's the Schnorr signature size in Taproot?",
+      "options": {
+        "a": "64 bytes always",
+        "b": "65 bytes always",
+        "c": "71-73 bytes",
+        "d": "Variable size"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 24,
+      "category": "Technology",
+      "explanation": "Taproot uses fixed 64-byte Schnorr signatures (no recovery byte).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q029",
+      "question": "What's MAX_SCRIPT_ELEMENT_SIZE?",
+      "options": {
+        "a": "201 bytes",
+        "b": "520 bytes",
+        "c": "1,000 bytes",
+        "d": "10,000 bytes"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 24,
+      "category": "Technology",
+      "explanation": "Maximum size for a single stack element is 520 bytes.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q030",
+      "question": "What's the 'negative locktime' interpretation?",
+      "options": {
+        "a": "Spendable in past",
+        "b": "Treated as 0",
+        "c": "Not possible in consensus",
+        "d": "Permanent timelock"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 24,
+      "category": "Technology",
+      "explanation": "Locktime is unsigned; negative values aren't possible in consensus.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q031",
+      "question": "What wallet feature did Bitcoin Core remove in v0.20?",
+      "options": {
+        "a": "Accounts system",
+        "b": "Coin control",
+        "c": "HD derivation",
+        "d": "Multisig support"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 24,
+      "category": "Development",
+      "explanation": "The deprecated accounts system was removed in Bitcoin Core 0.20.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q032",
+      "question": "What's block 666,666's peculiarity?",
+      "options": {
+        "a": "Record high fees",
+        "b": "Empty block",
+        "c": "Numeric significance only",
+        "d": "Fork point"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 24,
+      "category": "History",
+      "explanation": "Block 666,666 has no technical significance, just an interesting number.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q033",
+      "question": "What's SCRIPT_VERIFY_WITNESS_PUBKEYTYPE?",
+      "options": {
+        "a": "Compressed keys only in segwit",
+        "b": "Uncompressed keys allowed",
+        "c": "Hybrid keys supported",
+        "d": "No such flag"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 24,
+      "category": "Technology",
+      "explanation": "This flag requires compressed public keys in witness scripts.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q034",
+      "question": "What's the OP_CHECKSIGADD behavior?",
+      "options": {
+        "a": "Adds signatures together",
+        "b": "Increments counter on success",
+        "c": "Combines pubkeys",
+        "d": "Not a real opcode"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 24,
+      "category": "Technology",
+      "explanation": "OP_CHECKSIGADD (Tapscript) increments a counter for valid signatures.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q035",
+      "question": "What's unique about testnet3 block 1?",
+      "options": {
+        "a": "Has different hash than mainnet",
+        "b": "Mined by Satoshi",
+        "c": "Reset multiple times",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 25,
+      "category": "History",
+      "explanation": "Testnet3 block 1 differs from mainnet and has been reset, likely mined by Satoshi.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q036",
+      "question": "What exact condition triggers ERR_DISCOURAGE_UPGRADABLE_WITNESS?",
+      "options": {
+        "a": "Witness v1+",
+        "b": "Non-empty witness with v1+",
+        "c": "Invalid witness program size",
+        "d": "Wrong witness version"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 25,
+      "category": "Technology",
+      "explanation": "This error occurs when witness v1+ has non-empty witness stack (policy rule).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q037",
+      "question": "What's the PUSH opcode for 75 bytes?",
+      "options": {
+        "a": "0x4b (direct)",
+        "b": "0x4c4b (PUSHDATA1)",
+        "c": "Both are valid",
+        "d": "Neither is valid"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 25,
+      "category": "Technology",
+      "explanation": "75 bytes can use direct push (0x4b) or PUSHDATA1, but direct is minimal.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q038",
+      "question": "What's 'GetBlockTemplate' long polling for?",
+      "options": {
+        "a": "Template updates",
+        "b": "New block notification",
+        "c": "Share submission",
+        "d": "Difficulty changes"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 25,
+      "category": "Mining",
+      "explanation": "Long polling notifies miners when a new block is found to update work.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q039",
+      "question": "What's the bech32 separator character?",
+      "options": {
+        "a": ":",
+        "b": "-",
+        "c": "1",
+        "d": "_"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 25,
+      "category": "Technology",
+      "explanation": "Bech32 uses '1' as separator between HRP and data part.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q040",
+      "question": "What Script sequence is OP_2DUP?",
+      "options": {
+        "a": "OP_DUP OP_DUP",
+        "b": "Copy top 2 stack items",
+        "c": "Both describe same operation",
+        "d": "Different operations"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 25,
+      "category": "Technology",
+      "explanation": "OP_2DUP copies top 2 items as pair; OP_DUP OP_DUP only duplicates top item twice.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q041",
+      "question": "What's AssumeUTXO snapshot height requirement?",
+      "options": {
+        "a": "Any height",
+        "b": "Multiple of 576",
+        "c": "Multiple of 2016",
+        "d": "Hardcoded only"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 25,
+      "category": "Technology",
+      "explanation": "AssumeUTXO snapshots must be from hardcoded heights in the client.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q042",
+      "question": "What's the 'ephemeral anchor' proposal?",
+      "options": {
+        "a": "Temporary UTXO for fees",
+        "b": "Zero-value anchor outputs",
+        "c": "Must spend in same block",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 25,
+      "category": "Development",
+      "explanation": "Ephemeral anchors are zero-value outputs that must be spent in same block.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q043",
+      "question": "What's witness discount calculation?",
+      "options": {
+        "a": "Witness bytes * 0.25",
+        "b": "Total - (witness * 0.75)",
+        "c": "Base * 4 + witness",
+        "d": "Base + witness / 4"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 25,
+      "category": "Technology",
+      "explanation": "Weight = base size * 4 + witness size (witness at 1/4 discount).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q044",
+      "question": "What's the Script numerical range limit?",
+      "options": {
+        "a": "32-bit signed",
+        "b": "64-bit signed",
+        "c": "4-byte signed",
+        "d": "5-byte with special encoding"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 25,
+      "category": "Technology",
+      "explanation": "Script numbers use up to 5 bytes with special sign encoding, not standard integers.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q045",
+      "question": "What causes 'bad-txns-inputs-duplicate'?",
+      "options": {
+        "a": "Same input twice",
+        "b": "Duplicate outputs",
+        "c": "Matching txids",
+        "d": "Double spending"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 25,
+      "category": "Transactions",
+      "explanation": "This error occurs when a transaction references the same input twice.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q046",
+      "question": "What's SEQUENCE_LOCKTIME_MASK value?",
+      "options": {
+        "a": "0x0000ffff",
+        "b": "0x00ffffff",
+        "c": "0x80000000",
+        "d": "0xffffffff"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 25,
+      "category": "Technology",
+      "explanation": "Lower 16 bits (0x0000ffff) contain the relative locktime value.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q047",
+      "question": "In tapscript, what's OP_SUCCESS behavior?",
+      "options": {
+        "a": "Always succeeds",
+        "b": "Succeeds without executing rest",
+        "c": "Makes transaction invalid",
+        "d": "Reserved for soft forks"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 26,
+      "category": "Technology",
+      "explanation": "OP_SUCCESSx immediately succeeds without executing remaining script.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q048",
+      "question": "What's the 'Stacks' relationship to Bitcoin?",
+      "options": {
+        "a": "Bitcoin sidechain",
+        "b": "Anchors to Bitcoin",
+        "c": "Bitcoin soft fork",
+        "d": "Unrelated project"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 26,
+      "category": "Technology",
+      "explanation": "Stacks anchors its consensus to Bitcoin but isn't a sidechain.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q049",
+      "question": "What's 'OP_CHECKDATASIG' status in Bitcoin?",
+      "options": {
+        "a": "Active in Taproot",
+        "b": "Proposed but rejected",
+        "c": "Not a Bitcoin opcode",
+        "d": "Pending activation"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 26,
+      "category": "Development",
+      "explanation": "OP_CHECKDATASIG is a Bitcoin Cash opcode, never proposed for Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q050",
+      "question": "What's the maximum OP_IF/ELSE nesting?",
+      "options": {
+        "a": "No limit",
+        "b": "100 levels",
+        "c": "201 levels",
+        "d": "Limited by stack"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 26,
+      "category": "Technology",
+      "explanation": "Nesting limited by stack size and opcode count, not explicit limit.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q051",
+      "question": "What's Bitcoin 'versionbits' timeout?",
+      "options": {
+        "a": "1 year exactly",
+        "b": "95,040 blocks",
+        "c": "Based on MTP",
+        "d": "No timeout"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 26,
+      "category": "Development",
+      "explanation": "BIP 9 uses median time past (MTP) for timeout, not block count.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q052",
+      "question": "What's the pruning height buffer?",
+      "options": {
+        "a": "288 blocks kept",
+        "b": "550 MB minimum",
+        "c": "Both constraints apply",
+        "d": "No specific buffer"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 26,
+      "category": "Technology",
+      "explanation": "Pruning keeps at least 288 blocks AND 550 MB of block data.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q053",
+      "question": "What's 'full-RBF' in Bitcoin Core?",
+      "options": {
+        "a": "Default behavior",
+        "b": "Optional mempool policy",
+        "c": "Consensus rule",
+        "d": "Deprecated feature"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 26,
+      "category": "Network",
+      "explanation": "Full-RBF allows replacing any transaction, not just opted-in ones (policy option).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q054",
+      "question": "What's P2TR address length?",
+      "options": {
+        "a": "42 characters",
+        "b": "62 characters",
+        "c": "34 characters",
+        "d": "Variable"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 26,
+      "category": "Technology",
+      "explanation": "P2TR addresses are 62 characters (bc1p + 32 bytes encoded).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q055",
+      "question": "What's ANYPREVOUT signature coverage?",
+      "options": {
+        "a": "No input commitment",
+        "b": "Flexible input selection",
+        "c": "Different than ANYONECANPAY",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 26,
+      "category": "Development",
+      "explanation": "ANYPREVOUT doesn't commit to inputs, enabling flexible rebinding.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q056",
+      "question": "What's witness program extraction rule?",
+      "options": {
+        "a": "Version byte + push only",
+        "b": "OP_0-16 + 2-40 byte push",
+        "c": "Any script pattern",
+        "d": "Witness flag required"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 26,
+      "category": "Technology",
+      "explanation": "Witness program: version (OP_0-16) followed by 2-40 byte push.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q057",
+      "question": "What's 'inscriptions' impact on Bitcoin?",
+      "options": {
+        "a": "Protocol change required",
+        "b": "Uses existing witness space",
+        "c": "Breaks consensus rules",
+        "d": "Requires soft fork"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 26,
+      "category": "Technology",
+      "explanation": "Inscriptions use existing witness discount space without protocol changes.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q058",
+      "question": "What's the merkle branch limit?",
+      "options": {
+        "a": "32 hashes maximum",
+        "b": "No explicit limit",
+        "c": "Limited by block size",
+        "d": "64 hashes maximum"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 26,
+      "category": "Technology",
+      "explanation": "Merkle branch depth limited by maximum transactions per block.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q059",
+      "question": "What exploits CVE-2012-2459?",
+      "options": {
+        "a": "Duplicate transactions",
+        "b": "Merkle tree malleability",
+        "c": "Block hash collision",
+        "d": "Mining centralization"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 27,
+      "category": "Security",
+      "explanation": "CVE-2012-2459 exploits merkle tree calculation to create valid duplicate blocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q060",
+      "question": "What's SCRIPT_VERIFY_DISCOURAGE_OP_SUCCESS?",
+      "options": {
+        "a": "Bans OP_SUCCESS in v0",
+        "b": "Warning for future opcodes",
+        "c": "Tapscript-only rule",
+        "d": "Not a real flag"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 27,
+      "category": "Technology",
+      "explanation": "This flag makes OP_SUCCESSx non-standard in v0 witness (pre-Taproot).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q061",
+      "question": "What's 'BIP 322' generic signed message?",
+      "options": {
+        "a": "Simple text signing",
+        "b": "Script-based message signing",
+        "c": "Multisig message format",
+        "d": "Deprecated standard"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 27,
+      "category": "Development",
+      "explanation": "BIP 322 enables signing messages with any script type, not just P2PKH.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q062",
+      "question": "What's the UTXO database in Bitcoin Core?",
+      "options": {
+        "a": "Full transaction history",
+        "b": "Chainstate LevelDB",
+        "c": "Memory pool cache",
+        "d": "Block index only"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 27,
+      "category": "Technology",
+      "explanation": "UTXO set stored in chainstate directory using LevelDB.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q063",
+      "question": "What's 'OP_CHECKLOCKTIMEVERIFY' soft fork flag day?",
+      "options": {
+        "a": "No flag day used",
+        "b": "December 2015",
+        "c": "July 2016",
+        "d": "Never activated"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 27,
+      "category": "History",
+      "explanation": "CLTV (BIP 65) used IsSuperMajority activation, not flag day.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q064",
+      "question": "What's transaction version 3 for?",
+      "options": {
+        "a": "SegWit transactions",
+        "b": "Package relay rules",
+        "c": "Taproot transactions",
+        "d": "Not yet defined"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 27,
+      "category": "Development",
+      "explanation": "Version 3 transactions have special package relay and RBF rules.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q065",
+      "question": "What's 'wallet descriptors' checksum?",
+      "options": {
+        "a": "SHA256 hash",
+        "b": "Bech32 encoding",
+        "c": "CRC32 checksum",
+        "d": "No checksum"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 27,
+      "category": "Technology",
+      "explanation": "Output descriptors use bech32 checksum for error detection.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q066",
+      "question": "What prevents block 'withholding' attack?",
+      "options": {
+        "a": "Proof of work",
+        "b": "Economic incentives",
+        "c": "Nothing prevents it",
+        "d": "Pool protocols"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 27,
+      "category": "Mining",
+      "explanation": "Block withholding attacks on pools cannot be prevented by protocol.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q067",
+      "question": "What's 'headers first' sync optimization?",
+      "options": {
+        "a": "Downloads headers before blocks",
+        "b": "Parallel block download",
+        "c": "Both A and B",
+        "d": "Header-only mode"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 27,
+      "category": "Network",
+      "explanation": "Headers-first downloads all headers then requests blocks in parallel.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q068",
+      "question": "What's unique about sigop counting in P2SH?",
+      "options": {
+        "a": "Counted at spending time",
+        "b": "Not counted at all",
+        "c": "Counted at creation",
+        "d": "Double counted"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 27,
+      "category": "Technology",
+      "explanation": "P2SH sigops counted when spent, not when output created.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q069",
+      "question": "What's 'covenant' opcode proposals include?",
+      "options": {
+        "a": "CTV, APO, OP_VAULT",
+        "b": "Just CTV",
+        "c": "Already activated",
+        "d": "Rejected proposals"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 27,
+      "category": "Development",
+      "explanation": "Multiple covenant proposals exist: CTV, APO, OP_VAULT, etc.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q070",
+      "question": "What's GetCompact/SetCompact for?",
+      "options": {
+        "a": "Difficulty encoding",
+        "b": "Transaction compression",
+        "c": "Block compression",
+        "d": "Address encoding"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 27,
+      "category": "Technology",
+      "explanation": "These functions convert between target and compact difficulty representation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q071",
+      "question": "What exactly is 'signet' signature requirement?",
+      "options": {
+        "a": "Block must contain valid signature",
+        "b": "In coinbase OP_RETURN",
+        "c": "Replaces PoW",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 28,
+      "category": "Development",
+      "explanation": "Signet blocks need signature in coinbase, replacing PoW requirement.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q072",
+      "question": "What's consensus-critical in coinbase maturity?",
+      "options": {
+        "a": "Exactly 100 blocks",
+        "b": "At least 100 blocks",
+        "c": "101 confirmations needed",
+        "d": "Varies by amount"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 28,
+      "category": "Technology",
+      "explanation": "Coinbase needs 100 blocks on top, so 101 confirmations total to spend.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q073",
+      "question": "What's 'transaction sponsorship' advantage?",
+      "options": {
+        "a": "Third-party fee payment",
+        "b": "No transaction malleability",
+        "c": "Doesn't require sender cooperation",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 28,
+      "category": "Development",
+      "explanation": "Sponsorship allows anyone to pay fees for stuck transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q074",
+      "question": "What's NUMS point in cryptography?",
+      "options": {
+        "a": "Nothing Up My Sleeve",
+        "b": "Non-Uniform Message Signature",
+        "c": "Numeric Unsigned Message System",
+        "d": "Node Unique Messaging Service"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 28,
+      "category": "Technology",
+      "explanation": "NUMS (Nothing Up My Sleeve) points have no known private key.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q075",
+      "question": "What's block template 'height' parameter?",
+      "options": {
+        "a": "Current block height",
+        "b": "Next block height",
+        "c": "Maximum chain height",
+        "d": "Not included"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 28,
+      "category": "Mining",
+      "explanation": "Block template includes height of block being created (next block).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q076",
+      "question": "What's 'OP_NOP10' current status?",
+      "options": {
+        "a": "Available for soft forks",
+        "b": "Permanently disabled",
+        "c": "Already redefined",
+        "d": "Removed from protocol"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 28,
+      "category": "Development",
+      "explanation": "OP_NOP10 remains available for future soft fork upgrades.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q077",
+      "question": "What's unique about block 478,559?",
+      "options": {
+        "a": "Last common BTC/BCH block",
+        "b": "First SegWit block",
+        "c": "Largest block ever",
+        "d": "Empty block"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 28,
+      "category": "History",
+      "explanation": "Block 478,558 was the last common block before Bitcoin Cash fork.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q078",
+      "question": "What's mempool 'descendant' limit?",
+      "options": {
+        "a": "25 transactions",
+        "b": "101 KB total size",
+        "c": "Both limits apply",
+        "d": "No limit"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 28,
+      "category": "Network",
+      "explanation": "Mempool limits descendants to 25 count AND 101 KB total size.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q079",
+      "question": "What's 'blind' merged mining weakness?",
+      "options": {
+        "a": "Miners don't validate sidechain",
+        "b": "Reduces Bitcoin security",
+        "c": "Centralizes mining",
+        "d": "No weakness"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 28,
+      "category": "Mining",
+      "explanation": "BMM allows mining without validating, risking invalid sidechain blocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q080",
+      "question": "What's testnet 'difficulty reset' rule?",
+      "options": {
+        "a": "Every 2016 blocks",
+        "b": "20 minutes no block",
+        "c": "Automatic hourly",
+        "d": "Manual reset only"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 28,
+      "category": "Network",
+      "explanation": "Testnet allows minimum difficulty after 20 minutes without blocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q081",
+      "question": "What's SIGHASH_NONE vulnerability?",
+      "options": {
+        "a": "Anyone can add outputs",
+        "b": "Signature can be reused",
+        "c": "Fees can be stolen",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 28,
+      "category": "Security",
+      "explanation": "SIGHASH_NONE signs no outputs, enabling multiple vulnerabilities.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q082",
+      "question": "What's the 'OP_RETURN wars' result?",
+      "options": {
+        "a": "40 bytes final limit",
+        "b": "80 bytes accepted",
+        "c": "83 bytes standard",
+        "d": "Removed entirely"
+      },
+      "correct_answer": "c",
+      "difficulty": 8,
+      "level": 28,
+      "category": "History",
+      "explanation": "After debate, OP_RETURN settled at 83 bytes (80 data + overhead).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q083",
+      "question": "What's CSV flag in nSequence?",
+      "options": {
+        "a": "Bit 31 set",
+        "b": "Bit 31 unset",
+        "c": "Bit 22 set",
+        "d": "Bit 16 set"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 29,
+      "category": "Technology",
+      "explanation": "CSV requires bit 31 unset (0x7fffffff or lower) in nSequence.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q084",
+      "question": "What's 'upfront shutdown script'?",
+      "options": {
+        "a": "Lightning closing address",
+        "b": "Emergency Bitcoin shutdown",
+        "c": "Node shutdown hook",
+        "d": "Not Bitcoin related"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 29,
+      "category": "Technology",
+      "explanation": "Lightning feature to commit to closing address at channel creation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q085",
+      "question": "What's block 490897 controversy?",
+      "options": {
+        "a": "Empty block mining",
+        "b": "AsicBoost evidence",
+        "c": "Double spend attempt",
+        "d": "No controversy"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 29,
+      "category": "History",
+      "explanation": "Block 490897 merkle root suggested covert AsicBoost usage.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q086",
+      "question": "What's 'output script descriptors' purpose?",
+      "options": {
+        "a": "Wallet backup format",
+        "b": "Script template language",
+        "c": "Address generation rules",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 8,
+      "level": 29,
+      "category": "Technology",
+      "explanation": "Descriptors specify how to derive scripts and addresses from keys.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q087",
+      "question": "What's CPFP carve-out limit?",
+      "options": {
+        "a": "1 extra descendant",
+        "b": "10 KB extra size",
+        "c": "Both A and B",
+        "d": "No carve-out exists"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 29,
+      "category": "Network",
+      "explanation": "CPFP carve-out allows one extra 10KB descendant beyond normal limits.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q088",
+      "question": "What's 'sigagg' in Taproot?",
+      "options": {
+        "a": "Signature aggregation implemented",
+        "b": "Future upgrade possibility",
+        "c": "Key aggregation only",
+        "d": "Not related to Taproot"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 29,
+      "category": "Development",
+      "explanation": "Cross-input signature aggregation remains a future possibility.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q089",
+      "question": "What's witness commitment location?",
+      "options": {
+        "a": "Last output of coinbase",
+        "b": "First output of coinbase",
+        "c": "Second transaction",
+        "d": "Block header"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 29,
+      "category": "Technology",
+      "explanation": "Witness commitment must be in the last output of coinbase transaction.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q090",
+      "question": "What's 'rolling bloom filter' in Bitcoin Core?",
+      "options": {
+        "a": "Transaction relay filter",
+        "b": "Address filter",
+        "c": "Block filter",
+        "d": "Not implemented"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 29,
+      "category": "Network",
+      "explanation": "Rolling bloom filter prevents transaction relay loops between peers.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q091",
+      "question": "What's mempool 'RBF penalty'?",
+      "options": {
+        "a": "Higher fee required",
+        "b": "No direct penalty",
+        "c": "Must pay for evicted size",
+        "d": "Time delay imposed"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 29,
+      "category": "Network",
+      "explanation": "RBF must pay for bandwidth of replaced transaction's virtual size.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q092",
+      "question": "What's 'GLV endomorphism' use?",
+      "options": {
+        "a": "Faster signature verification",
+        "b": "Key generation speedup",
+        "c": "Not used in Bitcoin",
+        "d": "Mining optimization"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 29,
+      "category": "Technology",
+      "explanation": "GLV endomorphism speeds up signature verification on secp256k1.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q093",
+      "question": "What's block 629999 significance?",
+      "options": {
+        "a": "Last 12.5 BTC block",
+        "b": "Halving activation",
+        "c": "Difficulty adjustment",
+        "d": "No significance"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 29,
+      "category": "History",
+      "explanation": "Block 629,999 was the last block with 12.5 BTC reward before 2020 halving.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q094",
+      "question": "What's 'SIGHASH_RANGEPROOF' proposal?",
+      "options": {
+        "a": "Confidential amounts",
+        "b": "Not a real proposal",
+        "c": "Signature size proof",
+        "d": "Input range validation"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 29,
+      "category": "Development",
+      "explanation": "SIGHASH_RANGEPROOF is not a real Bitcoin proposal.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q095",
+      "question": "What's 'parallel validation' in Bitcoin Core?",
+      "options": {
+        "a": "Script validation threading",
+        "b": "Block validation while downloading",
+        "c": "Multiple chain validation",
+        "d": "Not implemented"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 30,
+      "category": "Technology",
+      "explanation": "Bitcoin Core uses parallel threads for script validation within blocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q096",
+      "question": "What's consensus rule for coinbase witness?",
+      "options": {
+        "a": "Must be empty",
+        "b": "Contains commitment",
+        "c": "One item exactly",
+        "d": "No consensus rule"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 30,
+      "category": "Technology",
+      "explanation": "Coinbase witness must contain exactly one item (32-byte nonce).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q097",
+      "question": "What's 'ephemeral dust' policy?",
+      "options": {
+        "a": "Zero-fee dust outputs",
+        "b": "Must be spent immediately",
+        "c": "Package relay only",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 30,
+      "category": "Development",
+      "explanation": "Ephemeral dust allows zero-value outputs if spent in same package.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q098",
+      "question": "What's 'SIGHASH_ANYPREVOUTANYSCRIPT'?",
+      "options": {
+        "a": "Most flexible sighash",
+        "b": "Doesn't commit to amount",
+        "c": "Enables eltoo",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 30,
+      "category": "Development",
+      "explanation": "APOAS provides maximum flexibility for advanced contracts like eltoo.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q099",
+      "question": "What's block 74638 complete fix?",
+      "options": {
+        "a": "Soft fork only",
+        "b": "Hard fork to remove bad block",
+        "c": "Chain reorg naturally",
+        "d": "Still contains bad transaction"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 30,
+      "category": "History",
+      "explanation": "The value overflow required hard-coded rejection of the bad chain.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q100",
+      "question": "What's 'invalid block' relay purpose?",
+      "options": {
+        "a": "Waste bandwidth",
+        "b": "Compact block recovery",
+        "c": "Attack detection",
+        "d": "Not relayed"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 30,
+      "category": "Network",
+      "explanation": "Invalid blocks help recover from compact block reconstruction failures.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q101",
+      "question": "What's CSV time-based granularity exactly?",
+      "options": {
+        "a": "512 seconds",
+        "b": "512 * 32 maximum",
+        "c": "Both constraints",
+        "d": "1 second precision"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 30,
+      "category": "Technology",
+      "explanation": "CSV time uses 512-second units with 5-bit field (max ~9 days).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q102",
+      "question": "What's 'fee sniping' prevention?",
+      "options": {
+        "a": "nLockTime set to current height",
+        "b": "RBF disabled",
+        "c": "High fee requirement",
+        "d": "Not preventable"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 30,
+      "category": "Security",
+      "explanation": "Wallets set nLockTime to current height to prevent fee sniping reorgs.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q103",
+      "question": "What's exact p2p protocol envelope?",
+      "options": {
+        "a": "Magic + command + length + checksum + payload",
+        "b": "Magic + length + payload",
+        "c": "Command + payload only",
+        "d": "Variable format"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 30,
+      "category": "Network",
+      "explanation": "P2P messages: 4-byte magic, 12-byte command, 4-byte length, 4-byte checksum, payload.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q104",
+      "question": "What's 'TXHASH' opcode proposal?",
+      "options": {
+        "a": "Transaction introspection",
+        "b": "Already in Tapscript",
+        "c": "Rejected proposal",
+        "d": "Hash caching only"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 30,
+      "category": "Development",
+      "explanation": "TXHASH proposals enable scripts to introspect transaction fields.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q105",
+      "question": "What exactly happened at block 6,930,000?",
+      "options": {
+        "a": "Mining stops completely",
+        "b": "Subsidy becomes 1 satoshi",
+        "c": "Still produces subsidy",
+        "d": "Exact behavior undefined"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 30,
+      "category": "Economics",
+      "explanation": "Exact subsidy calculation at block 6,930,000 depends on rounding implementation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q321",
+      "question": "What is the main economic problem that Bitcoin was designed to solve?",
+      "options": {
+        "a": "High transaction fees",
+        "b": "Need for trusted third parties in digital payments",
+        "c": "Slow transaction speeds",
+        "d": "Limited payment options"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Economics",
+      "explanation": "Bitcoin eliminates the need for trusted third parties like banks in digital transactions, solving the double-spending problem without intermediaries.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q322",
+      "question": "What type of monetary policy does Bitcoin have?",
+      "options": {
+        "a": "Inflationary",
+        "b": "Deflationary",
+        "c": "Fixed supply with predictable issuance",
+        "d": "Government controlled"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Bitcoin has a predetermined monetary policy with a fixed 21 million coin cap and predictable issuance schedule through halvings.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q323",
+      "question": "How often does the Bitcoin mining reward halve?",
+      "options": {
+        "a": "Every 2 years",
+        "b": "Every 4 years",
+        "c": "Every 210,000 blocks",
+        "d": "Both B and C are correct"
+      },
+      "correct_answer": "d",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Economics",
+      "explanation": "Bitcoin halvings occur every 210,000 blocks, which is approximately every 4 years given the 10-minute block target.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q324",
+      "question": "What is the economic incentive for Bitcoin miners?",
+      "options": {
+        "a": "Government subsidies",
+        "b": "Block rewards plus transaction fees",
+        "c": "Interest from staking",
+        "d": "Fixed salary payments"
+      },
+      "correct_answer": "b",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Economics",
+      "explanation": "Miners are incentivized by block rewards (newly created bitcoin) plus transaction fees from included transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q325",
+      "question": "What economic principle explains why Bitcoin has value?",
+      "options": {
+        "a": "Government backing",
+        "b": "Scarcity and utility",
+        "c": "Gold standard",
+        "d": "Corporate guarantees"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Bitcoin derives value from its scarcity (limited supply) and utility (censorship resistance, store of value, medium of exchange).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q326",
+      "question": "What is 'sound money' in economic terms?",
+      "options": {
+        "a": "Money that makes noise",
+        "b": "Money with stable purchasing power",
+        "c": "Government-issued currency",
+        "d": "Digital payments"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Sound money maintains stable purchasing power over time, isn't easily debased, and serves as a reliable store of value.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q327",
+      "question": "What is inflation in monetary terms?",
+      "options": {
+        "a": "Rising prices of goods",
+        "b": "Increase in money supply",
+        "c": "Economic growth",
+        "d": "Currency appreciation"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Inflation is the increase in money supply. Rising prices are typically a consequence of monetary inflation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q328",
+      "question": "How does Bitcoin's supply compare to gold?",
+      "options": {
+        "a": "Both have unlimited supply",
+        "b": "Bitcoin is unlimited, gold is limited",
+        "c": "Both are limited, but Bitcoin's limit is known exactly",
+        "d": "Gold is unlimited, Bitcoin is limited"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Both Bitcoin and gold have limited supplies, but Bitcoin's exact cap of 21 million is precisely known and programmatically enforced.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q329",
+      "question": "What is the 'stock-to-flow' ratio?",
+      "options": {
+        "a": "Price to earnings ratio",
+        "b": "Existing supply divided by new production",
+        "c": "Trading volume metric",
+        "d": "Market capitalization formula"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Stock-to-flow is the ratio of existing supply (stock) to new annual production (flow), measuring scarcity and hardness of money.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q330",
+      "question": "What economic school of thought aligns most with Bitcoin's design?",
+      "options": {
+        "a": "Keynesian economics",
+        "b": "Austrian economics",
+        "c": "Monetarism",
+        "d": "Modern Monetary Theory"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Austrian economics emphasizes sound money, limited government intervention, and free markets - principles embedded in Bitcoin's design.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q331",
+      "question": "What is Gresham's Law?",
+      "options": {
+        "a": "Good money drives out bad money",
+        "b": "Bad money drives out good money",
+        "c": "All money is equally good",
+        "d": "Government money is always preferred"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Economics",
+      "explanation": "Gresham's Law states that bad money drives out good money from circulation when both are accepted at equal value.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q332",
+      "question": "What creates Bitcoin's network effect?",
+      "options": {
+        "a": "More users make it more valuable",
+        "b": "Higher price attracts more users",
+        "c": "Government adoption",
+        "d": "Corporate backing"
+      },
+      "correct_answer": "a",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Network effects occur when the value of Bitcoin increases as more people use it, creating positive feedback loops.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q333",
+      "question": "What is 'time preference' in economics?",
+      "options": {
+        "a": "Preferred trading hours",
+        "b": "Valuing present goods over future goods",
+        "c": "Time zone preferences",
+        "d": "Schedule preferences"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Economics",
+      "explanation": "Time preference is the tendency to value immediate goods more than identical goods in the future, affecting saving and spending decisions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q334",
+      "question": "How does Bitcoin mining difficulty adjustment serve economic purposes?",
+      "options": {
+        "a": "Controls Bitcoin price",
+        "b": "Maintains predictable issuance schedule",
+        "c": "Limits transaction fees",
+        "d": "Prevents market manipulation"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Difficulty adjustment ensures blocks are found every ~10 minutes regardless of hashrate, maintaining Bitcoin's predictable monetary policy.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q335",
+      "question": "What is the 'Cantillon Effect'?",
+      "options": {
+        "a": "Network effects in technology",
+        "b": "Unequal distribution of inflation's effects",
+        "c": "Price volatility patterns",
+        "d": "Mining profitability cycles"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Economics",
+      "explanation": "The Cantillon Effect describes how new money creation benefits those who receive it first, creating wealth inequality.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q336",
+      "question": "What role do transaction fees play in Bitcoin's long-term economics?",
+      "options": {
+        "a": "They will replace block rewards as miner incentive",
+        "b": "They prevent spam transactions only",
+        "c": "They fund development",
+        "d": "They control inflation"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "As block rewards diminish through halvings, transaction fees will become the primary economic incentive for miners to secure the network.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q337",
+      "question": "What is 'unit of account' in money's functions?",
+      "options": {
+        "a": "Counting physical coins",
+        "b": "Standard measure for pricing goods and services",
+        "c": "Account management",
+        "d": "Bookkeeping method"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Unit of account is one of money's three functions - providing a standard measure to price and compare the value of goods and services.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q338",
+      "question": "How does Bitcoin's divisibility support its economic function?",
+      "options": {
+        "a": "Allows for precise payments and micro-transactions",
+        "b": "Makes it easier to store",
+        "c": "Increases total supply",
+        "d": "Improves security"
+      },
+      "correct_answer": "a",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Economics",
+      "explanation": "Bitcoin's divisibility to 8 decimal places (satoshis) allows for precise payments and enables micro-transactions as the value appreciates.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q339",
+      "question": "What is 'hyperbitcoinization'?",
+      "options": {
+        "a": "Excessive Bitcoin marketing",
+        "b": "Bitcoin adoption replacing fiat currencies",
+        "c": "Bitcoin price going to infinity",
+        "d": "Too many Bitcoin transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Hyperbitcoinization is the theoretical scenario where Bitcoin adoption accelerates rapidly, potentially displacing fiat currencies globally.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q340",
+      "question": "What economic advantage does Bitcoin's portability provide?",
+      "options": {
+        "a": "Easy to carry large amounts of value",
+        "b": "Works on mobile devices",
+        "c": "Faster than cash",
+        "d": "Cheaper than banks"
+      },
+      "correct_answer": "a",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Economics",
+      "explanation": "Bitcoin's digital nature allows easy transport of any amount of value without physical constraints, unlike gold or cash.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q341",
+      "question": "What is the economic significance of Bitcoin's 'hardness'?",
+      "options": {
+        "a": "Difficult to break or hack",
+        "b": "Resistance to supply inflation",
+        "c": "Requires powerful computers",
+        "d": "Hard to understand"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Monetary hardness refers to resistance to supply inflation - Bitcoin is 'harder' than fiat because its supply cannot be arbitrarily increased.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q342",
+      "question": "How does Bitcoin address the 'calculation problem' in economics?",
+      "options": {
+        "a": "Provides better calculators",
+        "b": "Enables true price discovery without central planning",
+        "c": "Automates economic calculations",
+        "d": "Reduces mathematical complexity"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Economics",
+      "explanation": "The calculation problem shows central planners can't efficiently allocate resources without market prices - Bitcoin enables free market price discovery.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q343",
+      "question": "What is 'monetary premium' in Bitcoin's context?",
+      "options": {
+        "a": "Extra cost for premium services",
+        "b": "Value above industrial/consumption use",
+        "c": "Premium membership fees",
+        "d": "Higher transaction fees"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Monetary premium is value attributed to an asset's monetary properties beyond its utility value - Bitcoin's entire value is monetary premium.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q344",
+      "question": "What economic concept explains why people save in Bitcoin?",
+      "options": {
+        "a": "Fear of missing out",
+        "b": "Lower time preference / deferred gratification",
+        "c": "Speculative gambling",
+        "d": "Social pressure"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Lower time preference means valuing future goods more relative to present consumption, encouraging saving in appreciating assets like Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q345",
+      "question": "How does Bitcoin's censorship resistance provide economic value?",
+      "options": {
+        "a": "Prevents spam transactions",
+        "b": "Enables permissionless economic participation",
+        "c": "Blocks illegal activities",
+        "d": "Reduces transaction costs"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "Censorship resistance allows anyone to participate in the Bitcoin economy without permission, providing economic freedom and inclusion.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q346",
+      "question": "What is a UTXO in Bitcoin?",
+      "options": {
+        "a": "Unified Transaction Exchange Operator",
+        "b": "Unspent Transaction Output",
+        "c": "Universal Transfer Execution Object",
+        "d": "Upstream Transaction Validation Order"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "UTXO stands for Unspent Transaction Output - the fundamental unit of bitcoin ownership that represents spendable bitcoin amounts.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q347",
+      "question": "What does 'double spending' mean in digital currency?",
+      "options": {
+        "a": "Spending twice the intended amount",
+        "b": "Spending the same digital coin more than once",
+        "c": "Making two purchases simultaneously",
+        "d": "Paying double transaction fees"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "Double spending is the risk of spending the same digital money twice, which Bitcoin prevents through its consensus mechanism.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q348",
+      "question": "What is a Bitcoin address derived from?",
+      "options": {
+        "a": "Your email address",
+        "b": "A public key",
+        "c": "Your wallet password",
+        "d": "Random number generation"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "Bitcoin addresses are derived from public keys through cryptographic hashing, allowing others to send you bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q349",
+      "question": "What happens to lost Bitcoin?",
+      "options": {
+        "a": "They are returned to the network",
+        "b": "They are permanently lost and reduce circulating supply",
+        "c": "They can be recovered by developers",
+        "d": "They are automatically redistributed"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Lost Bitcoin (from forgotten keys) becomes permanently inaccessible, effectively reducing the circulating supply and making remaining coins more scarce.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q350",
+      "question": "What is the purpose of Bitcoin's mempool?",
+      "options": {
+        "a": "Long-term storage of transactions",
+        "b": "Temporary holding area for unconfirmed transactions",
+        "c": "Backup of all historical transactions",
+        "d": "Archive of failed transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Technology",
+      "explanation": "The mempool is where valid transactions wait before being included in blocks, serving as a temporary holding area.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q351",
+      "question": "Why do Bitcoin transactions sometimes take longer to confirm?",
+      "options": {
+        "a": "Network congestion and low fees",
+        "b": "Internet connection speed",
+        "c": "Wallet software bugs",
+        "d": "Geographic location"
+      },
+      "correct_answer": "a",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Network",
+      "explanation": "When many transactions compete for limited block space, those with higher fees are prioritized, causing low-fee transactions to wait longer.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q352",
+      "question": "What is a Bitcoin fork?",
+      "options": {
+        "a": "A physical tool for mining",
+        "b": "A change to Bitcoin's protocol rules",
+        "c": "A wallet backup method",
+        "d": "A transaction type"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Development",
+      "explanation": "A fork is a change to Bitcoin's protocol rules, which can be either soft (backward compatible) or hard (breaking compatibility).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q353",
+      "question": "What is the main difference between a soft fork and hard fork?",
+      "options": {
+        "a": "Soft forks are easier to implement",
+        "b": "Hard forks are more secure",
+        "c": "Soft forks tighten rules, hard forks loosen them",
+        "d": "Hard forks require more miners"
+      },
+      "correct_answer": "c",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Development",
+      "explanation": "Soft forks tighten protocol rules (backward compatible), while hard forks loosen or change rules (require all nodes to upgrade).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q354",
+      "question": "What is a Bitcoin seed phrase?",
+      "options": {
+        "a": "Password for wallet encryption",
+        "b": "Backup words that can restore your wallet",
+        "c": "Mining algorithm parameters",
+        "d": "Network connection settings"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Security",
+      "explanation": "A seed phrase is a series of words (usually 12 or 24) that can mathematically regenerate all your private keys and restore your wallet.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q355",
+      "question": "Why is it important to verify Bitcoin software?",
+      "options": {
+        "a": "To get customer support",
+        "b": "To ensure the software hasn't been tampered with",
+        "c": "To run faster",
+        "d": "To access premium features"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Security",
+      "explanation": "Verifying software signatures ensures the code hasn't been modified by malicious actors, protecting your bitcoin from theft.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q356",
+      "question": "What is transaction malleability?",
+      "options": {
+        "a": "Ability to change transaction amounts",
+        "b": "Flexibility in transaction timing",
+        "c": "Ability to modify transaction ID without changing effects",
+        "d": "Option to cancel transactions"
+      },
+      "correct_answer": "c",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Technology",
+      "explanation": "Transaction malleability allows changing a transaction's ID without altering its economic effects, which SegWit helps address.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q357",
+      "question": "What is the difference between custodial and non-custodial wallets?",
+      "options": {
+        "a": "Custodial wallets are more secure",
+        "b": "Non-custodial wallets let you control your private keys",
+        "c": "Custodial wallets work offline",
+        "d": "Non-custodial wallets are free"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Security",
+      "explanation": "Non-custodial wallets give you full control of private keys, while custodial wallets have a third party hold keys for you.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q358",
+      "question": "What does 'not your keys, not your coins' mean?",
+      "options": {
+        "a": "You need physical keys to access Bitcoin",
+        "b": "Without private key control, you don't truly own the bitcoin",
+        "c": "Key management is complicated",
+        "d": "Bitcoin keys are expensive"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Security",
+      "explanation": "This phrase emphasizes that if you don't control the private keys, you rely on others to access your bitcoin - true ownership requires key control.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q359",
+      "question": "What is a multisig wallet?",
+      "options": {
+        "a": "Multiple wallets on one device",
+        "b": "Wallet requiring multiple signatures to spend",
+        "c": "Wallet with multiple currencies",
+        "d": "Wallet with multiple addresses"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Security",
+      "explanation": "Multisig requires multiple private keys to authorize spending, improving security through distributed control.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q360",
+      "question": "How does Bitcoin achieve consensus without a central authority?",
+      "options": {
+        "a": "Through majority voting",
+        "b": "Through proof-of-work and longest chain rule",
+        "c": "Through developer decisions",
+        "d": "Through government oversight"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Technology",
+      "explanation": "Bitcoin achieves decentralized consensus through proof-of-work mining and accepting the longest valid chain as the true history.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q361",
+      "question": "What is the economic purpose of mining difficulty?",
+      "options": {
+        "a": "To make mining harder for everyone",
+        "b": "To maintain consistent block times despite hashrate changes",
+        "c": "To increase Bitcoin's price",
+        "d": "To limit the number of miners"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Difficulty adjusts to maintain ~10 minute block times regardless of total mining power, preserving Bitcoin's predictable monetary policy.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q362",
+      "question": "What is address reuse and why should it be avoided?",
+      "options": {
+        "a": "Using the same address multiple times; reduces privacy",
+        "b": "Copying addresses incorrectly; causes lost funds",
+        "c": "Using addresses for multiple cryptocurrencies; creates confusion",
+        "d": "Reusing old addresses; they become invalid"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "Address reuse links transactions together, reducing privacy by making it easier to track spending patterns and wallet balances.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q363",
+      "question": "What is the purpose of change addresses in Bitcoin transactions?",
+      "options": {
+        "a": "To receive small amounts only",
+        "b": "To return excess funds to yourself",
+        "c": "To pay transaction fees",
+        "d": "To split payments to multiple recipients"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Transactions",
+      "explanation": "When you spend a UTXO that's larger than your payment, the excess bitcoin returns to a change address in your wallet.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q364",
+      "question": "What is a 51% attack?",
+      "options": {
+        "a": "When 51% of users sell their bitcoin",
+        "b": "When one entity controls majority of mining power",
+        "c": "When 51% of nodes go offline",
+        "d": "When transaction fees increase by 51%"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Security",
+      "explanation": "A 51% attack occurs when one entity controls over half the network's mining power, potentially allowing them to double-spend or rewrite recent history.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q365",
+      "question": "What is the relationship between hash rate and network security?",
+      "options": {
+        "a": "Higher hash rate makes the network less secure",
+        "b": "Higher hash rate makes the network more secure",
+        "c": "Hash rate doesn't affect security",
+        "d": "Only mining pools affect security"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Security",
+      "explanation": "Higher hash rate means more computational power securing the network, making it exponentially more expensive to attack Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q366",
+      "question": "You want to make a Bitcoin payment that confirms quickly during high network congestion. What should you do?",
+      "options": {
+        "a": "Wait for network congestion to decrease",
+        "b": "Use a higher transaction fee",
+        "c": "Split the payment into smaller amounts",
+        "d": "Send the transaction multiple times"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "During congestion, miners prioritize transactions with higher fees. Increasing your fee rate improves the chance of quick confirmation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q367",
+      "question": "Your Bitcoin wallet shows 'unconfirmed' for a transaction you sent 30 minutes ago. What is most likely happening?",
+      "options": {
+        "a": "The transaction failed",
+        "b": "The transaction is still in the mempool waiting for confirmation",
+        "c": "Your wallet is broken",
+        "d": "The recipient rejected the payment"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Practical Usage",
+      "explanation": "Unconfirmed transactions are valid but haven't been included in a block yet. This is normal during congestion or with low fees.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q368",
+      "question": "You're setting up a new Bitcoin wallet. What is the MOST important thing to do first?",
+      "options": {
+        "a": "Send a test transaction",
+        "b": "Securely backup your seed phrase",
+        "c": "Set a strong password",
+        "d": "Download transaction history"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Practical Usage",
+      "explanation": "Your seed phrase is the master key to all your bitcoin. Without a secure backup, you risk losing everything if your device fails.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q369",
+      "question": "Someone asks you to send Bitcoin to their address. What should you verify before sending?",
+      "options": {
+        "a": "That you typed the address correctly",
+        "b": "That the address format looks valid",
+        "c": "Both A and B",
+        "d": "Only the amount you're sending"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "Always verify the address is typed correctly (copy-paste is safer) and that it's a valid Bitcoin address format to avoid losing funds.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q370",
+      "question": "You receive an email claiming to be from your wallet provider asking for your seed phrase. What should you do?",
+      "options": {
+        "a": "Provide the seed phrase for verification",
+        "b": "Never share your seed phrase with anyone",
+        "c": "Call the support number in the email",
+        "d": "Share only half of the words"
+      },
+      "correct_answer": "b",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Practical Usage",
+      "explanation": "Legitimate services will never ask for your seed phrase. This is always a scam attempt to steal your bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q371",
+      "question": "You want to buy something online with Bitcoin but want to protect your privacy. What technique should you consider?",
+      "options": {
+        "a": "Use a VPN",
+        "b": "Generate a new receiving address for change",
+        "c": "Use coin mixing or CoinJoin",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Practical Usage",
+      "explanation": "Privacy requires multiple techniques: VPNs hide IP addresses, fresh addresses prevent linking, and mixing breaks transaction history links.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q372",
+      "question": "Your transaction has been stuck unconfirmed for hours. What are your options?",
+      "options": {
+        "a": "Wait it out or use Replace-By-Fee (RBF) if enabled",
+        "b": "Contact Bitcoin support",
+        "c": "Restart your wallet",
+        "d": "Create a new wallet"
+      },
+      "correct_answer": "a",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Practical Usage",
+      "explanation": "You can wait for confirmation or use RBF to replace the transaction with a higher fee. There's no Bitcoin support to contact.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q373",
+      "question": "You're traveling internationally and want to access your Bitcoin. What's the most important thing to bring?",
+      "options": {
+        "a": "Your laptop with the wallet",
+        "b": "Printed copies of your private keys",
+        "c": "Your seed phrase memorized or securely stored",
+        "d": "USB drives with wallet backups"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "With your seed phrase, you can restore your wallet on any device anywhere. Physical devices can be lost, stolen, or confiscated.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q374",
+      "question": "You want to receive regular Bitcoin payments from clients. What's the best practice?",
+      "options": {
+        "a": "Give everyone the same address",
+        "b": "Generate a unique address for each payment",
+        "c": "Use only paper wallet addresses",
+        "d": "Share your public key instead"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "Unique addresses for each payment improve privacy and make it easier to track which clients have paid.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q375",
+      "question": "Your friend sends you a Bitcoin transaction ID and says 'the payment is sent.' How can you verify this?",
+      "options": {
+        "a": "Check a blockchain explorer with the transaction ID",
+        "b": "Wait for your wallet to update",
+        "c": "Call Bitcoin customer service",
+        "d": "Ask for a receipt"
+      },
+      "correct_answer": "a",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Practical Usage",
+      "explanation": "Blockchain explorers let you independently verify any transaction using its ID, confirming the payment exists and its details.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q376",
+      "question": "You accidentally sent Bitcoin to a wrong address. What can you do?",
+      "options": {
+        "a": "Contact Bitcoin support to reverse it",
+        "b": "File a dispute with your bank",
+        "c": "Nothing - Bitcoin transactions are irreversible",
+        "d": "Report it to the police"
+      },
+      "correct_answer": "c",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Practical Usage",
+      "explanation": "Bitcoin transactions are final and irreversible by design. Always double-check addresses before sending.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q377",
+      "question": "You run a business and want to accept Bitcoin payments. What should you consider for tax purposes?",
+      "options": {
+        "a": "Bitcoin payments aren't taxable",
+        "b": "Keep records of Bitcoin received and its USD value at time of receipt",
+        "c": "Only cash payments need documentation",
+        "d": "Wait until you convert to cash to report"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Practical Usage",
+      "explanation": "In most jurisdictions, Bitcoin payments are taxable events requiring documentation of the amount and USD value when received.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q378",
+      "question": "Your phone with your Bitcoin wallet app is stolen. What should you do immediately?",
+      "options": {
+        "a": "Report it to the police only",
+        "b": "Transfer your Bitcoin to a new wallet using your seed phrase",
+        "c": "Cancel your phone service",
+        "d": "Wait to see if you get the phone back"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "Immediately move your Bitcoin to a new wallet using your seed phrase backup before the thief can access your funds.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q379",
+      "question": "You want to give Bitcoin as a gift to someone new to cryptocurrency. What's the safest approach?",
+      "options": {
+        "a": "Send it to an exchange account for them",
+        "b": "Create a paper wallet and help them set up proper storage",
+        "c": "Give them your wallet's private key",
+        "d": "Send it to their email address"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Practical Usage",
+      "explanation": "A paper wallet gives them immediate ownership while you help them learn proper security practices for long-term storage.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q380",
+      "question": "You're buying Bitcoin from someone in person. What safety precautions should you take?",
+      "options": {
+        "a": "Meet in a public place and verify the transaction before paying",
+        "b": "Always pay first to show good faith",
+        "c": "Meet at your home for privacy",
+        "d": "Bring large amounts of cash"
+      },
+      "correct_answer": "a",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Practical Usage",
+      "explanation": "Meet in public for safety, and always verify the Bitcoin transaction has been sent and confirmed before handing over payment.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q381",
+      "question": "What is the Lightning Network?",
+      "options": {
+        "a": "A faster version of Bitcoin",
+        "b": "A Layer 2 payment network built on top of Bitcoin",
+        "c": "A new cryptocurrency",
+        "d": "A Bitcoin mining pool"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Lightning Network",
+      "explanation": "The Lightning Network is a Layer 2 scaling solution that enables fast, cheap Bitcoin payments through off-chain payment channels.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q382",
+      "question": "What is a Lightning payment channel?",
+      "options": {
+        "a": "A direct connection between two Lightning nodes",
+        "b": "A type of Bitcoin address",
+        "c": "A mining pool for Lightning",
+        "d": "A Lightning wallet feature"
+      },
+      "correct_answer": "a",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "A payment channel is a direct connection between two Lightning nodes that allows them to transact without broadcasting every payment to the Bitcoin blockchain.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q383",
+      "question": "How are Lightning Network transactions different from regular Bitcoin transactions?",
+      "options": {
+        "a": "They use different cryptography",
+        "b": "They don't require confirmation on the Bitcoin blockchain for each payment",
+        "c": "They cost more in fees",
+        "d": "They can only send small amounts"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "Lightning transactions happen off-chain between channel partners, only requiring blockchain confirmation when opening or closing channels.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q384",
+      "question": "What is routing in the Lightning Network?",
+      "options": {
+        "a": "Finding the best internet connection",
+        "b": "Finding a path of channels to send payments to someone you don't have a direct channel with",
+        "c": "Organizing Lightning node addresses",
+        "d": "Managing channel capacity"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Routing allows payments to reach any node on the network by finding a path through interconnected payment channels.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q385",
+      "question": "What is channel liquidity in Lightning Network?",
+      "options": {
+        "a": "How fast payments process",
+        "b": "The amount of bitcoin available to send in each direction of a channel",
+        "c": "The number of channels a node has",
+        "d": "How stable the connection is"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Channel liquidity refers to the balance distribution in a channel - how much bitcoin each party can send to the other.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q386",
+      "question": "What is required to open a Lightning channel?",
+      "options": {
+        "a": "Permission from Lightning Labs",
+        "b": "An on-chain Bitcoin transaction",
+        "c": "A minimum of 1 BTC",
+        "d": "Government registration"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "Opening a Lightning channel requires an on-chain Bitcoin transaction to lock funds into a multi-signature address shared by both parties.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q387",
+      "question": "What happens when you close a Lightning channel?",
+      "options": {
+        "a": "The funds are lost",
+        "b": "An on-chain transaction distributes the final balances",
+        "c": "The funds stay locked forever",
+        "d": "Only one party gets their funds back"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "Closing a channel triggers an on-chain transaction that distributes the final channel balances back to each party's Bitcoin addresses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q388",
+      "question": "What is a Lightning invoice?",
+      "options": {
+        "a": "A bill for Lightning Network services",
+        "b": "A payment request containing amount and destination details",
+        "c": "A receipt for completed payments",
+        "d": "A record of channel fees"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "A Lightning invoice is a payment request that contains the amount, destination, and other details needed to complete a Lightning payment.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q389",
+      "question": "What is inbound liquidity in Lightning Network?",
+      "options": {
+        "a": "Your ability to receive Lightning payments",
+        "b": "Your ability to send Lightning payments",
+        "c": "The speed of your internet connection",
+        "d": "The number of channels you have"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Lightning Network",
+      "explanation": "Inbound liquidity is the amount of bitcoin that others have on their side of channels with you, determining how much you can receive.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q390",
+      "question": "What is a watchtower in Lightning Network?",
+      "options": {
+        "a": "A physical tower for Lightning infrastructure",
+        "b": "A service that monitors channels for fraud attempts while you're offline",
+        "c": "A high-capacity Lightning node",
+        "d": "A Lightning Network explorer"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Lightning Network",
+      "explanation": "Watchtowers monitor the blockchain for fraudulent channel closures and can broadcast penalty transactions to protect your funds when you're offline.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q391",
+      "question": "What is the main scaling benefit of Lightning Network?",
+      "options": {
+        "a": "Unlimited transaction capacity",
+        "b": "Thousands of payments per second with instant settlement",
+        "c": "Cheaper mining fees",
+        "d": "Larger block sizes"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Lightning enables thousands of instant payments per second off-chain, dramatically scaling Bitcoin's transaction capacity.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q392",
+      "question": "What are Hash Time-Locked Contracts (HTLCs) used for in Lightning?",
+      "options": {
+        "a": "To lock funds permanently",
+        "b": "To enable secure multi-hop payments",
+        "c": "To increase channel capacity",
+        "d": "To prevent channel closures"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Lightning Network",
+      "explanation": "HTLCs enable atomic payments across multiple channels by ensuring all parts of a routed payment either succeed together or fail together.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q393",
+      "question": "What is channel rebalancing?",
+      "options": {
+        "a": "Fixing broken channels",
+        "b": "Moving liquidity to optimize sending and receiving capacity",
+        "c": "Updating channel software",
+        "d": "Increasing channel fees"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Lightning Network",
+      "explanation": "Rebalancing moves funds between channels to optimize your ability to send and receive payments in different directions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q394",
+      "question": "What is submarine swapping?",
+      "options": {
+        "a": "Trading Lightning bitcoin for on-chain bitcoin",
+        "b": "Moving funds between different Lightning wallets",
+        "c": "Exchanging bitcoin for other cryptocurrencies",
+        "d": "Backing up Lightning channels"
+      },
+      "correct_answer": "a",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Lightning Network",
+      "explanation": "Submarine swaps allow trustless exchange between Lightning bitcoin and on-chain bitcoin without requiring channel operations.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q395",
+      "question": "What is the Lightning Network's approach to privacy?",
+      "options": {
+        "a": "All payments are completely anonymous",
+        "b": "Better privacy than on-chain but not perfect",
+        "c": "No privacy improvements over Bitcoin",
+        "d": "Requires KYC for all transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Lightning Network",
+      "explanation": "Lightning provides better privacy than on-chain Bitcoin since payments don't appear on the public blockchain, but channel states and routing can still leak some information.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q396",
+      "question": "What is a Lightning Address?",
+      "options": {
+        "a": "The IP address of a Lightning node",
+        "b": "An email-like identifier for receiving Lightning payments",
+        "c": "A Bitcoin address for Lightning channels",
+        "d": "A physical mailing address for Lightning services"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Lightning Address is a protocol that allows users to receive Lightning payments using familiar email-like identifiers (user@domain.com).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q397",
+      "question": "What are the main types of Lightning wallets?",
+      "options": {
+        "a": "Hot and cold wallets only",
+        "b": "Custodial and non-custodial wallets",
+        "c": "Desktop and mobile wallets only",
+        "d": "Public and private wallets"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Lightning Network",
+      "explanation": "Lightning wallets are primarily categorized as custodial (service provider manages channels) or non-custodial (you manage your own channels and keys).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q398",
+      "question": "What is force closing a Lightning channel?",
+      "options": {
+        "a": "Closing a channel immediately without the other party's cooperation",
+        "b": "Closing multiple channels at once",
+        "c": "Closing a channel with maximum fees",
+        "d": "Permanently deleting a channel"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Lightning Network",
+      "explanation": "Force closing broadcasts the latest channel state to the blockchain unilaterally, useful if the other party becomes unresponsive.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q399",
+      "question": "What is the Lightning Network's solution to the micropayment problem?",
+      "options": {
+        "a": "It eliminates all transaction fees",
+        "b": "It enables payments smaller than typical Bitcoin on-chain fees",
+        "c": "It only allows large payments",
+        "d": "It uses a different currency for small payments"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Lightning Network",
+      "explanation": "Lightning's low fees make it economical to send very small amounts that would be uneconomical on the Bitcoin base layer due to mining fees.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q400",
+      "question": "What are the main trade-offs of using Lightning Network?",
+      "options": {
+        "a": "No trade-offs - it's better in every way",
+        "b": "Speed and low fees vs. liquidity management and online requirements",
+        "c": "Only works for large payments",
+        "d": "Requires government permission"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Lightning Network",
+      "explanation": "Lightning provides speed and low fees but requires managing channel liquidity and staying online, plus initial setup complexity compared to simple on-chain transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q401",
+      "question": "What is CoinJoin?",
+      "options": {
+        "a": "A method to combine multiple Bitcoin transactions for privacy",
+        "b": "A way to merge two Bitcoin addresses",
+        "c": "A process to join mining pools",
+        "d": "A technique to increase transaction speed"
+      },
+      "correct_answer": "a",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "CoinJoin combines multiple transactions from different users into one transaction, making it harder to trace which inputs belong to which outputs.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q402",
+      "question": "Why should you avoid address reuse?",
+      "options": {
+        "a": "It causes transaction failures",
+        "b": "It reduces privacy by linking transactions together",
+        "c": "It increases transaction fees",
+        "d": "It makes transactions slower"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Privacy",
+      "explanation": "Address reuse allows anyone to link all transactions to that address, revealing your transaction history and current balance.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q403",
+      "question": "What is a Bitcoin mixer or tumbler?",
+      "options": {
+        "a": "A tool to increase Bitcoin's value",
+        "b": "A service that obscures the connection between input and output addresses",
+        "c": "A method to speed up transactions",
+        "d": "A way to compress Bitcoin data"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "Mixers break the link between your input bitcoins and output bitcoins by pooling funds with other users, though they require trust in the service.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q404",
+      "question": "What is PayJoin (P2EP)?",
+      "options": {
+        "a": "A payment processor for merchants",
+        "b": "A privacy technique where sender and receiver both contribute inputs",
+        "c": "A method to split large payments",
+        "d": "A way to join multiple wallets"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "PayJoin allows the payment recipient to add their own inputs to the transaction, breaking transaction analysis assumptions about ownership.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q405",
+      "question": "What information can blockchain analysis reveal?",
+      "options": {
+        "a": "Only transaction amounts",
+        "b": "Transaction patterns, address clustering, and spending behaviors",
+        "c": "Personal names and addresses",
+        "d": "Private keys and passwords"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "Blockchain analysis can reveal transaction patterns, cluster addresses belonging to the same entity, and analyze spending behaviors, but not directly reveal personal information.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q406",
+      "question": "What is coin selection and why does it matter for privacy?",
+      "options": {
+        "a": "Choosing which Bitcoin to buy",
+        "b": "Selecting which UTXOs to spend in a transaction",
+        "c": "Picking the best mining pools",
+        "d": "Choosing wallet software"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "Coin selection determines which UTXOs you spend, affecting privacy by potentially linking unrelated transactions or revealing wallet clustering.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q407",
+      "question": "What is the common input ownership heuristic?",
+      "options": {
+        "a": "All inputs in a transaction belong to the same entity",
+        "b": "Larger inputs are more valuable",
+        "c": "Newer inputs are preferred",
+        "d": "Round number inputs are suspicious"
+      },
+      "correct_answer": "a",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Privacy",
+      "explanation": "This widely-used blockchain analysis assumption presumes all inputs in a transaction are controlled by the same person, which CoinJoin and PayJoin help break.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q408",
+      "question": "What is a dusting attack?",
+      "options": {
+        "a": "Sending tiny amounts to many addresses to track them",
+        "b": "Overwhelming the network with transactions",
+        "c": "Mining empty blocks",
+        "d": "Attacking dust particles in mining equipment"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "Dusting attacks send small amounts of bitcoin to many addresses, hoping users will spend the dust and reveal connections between addresses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q409",
+      "question": "What is the purpose of using Tor with Bitcoin?",
+      "options": {
+        "a": "To make transactions faster",
+        "b": "To hide your IP address when connecting to the Bitcoin network",
+        "c": "To reduce transaction fees",
+        "d": "To increase wallet security"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "Tor hides your IP address, preventing network-level observers from linking your identity to your Bitcoin transactions and wallet activity.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q410",
+      "question": "What is UTXO consolidation and how does it affect privacy?",
+      "options": {
+        "a": "Combining multiple UTXOs reveals they belong to the same wallet",
+        "b": "A method to compress blockchain data",
+        "c": "Merging different cryptocurrencies",
+        "d": "Consolidating mining rewards"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "When you combine multiple UTXOs in one transaction, it reveals they all belong to you, potentially linking previously unconnected addresses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q411",
+      "question": "What is a change address and why should it be unique?",
+      "options": {
+        "a": "An address for receiving small amounts",
+        "b": "Where excess funds return after a payment, should be unique for privacy",
+        "c": "An address for currency exchange",
+        "d": "A backup address for emergencies"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "Change addresses receive the difference when you spend more than your payment amount. Using fresh addresses prevents linking change back to your wallet.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q412",
+      "question": "What privacy risk do KYC exchanges pose?",
+      "options": {
+        "a": "They charge higher fees",
+        "b": "They can link your identity to your Bitcoin addresses",
+        "c": "They process transactions slowly",
+        "d": "They require complex passwords"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Privacy",
+      "explanation": "KYC exchanges collect personal information and can link it to Bitcoin addresses you withdraw to, creating a starting point for blockchain analysis.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q413",
+      "question": "What is the timing correlation attack?",
+      "options": {
+        "a": "Attacking Bitcoin's timestamp system",
+        "b": "Linking transactions that occur at similar times",
+        "c": "Exploiting network latency",
+        "d": "Synchronizing multiple attacks"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Privacy",
+      "explanation": "Timing correlation links transactions that occur close together in time, potentially revealing connections between addresses or identifying mixing patterns.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q414",
+      "question": "What is steganography in Bitcoin context?",
+      "options": {
+        "a": "Hiding messages or data within Bitcoin transactions",
+        "b": "A type of signature algorithm",
+        "c": "A method for faster transactions",
+        "d": "A wallet encryption technique"
+      },
+      "correct_answer": "a",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Privacy",
+      "explanation": "Steganography hides secret messages or data within normal-looking Bitcoin transactions, such as encoding information in transaction amounts or addresses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q415",
+      "question": "What is the best practice for receiving Bitcoin payments privately?",
+      "options": {
+        "a": "Always use the same address",
+        "b": "Generate a unique address for each payment",
+        "c": "Only accept payments through exchanges",
+        "d": "Use only paper wallets"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Privacy",
+      "explanation": "Using a unique address for each payment prevents linking different payments together and protects both your and the sender's privacy.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q416",
+      "question": "What is Taproot in Bitcoin?",
+      "options": {
+        "a": "A new mining algorithm",
+        "b": "A soft fork upgrade that improves privacy and smart contract functionality",
+        "c": "A Lightning Network improvement",
+        "d": "A wallet security feature"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Development",
+      "explanation": "Taproot is a major Bitcoin upgrade activated in 2021 that enhances privacy, efficiency, and enables more sophisticated smart contracts.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q417",
+      "question": "What are Bitcoin Ordinals?",
+      "options": {
+        "a": "A ranking system for Bitcoin addresses",
+        "b": "A method for inscribing data onto individual satoshis",
+        "c": "A new consensus mechanism",
+        "d": "A type of Lightning channel"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Development",
+      "explanation": "Ordinals allow inscribing arbitrary data (like images or text) onto individual satoshis, creating a form of NFTs on Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q418",
+      "question": "What is the main benefit of Schnorr signatures in Taproot?",
+      "options": {
+        "a": "Faster transaction processing",
+        "b": "Signature aggregation and improved privacy",
+        "c": "Lower storage requirements",
+        "d": "Increased security"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Technology",
+      "explanation": "Schnorr signatures enable multiple signatures to be aggregated into one, saving space and making complex transactions look like simple ones.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q419",
+      "question": "What are BRC-20 tokens?",
+      "options": {
+        "a": "A new Bitcoin sidechain",
+        "b": "An experimental token standard using Ordinals inscriptions",
+        "c": "A Lightning Network token protocol",
+        "d": "A Bitcoin improvement proposal"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Development",
+      "explanation": "BRC-20 is an experimental token standard that uses Ordinal inscriptions to create fungible tokens on Bitcoin, though it's not an official standard.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q420",
+      "question": "What is RGB protocol?",
+      "options": {
+        "a": "A color-coding system for Bitcoin addresses",
+        "b": "A protocol for issuing assets and smart contracts on Bitcoin",
+        "c": "A new consensus mechanism",
+        "d": "A privacy enhancement for Lightning"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Development",
+      "explanation": "RGB is a protocol for issuing and transferring assets and smart contracts on Bitcoin using client-side validation and single-use seals.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q421",
+      "question": "What impact have Ordinals had on Bitcoin transaction fees?",
+      "options": {
+        "a": "No impact",
+        "b": "Consistently reduced fees",
+        "c": "Increased fees during high inscription activity",
+        "d": "Made fees more predictable"
+      },
+      "correct_answer": "c",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Ordinal inscriptions compete for block space with regular transactions, sometimes significantly increasing fees during periods of high inscription activity.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q422",
+      "question": "What is MAST (Merkelized Abstract Syntax Trees)?",
+      "options": {
+        "a": "A new mining technique",
+        "b": "A way to efficiently encode complex spending conditions",
+        "c": "A Lightning Network feature",
+        "d": "A wallet backup method"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Technology",
+      "explanation": "MAST allows complex spending conditions to be encoded efficiently, with only the executed branch revealed on-chain, enabled by Taproot.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q423",
+      "question": "What is a Bitcoin ETF?",
+      "options": {
+        "a": "A new type of Bitcoin transaction",
+        "b": "An exchange-traded fund that tracks Bitcoin's price",
+        "c": "A Bitcoin improvement proposal",
+        "d": "A mining pool protocol"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "A Bitcoin ETF is a traditional financial product that allows investors to gain exposure to Bitcoin without directly owning it.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q424",
+      "question": "What controversy surrounds Bitcoin Ordinals?",
+      "options": {
+        "a": "They're technically impossible",
+        "b": "Debate over whether non-monetary data belongs on Bitcoin",
+        "c": "They require hard forks",
+        "d": "They compromise Bitcoin's security"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Culture",
+      "explanation": "Some Bitcoin users believe the blockchain should only be used for monetary transactions, while others see Ordinals as a legitimate use of Bitcoin's data capacity.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q425",
+      "question": "What is the difference between inscriptions and traditional NFTs?",
+      "options": {
+        "a": "No difference at all",
+        "b": "Inscriptions store data directly on Bitcoin, NFTs typically store references",
+        "c": "NFTs are more secure",
+        "d": "Inscriptions are always more expensive"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "Bitcoin inscriptions store the actual data on-chain permanently, while most NFTs store only references to data hosted elsewhere.",
       "created_at": "2025-01-22T00:00:00Z"
     }
   ],

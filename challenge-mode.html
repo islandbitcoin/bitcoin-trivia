@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Challenge Mode - Test Your Skills</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #2c1810 0%, #8b4513 50%, #a0522d 100%);
+            color: #fff;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background: rgba(255, 165, 0, 0.1);
+            border-radius: 20px;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(45deg, #ffa500, #ffb347);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 1rem;
+        }
+        
+        .challenge-types {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .challenge-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .challenge-card:hover {
+            transform: translateY(-5px);
+            border-color: #ffa500;
+            box-shadow: 0 20px 40px rgba(255, 165, 0, 0.3);
+        }
+        
+        .challenge-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+        
+        .challenge-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #ffa500;
+        }
+        
+        .challenge-description {
+            margin-bottom: 1rem;
+            opacity: 0.9;
+        }
+        
+        .challenge-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #ffa500;
+        }
+        
+        .stat-label {
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+        
+        .challenge-button {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(45deg, #ffa500, #ffb347);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .challenge-button:hover {
+            background: linear-gradient(45deg, #ff8c00, #ffa500);
+            transform: translateY(-2px);
+        }
+        
+        .daily-challenge {
+            background: rgba(76, 175, 80, 0.1);
+            border: 2px solid #4CAF50;
+            margin-bottom: 2rem;
+            border-radius: 15px;
+            padding: 2rem;
+        }
+        
+        .daily-challenge h3 {
+            color: #4CAF50;
+            margin-bottom: 1rem;
+        }
+        
+        .challenge-timer {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .timer-display {
+            font-family: 'Courier New', monospace;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        
+        .leaderboard-preview {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .leaderboard-title {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #ffa500;
+        }
+        
+        .leaderboard-list {
+            list-style: none;
+        }
+        
+        .leaderboard-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .leaderboard-item:last-child {
+            border-bottom: none;
+        }
+        
+        .player-rank {
+            font-weight: bold;
+            margin-right: 1rem;
+            color: #ffa500;
+        }
+        
+        .player-name {
+            flex-grow: 1;
+        }
+        
+        .player-score {
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        
+        .achievement-showcase {
+            background: rgba(138, 43, 226, 0.1);
+            border: 2px solid #8a2be2;
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .achievement-title {
+            color: #8a2be2;
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+        }
+        
+        .achievement-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        
+        .achievement-badge {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .achievement-badge:hover {
+            transform: scale(1.05);
+        }
+        
+        .achievement-badge.unlocked {
+            background: rgba(255, 215, 0, 0.2);
+            border: 1px solid #ffd700;
+        }
+        
+        .achievement-icon {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .achievement-name {
+            font-weight: bold;
+            margin-bottom: 0.25rem;
+        }
+        
+        .achievement-desc {
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #ffa500;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            transition: color 0.3s ease;
+        }
+        
+        .back-button:hover {
+            color: #ffb347;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>⚡ Challenge Mode</h1>
+            <p class="subtitle">Test your Bitcoin knowledge against the clock</p>
+            <p>Compete with others and unlock achievements</p>
+        </header>
+        
+        <div class="daily-challenge">
+            <h3>🎯 Daily Challenge</h3>
+            <div class="challenge-timer">
+                <span>Time remaining:</span>
+                <span class="timer-display" id="dailyTimer">23:45:17</span>
+            </div>
+            <p><strong>Today's Theme:</strong> Lightning Network Fundamentals</p>
+            <p>Complete 15 Lightning Network questions for bonus rewards!</p>
+            <button class="challenge-button" onclick="startDailyChallenge()">Start Daily Challenge</button>
+        </div>
+        
+        <div class="challenge-types">
+            <div class="challenge-card" onclick="startChallenge('lightning')">
+                <div class="challenge-icon">⚡</div>
+                <div class="challenge-title">Lightning Round</div>
+                <div class="challenge-description">Answer 20 questions as fast as possible. Every second counts!</div>
+                <div class="challenge-stats">
+                    <div class="stat">
+                        <div class="stat-number">20</div>
+                        <div class="stat-label">Questions</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5:00</div>
+                        <div class="stat-label">Time Limit</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">1000</div>
+                        <div class="stat-label">Max Points</div>
+                    </div>
+                </div>
+                <button class="challenge-button">Start Lightning Round</button>
+            </div>
+            
+            <div class="challenge-card" onclick="startChallenge('survival')">
+                <div class="challenge-icon">💀</div>
+                <div class="challenge-title">Survival Mode</div>
+                <div class="challenge-description">Keep answering until you get one wrong. How long can you survive?</div>
+                <div class="challenge-stats">
+                    <div class="stat">
+                        <div class="stat-number">∞</div>
+                        <div class="stat-label">Questions</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Lives</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">15</div>
+                        <div class="stat-label">Your Best</div>
+                    </div>
+                </div>
+                <button class="challenge-button">Enter Survival</button>
+            </div>
+            
+            <div class="challenge-card" onclick="startChallenge('expert')">
+                <div class="challenge-icon">🧠</div>
+                <div class="challenge-title">Expert Gauntlet</div>
+                <div class="challenge-description">Face 10 difficulty 9-10 questions. Only true Bitcoin experts succeed.</div>
+                <div class="challenge-stats">
+                    <div class="stat">
+                        <div class="stat-number">10</div>
+                        <div class="stat-label">Questions</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">9-10</div>
+                        <div class="stat-label">Difficulty</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">5%</div>
+                        <div class="stat-label">Pass Rate</div>
+                    </div>
+                </div>
+                <button class="challenge-button">Face the Gauntlet</button>
+            </div>
+            
+            <div class="challenge-card" onclick="startChallenge('themed')">
+                <div class="challenge-icon">🎭</div>
+                <div class="challenge-title">Themed Challenge</div>
+                <div class="challenge-description">Focus on specific topics like Economics, Privacy, or Mining.</div>
+                <div class="challenge-stats">
+                    <div class="stat">
+                        <div class="stat-number">15</div>
+                        <div class="stat-label">Questions</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">1</div>
+                        <div class="stat-label">Topic</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">8</div>
+                        <div class="stat-label">Themes</div>
+                    </div>
+                </div>
+                <button class="challenge-button">Choose Theme</button>
+            </div>
+        </div>
+        
+        <div class="leaderboard-preview">
+            <div class="leaderboard-title">🏆 Today's Leaderboard</div>
+            <ul class="leaderboard-list">
+                <li class="leaderboard-item">
+                    <span class="player-rank">#1</span>
+                    <span class="player-name">Satoshi_Scholar</span>
+                    <span class="player-score">2,847 pts</span>
+                </li>
+                <li class="leaderboard-item">
+                    <span class="player-rank">#2</span>
+                    <span class="player-name">Lightning_Larry</span>
+                    <span class="player-score">2,634 pts</span>
+                </li>
+                <li class="leaderboard-item">
+                    <span class="player-rank">#3</span>
+                    <span class="player-name">HODL_Master</span>
+                    <span class="player-score">2,401 pts</span>
+                </li>
+                <li class="leaderboard-item">
+                    <span class="player-rank">#7</span>
+                    <span class="player-name">You</span>
+                    <span class="player-score">1,892 pts</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="achievement-showcase">
+            <div class="achievement-title">🏅 Recent Achievements</div>
+            <div class="achievement-grid">
+                <div class="achievement-badge unlocked">
+                    <div class="achievement-icon">⚡</div>
+                    <div class="achievement-name">Speed Demon</div>
+                    <div class="achievement-desc">Complete Lightning Round under 3 minutes</div>
+                </div>
+                <div class="achievement-badge unlocked">
+                    <div class="achievement-icon">🔥</div>
+                    <div class="achievement-name">Hot Streak</div>
+                    <div class="achievement-desc">Answer 10 questions correctly in a row</div>
+                </div>
+                <div class="achievement-badge">
+                    <div class="achievement-icon">🧠</div>
+                    <div class="achievement-name">Einstein</div>
+                    <div class="achievement-desc">Pass Expert Gauntlet</div>
+                </div>
+                <div class="achievement-badge">
+                    <div class="achievement-icon">💰</div>
+                    <div class="achievement-name">Economics Expert</div>
+                    <div class="achievement-desc">Perfect score on Economics theme</div>
+                </div>
+            </div>
+        </div>
+        
+        <a href="index.html" class="back-button">
+            ← Back to Main Game
+        </a>
+    </div>
+    
+    <script>
+        // Update daily challenge timer
+        function updateDailyTimer() {
+            const now = new Date();
+            const tomorrow = new Date(now);
+            tomorrow.setDate(tomorrow.getDate() + 1);
+            tomorrow.setHours(0, 0, 0, 0);
+            
+            const timeRemaining = tomorrow - now;
+            
+            const hours = Math.floor(timeRemaining / (1000 * 60 * 60));
+            const minutes = Math.floor((timeRemaining % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((timeRemaining % (1000 * 60)) / 1000);
+            
+            const display = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+            document.getElementById('dailyTimer').textContent = display;
+        }
+        
+        // Start different challenge types
+        function startChallenge(type) {
+            switch(type) {
+                case 'lightning':
+                    alert('Starting Lightning Round!\n\n20 questions, 5 minutes, maximum points for speed.\nReady to test your reflexes?');
+                    break;
+                case 'survival':
+                    alert('Entering Survival Mode!\n\nAnswer questions until you get one wrong.\nDifficulty increases as you progress.\nHow far can you go?');
+                    break;
+                case 'expert':
+                    alert('Expert Gauntlet Challenge!\n\n10 extremely difficult questions.\nOnly 5% of players pass.\nAre you ready for the ultimate test?');
+                    break;
+                case 'themed':
+                    showThemeSelector();
+                    break;
+            }
+        }
+        
+        function startDailyChallenge() {
+            alert('Starting Daily Challenge!\n\nToday\'s theme: Lightning Network Fundamentals\n15 questions about Lightning Network\nBonus rewards for completion!');
+        }
+        
+        function showThemeSelector() {
+            const themes = [
+                'Economics & Monetary Policy',
+                'Mining & Proof of Work', 
+                'Privacy & Security',
+                'Lightning Network',
+                'Bitcoin History',
+                'Development & BIPs',
+                'Practical Usage',
+                'Recent Developments'
+            ];
+            
+            const themeList = themes.map((theme, i) => `${i + 1}. ${theme}`).join('\n');
+            alert(`Choose Your Theme:\n\n${themeList}\n\nEach theme has 15 focused questions to test your expertise in that area.`);
+        }
+        
+        // Initialize timers
+        updateDailyTimer();
+        setInterval(updateDailyTimer, 1000);
+    </script>
+</body>
+</html>

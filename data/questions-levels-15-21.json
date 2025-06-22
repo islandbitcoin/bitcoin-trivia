@@ -1,7 +1,7 @@
 {
   "questions": [
     {
-      "id": "q169",
+      "id": "q001",
       "question": "What is the theoretical minimum time between blocks if all miners collaborated?",
       "options": {
         "a": "0 seconds",
@@ -17,7 +17,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q170",
+      "id": "q002",
       "question": "What is 'Transaction Pinning' attack?",
       "options": {
         "a": "Freezing transactions",
@@ -33,7 +33,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q171",
+      "id": "q003",
       "question": "What is 'BIP 125' defining?",
       "options": {
         "a": "SegWit activation",
@@ -49,7 +49,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q172",
+      "id": "q004",
       "question": "What is 'Package Relay' improving?",
       "options": {
         "a": "Block propagation",
@@ -65,7 +65,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q173",
+      "id": "q005",
       "question": "What is the 'Stale Block' rate target?",
       "options": {
         "a": "0%",
@@ -81,7 +81,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q174",
+      "id": "q006",
       "question": "What is 'Blind Merged Mining'?",
       "options": {
         "a": "Anonymous mining",
@@ -97,7 +97,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q175",
+      "id": "q007",
       "question": "What is 'OP_CHECKDATASIG' proposal?",
       "options": {
         "a": "Data validation opcode",
@@ -113,7 +113,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q176",
+      "id": "q008",
       "question": "What is 'Epoch' in Bitcoin context?",
       "options": {
         "a": "2016 blocks difficulty period",
@@ -129,7 +129,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q177",
+      "id": "q009",
       "question": "What is 'BIP 152' Compact Blocks mode?",
       "options": {
         "a": "High-bandwidth and low-bandwidth",
@@ -145,7 +145,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q178",
+      "id": "q010",
       "question": "What is 'Graftroot' proposal?",
       "options": {
         "a": "Alternative to Taproot",
@@ -161,7 +161,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q179",
+      "id": "q011",
       "question": "What is Bitcoin's 'IBD' phase?",
       "options": {
         "a": "Initial Block Download",
@@ -177,7 +177,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q180",
+      "id": "q012",
       "question": "What is 'BIP 70' payment protocol status?",
       "options": {
         "a": "Widely used",
@@ -193,7 +193,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q181",
+      "id": "q013",
       "question": "What specific BIP activated OP_CHECKLOCKTIMEVERIFY?",
       "options": {
         "a": "BIP 62",
@@ -209,7 +209,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q182",
+      "id": "q014",
       "question": "What is the 'CAT-20' incident?",
       "options": {
         "a": "OP_CAT vulnerability",
@@ -225,7 +225,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q183",
+      "id": "q015",
       "question": "What exact version introduced 'sendheaders' message?",
       "options": {
         "a": "0.11.0",
@@ -241,7 +241,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q184",
+      "id": "q016",
       "question": "What is Bitcoin's 'policy' vs 'consensus' distinction?",
       "options": {
         "a": "Same thing",
@@ -257,7 +257,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q185",
+      "id": "q017",
       "question": "What is 'BIP 30' addressing?",
       "options": {
         "a": "Duplicate coinbase transactions",
@@ -273,7 +273,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q186",
+      "id": "q018",
       "question": "What is 'wtxid' in SegWit?",
       "options": {
         "a": "Witness transaction ID",
@@ -289,7 +289,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q187",
+      "id": "q019",
       "question": "What block contains duplicate coinbase transactions?",
       "options": {
         "a": "Block 91,722 and 91,880",
@@ -305,7 +305,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q188",
+      "id": "q020",
       "question": "What is 'signet' in Bitcoin?",
       "options": {
         "a": "Signature network",
@@ -321,7 +321,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q189",
+      "id": "q021",
       "question": "What's the maximum coinbase script size?",
       "options": {
         "a": "100 bytes",
@@ -337,7 +337,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q190",
+      "id": "q022",
       "question": "What is 'TXINDEX' in Bitcoin Core?",
       "options": {
         "a": "Transaction position in block",
@@ -353,7 +353,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q191",
+      "id": "q023",
       "question": "What consensus rule does 'SCRIPT_VERIFY_NULLFAIL' enforce?",
       "options": {
         "a": "Null data in scripts fails",
@@ -369,23 +369,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q192",
-      "question": "What's the 'nLockTime' overflow behavior?",
-      "options": {
-        "a": "Wraps around",
-        "b": "Transaction invalid",
-        "c": "Interpreted as block height",
-        "d": "No overflow possible"
-      },
-      "correct_answer": "d",
-      "difficulty": 9,
-      "level": 16,
-      "category": "Technology",
-      "explanation": "nLockTime is a 32-bit field; values >= 500000000 are timestamps, no overflow.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q193",
+      "id": "q024",
       "question": "Which soft fork fixed the 'timewarp' bug?",
       "options": {
         "a": "SegWit",
@@ -401,7 +385,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q194",
+      "id": "q025",
       "question": "What's special about block 501726?",
       "options": {
         "a": "First SegWit block",
@@ -417,39 +401,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q195",
-      "question": "What exact byte sequence starts a mainnet message?",
-      "options": {
-        "a": "0xF9BEB4D9",
-        "b": "0xFABFB5DA",
-        "c": "0x0B110907",
-        "d": "0xFFFFFFFF"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Network",
-      "explanation": "Bitcoin mainnet messages start with magic bytes 0xF9BEB4D9.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q196",
-      "question": "What's the consensus bug in OP_LSHIFT?",
-      "options": {
-        "a": "Buffer overflow",
-        "b": "Sign extension issue",
-        "c": "It's disabled, no bug",
-        "d": "Shift by negative"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Technology",
-      "explanation": "OP_LSHIFT is disabled; the question about its bug is misleading.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q197",
+      "id": "q026",
       "question": "What BIP number is assigned to 'OP_CAT revival'?",
       "options": {
         "a": "BIP 347",
@@ -465,23 +417,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q198",
-      "question": "What's the FindAndDelete consensus quirk?",
-      "options": {
-        "a": "Removes all occurrences",
-        "b": "Only in executed branch",
-        "c": "Consensus-critical comparison",
-        "d": "All of the above"
-      },
-      "correct_answer": "d",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Technology",
-      "explanation": "FindAndDelete has multiple consensus-critical quirks in script execution.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q199",
+      "id": "q027",
       "question": "When did Bitcoin first process 1MB+ blocks?",
       "options": {
         "a": "Never before SegWit",
@@ -497,39 +433,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q200",
-      "question": "What's the BIP 34 consensus bug?",
-      "options": {
-        "a": "Coinbase height encoding",
-        "b": "Version 2 blocks only",
-        "c": "Off-by-one error potential",
-        "d": "No bug exists"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Security",
-      "explanation": "BIP 34 has a potential off-by-one error in height encoding validation.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q201",
-      "question": "What's the 'negative zero' script behavior?",
-      "options": {
-        "a": "Treated as false",
-        "b": "Treated as true",
-        "c": "Consensus failure",
-        "d": "Arithmetic operations differ"
-      },
-      "correct_answer": "d",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Technology",
-      "explanation": "Script has quirky negative zero handling in arithmetic vs boolean context.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q202",
+      "id": "q028",
       "question": "What exact nonce overflow behavior occurs?",
       "options": {
         "a": "Wraps to 0",
@@ -545,23 +449,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q203",
-      "question": "What's CHECKSEQUENCEVERIFY's relative lock precision?",
-      "options": {
-        "a": "1 second",
-        "b": "512 seconds",
-        "c": "600 seconds",
-        "d": "1 block"
-      },
-      "correct_answer": "b",
-      "difficulty": 10,
-      "level": 17,
-      "category": "Technology",
-      "explanation": "CSV time-based locks have 512-second granularity.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q204",
+      "id": "q029",
       "question": "What's the pruning minimum in Bitcoin Core?",
       "options": {
         "a": "288 blocks",
@@ -577,7 +465,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q205",
+      "id": "q030",
       "question": "What exploit used 'anyone-can-spend' before SegWit activation?",
       "options": {
         "a": "No exploit occurred",
@@ -593,7 +481,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q206",
+      "id": "q031",
       "question": "What's the 'BIP 91' significance?",
       "options": {
         "a": "Direct SegWit activation",
@@ -609,7 +497,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q207",
+      "id": "q032",
       "question": "What's 'MINIMALIF' consensus rule?",
       "options": {
         "a": "IF conditions must be 0 or 1",
@@ -625,7 +513,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q208",
+      "id": "q033",
       "question": "What's Bitcoin's 'natural fork rate'?",
       "options": {
         "a": "0.1%",
@@ -641,7 +529,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q209",
+      "id": "q034",
       "question": "What's 'BIP 143' defining?",
       "options": {
         "a": "SegWit address format",
@@ -657,7 +545,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q210",
+      "id": "q035",
       "question": "What's 'rolling UTXO set hashes' purpose?",
       "options": {
         "a": "Consensus enforcement",
@@ -673,7 +561,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q211",
+      "id": "q036",
       "question": "What's the 'BIP 66' strict DER bug?",
       "options": {
         "a": "Rejected valid signatures",
@@ -689,7 +577,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q212",
+      "id": "q037",
       "question": "What's 'descriptor wallets' in Bitcoin Core?",
       "options": {
         "a": "Legacy wallet type",
@@ -705,7 +593,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q213",
+      "id": "q038",
       "question": "What's the 'bech32 length extension' bug?",
       "options": {
         "a": "Accepts invalid addresses",
@@ -721,7 +609,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q214",
+      "id": "q039",
       "question": "What's 'FIBRE' network for?",
       "options": {
         "a": "Fast Internet Bitcoin Relay Engine",
@@ -737,7 +625,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q215",
+      "id": "q040",
       "question": "What's 'BIP 340' tag hashing for?",
       "options": {
         "a": "Domain separation",
@@ -753,7 +641,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q216",
+      "id": "q041",
       "question": "What's the 'CSV activation' block?",
       "options": {
         "a": "419,328",
@@ -769,7 +657,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q217",
+      "id": "q042",
       "question": "What prevents 'block withholding' in pools?",
       "options": {
         "a": "Cryptographic proofs",
@@ -785,7 +673,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q218",
+      "id": "q043",
       "question": "What's the 'clean stack' rule?",
       "options": {
         "a": "Stack must be empty after execution",
@@ -801,7 +689,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q219",
+      "id": "q044",
       "question": "What exact timestamp has special handling?",
       "options": {
         "a": "500,000,000",
@@ -817,7 +705,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q220",
+      "id": "q045",
       "question": "What's 'sigops cost' in Taproot?",
       "options": {
         "a": "0 for key path",
@@ -833,7 +721,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q221",
+      "id": "q046",
       "question": "What causes 'transaction eviction'?",
       "options": {
         "a": "Time limits",
@@ -849,7 +737,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q222",
+      "id": "q047",
       "question": "What's 'BIP 113' median time rule?",
       "options": {
         "a": "Median of 3 blocks",
@@ -865,7 +753,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q223",
+      "id": "q048",
       "question": "What's the 'quadratic sighash' problem?",
       "options": {
         "a": "O(n²) hashing time",
@@ -881,23 +769,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q224",
-      "question": "What opcode is 0x63?",
-      "options": {
-        "a": "OP_IF",
-        "b": "OP_NOTIF",
-        "c": "OP_ELSE",
-        "d": "OP_ENDIF"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 19,
-      "category": "Technology",
-      "explanation": "Opcode 0x63 is OP_IF in Bitcoin Script.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q225",
+      "id": "q049",
       "question": "What's 'transaction sponsorship'?",
       "options": {
         "a": "Implemented fee bumping",
@@ -913,7 +785,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q226",
+      "id": "q050",
       "question": "What's unique about block 629,999?",
       "options": {
         "a": "Last before halving",
@@ -929,7 +801,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q227",
+      "id": "q051",
       "question": "What's 'witness unknown' spending?",
       "options": {
         "a": "Always valid",
@@ -945,7 +817,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q228",
+      "id": "q052",
       "question": "What's the 'UTREEXO' proposal?",
       "options": {
         "a": "UTXO compression",
@@ -961,23 +833,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q229",
-      "question": "In Script, what does '0x01 0x81' evaluate to?",
-      "options": {
-        "a": "-1",
-        "b": "129",
-        "c": "-129",
-        "d": "Script fails"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 20,
-      "category": "Technology",
-      "explanation": "0x81 with length 0x01 represents -1 in Script number encoding.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q230",
+      "id": "q053",
       "question": "What's the 'March 2013 fork' root cause?",
       "options": {
         "a": "Database lock limits",
@@ -993,7 +849,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q231",
+      "id": "q054",
       "question": "What's 'OP_CODESEPARATOR' consensus impact?",
       "options": {
         "a": "Changes signature hash",
@@ -1009,7 +865,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q232",
+      "id": "q055",
       "question": "What's block 490,897's significance?",
       "options": {
         "a": "Empty block",
@@ -1025,7 +881,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q233",
+      "id": "q056",
       "question": "What exact version fixed transaction malleability?",
       "options": {
         "a": "0.8.0",
@@ -1041,23 +897,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q234",
-      "question": "What's 'OP_SHA256' hex opcode?",
-      "options": {
-        "a": "0xa8",
-        "b": "0xa9",
-        "c": "0xaa",
-        "d": "0xab"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 20,
-      "category": "Technology",
-      "explanation": "OP_SHA256 is opcode 0xa8 in Bitcoin Script.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q235",
+      "id": "q057",
       "question": "What causes 'bad-blk-sigops' rejection?",
       "options": {
         "a": "Too many legacy sigops",
@@ -1073,23 +913,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q236",
-      "question": "What's 'OP_PUSHDATA4' maximum?",
-      "options": {
-        "a": "520 bytes",
-        "b": "4,294,967,295 bytes",
-        "c": "Limited by script size",
-        "d": "No limit"
-      },
-      "correct_answer": "c",
-      "difficulty": 10,
-      "level": 20,
-      "category": "Technology",
-      "explanation": "OP_PUSHDATA4 can specify 4GB but limited by 10KB script size.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q237",
+      "id": "q058",
       "question": "What's the 'sigop flood' attack vector?",
       "options": {
         "a": "Bare multisig outputs",
@@ -1105,7 +929,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q238",
+      "id": "q059",
       "question": "What's 'SINGLE|ANYONECANPAY' vulnerability?",
       "options": {
         "a": "Fee sniping",
@@ -1121,23 +945,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q239",
-      "question": "What timestamp causes nLockTime ambiguity?",
-      "options": {
-        "a": "November 1985",
-        "b": "January 1987",
-        "c": "September 2001",
-        "d": "No ambiguity exists"
-      },
-      "correct_answer": "a",
-      "difficulty": 10,
-      "level": 20,
-      "category": "Technology",
-      "explanation": "Timestamps near 500,000,000 (Nov 1985) could be confused with block heights.",
-      "created_at": "2025-01-22T00:00:00Z"
-    },
-    {
-      "id": "q240",
+      "id": "q060",
       "question": "What's consensus-critical in 'OP_CHECKMULTISIG' ordering?",
       "options": {
         "a": "Pubkey order matters",
@@ -1153,7 +961,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q241",
+      "id": "q061",
       "question": "What block had the inflation bug fix?",
       "options": {
         "a": "74,638",
@@ -1169,7 +977,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q242",
+      "id": "q062",
       "question": "What's 'SCRIPT_VERIFY_CONST_SCRIPTCODE' preventing?",
       "options": {
         "a": "OP_CODESEPARATOR in SegWit",
@@ -1185,7 +993,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q243",
+      "id": "q063",
       "question": "What exact block activated P2SH on testnet?",
       "options": {
         "a": "Block 1",
@@ -1201,7 +1009,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q244",
+      "id": "q064",
       "question": "What's the 'BIP 50' incident?",
       "options": {
         "a": "March 2013 fork",
@@ -1217,7 +1025,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q245",
+      "id": "q065",
       "question": "What's special about script '0x51'?",
       "options": {
         "a": "OP_TRUE",
@@ -1233,7 +1041,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q246",
+      "id": "q066",
       "question": "What's the 'coinbase maturity' rationale?",
       "options": {
         "a": "Prevent spending orphaned coinbase",
@@ -1249,7 +1057,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q247",
+      "id": "q067",
       "question": "What's 'standardness' rule for bare multisig?",
       "options": {
         "a": "Maximum 3-of-3",
@@ -1265,7 +1073,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q248",
+      "id": "q068",
       "question": "When can OP_RETURN outputs be spent?",
       "options": {
         "a": "Never",
@@ -1281,7 +1089,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q249",
+      "id": "q069",
       "question": "What's the 'time warp' attack period?",
       "options": {
         "a": "2 weeks",
@@ -1297,7 +1105,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q250",
+      "id": "q070",
       "question": "What's Bitcoin's 'economic finality'?",
       "options": {
         "a": "6 confirmations",
@@ -1313,7 +1121,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q251",
+      "id": "q071",
       "question": "What's unique about block 666,833?",
       "options": {
         "a": "Empty block",
@@ -1329,7 +1137,7 @@
       "created_at": "2025-01-22T00:00:00Z"
     },
     {
-      "id": "q252",
+      "id": "q072",
       "question": "What happens at block 6,930,000?",
       "options": {
         "a": "Last satoshi mined",

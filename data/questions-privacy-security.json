@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "id": "q401",
+      "question": "What is CoinJoin?",
+      "options": {
+        "a": "A method to combine multiple Bitcoin transactions for privacy",
+        "b": "A way to merge two Bitcoin addresses",
+        "c": "A process to join mining pools",
+        "d": "A technique to increase transaction speed"
+      },
+      "correct_answer": "a",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "CoinJoin combines multiple transactions from different users into one transaction, making it harder to trace which inputs belong to which outputs.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q402",
+      "question": "Why should you avoid address reuse?",
+      "options": {
+        "a": "It causes transaction failures",
+        "b": "It reduces privacy by linking transactions together",
+        "c": "It increases transaction fees",
+        "d": "It makes transactions slower"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Privacy",
+      "explanation": "Address reuse allows anyone to link all transactions to that address, revealing your transaction history and current balance.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q403",
+      "question": "What is a Bitcoin mixer or tumbler?",
+      "options": {
+        "a": "A tool to increase Bitcoin's value",
+        "b": "A service that obscures the connection between input and output addresses",
+        "c": "A method to speed up transactions",
+        "d": "A way to compress Bitcoin data"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "Mixers break the link between your input bitcoins and output bitcoins by pooling funds with other users, though they require trust in the service.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q404",
+      "question": "What is PayJoin (P2EP)?",
+      "options": {
+        "a": "A payment processor for merchants",
+        "b": "A privacy technique where sender and receiver both contribute inputs",
+        "c": "A method to split large payments",
+        "d": "A way to join multiple wallets"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "PayJoin allows the payment recipient to add their own inputs to the transaction, breaking transaction analysis assumptions about ownership.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q405",
+      "question": "What information can blockchain analysis reveal?",
+      "options": {
+        "a": "Only transaction amounts",
+        "b": "Transaction patterns, address clustering, and spending behaviors",
+        "c": "Personal names and addresses",
+        "d": "Private keys and passwords"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "Blockchain analysis can reveal transaction patterns, cluster addresses belonging to the same entity, and analyze spending behaviors, but not directly reveal personal information.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q406",
+      "question": "What is coin selection and why does it matter for privacy?",
+      "options": {
+        "a": "Choosing which Bitcoin to buy",
+        "b": "Selecting which UTXOs to spend in a transaction",
+        "c": "Picking the best mining pools",
+        "d": "Choosing wallet software"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "Coin selection determines which UTXOs you spend, affecting privacy by potentially linking unrelated transactions or revealing wallet clustering.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q407",
+      "question": "What is the common input ownership heuristic?",
+      "options": {
+        "a": "All inputs in a transaction belong to the same entity",
+        "b": "Larger inputs are more valuable",
+        "c": "Newer inputs are preferred",
+        "d": "Round number inputs are suspicious"
+      },
+      "correct_answer": "a",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Privacy",
+      "explanation": "This widely-used blockchain analysis assumption presumes all inputs in a transaction are controlled by the same person, which CoinJoin and PayJoin help break.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q408",
+      "question": "What is a dusting attack?",
+      "options": {
+        "a": "Sending tiny amounts to many addresses to track them",
+        "b": "Overwhelming the network with transactions",
+        "c": "Mining empty blocks",
+        "d": "Attacking dust particles in mining equipment"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "Dusting attacks send small amounts of bitcoin to many addresses, hoping users will spend the dust and reveal connections between addresses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q409",
+      "question": "What is the purpose of using Tor with Bitcoin?",
+      "options": {
+        "a": "To make transactions faster",
+        "b": "To hide your IP address when connecting to the Bitcoin network",
+        "c": "To reduce transaction fees",
+        "d": "To increase wallet security"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "Tor hides your IP address, preventing network-level observers from linking your identity to your Bitcoin transactions and wallet activity.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q410",
+      "question": "What is UTXO consolidation and how does it affect privacy?",
+      "options": {
+        "a": "Combining multiple UTXOs reveals they belong to the same wallet",
+        "b": "A method to compress blockchain data",
+        "c": "Merging different cryptocurrencies",
+        "d": "Consolidating mining rewards"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "When you combine multiple UTXOs in one transaction, it reveals they all belong to you, potentially linking previously unconnected addresses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q411",
+      "question": "What is a change address and why should it be unique?",
+      "options": {
+        "a": "An address for receiving small amounts",
+        "b": "Where excess funds return after a payment, should be unique for privacy",
+        "c": "An address for currency exchange",
+        "d": "A backup address for emergencies"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Privacy",
+      "explanation": "Change addresses receive the difference when you spend more than your payment amount. Using fresh addresses prevents linking change back to your wallet.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q412",
+      "question": "What privacy risk do KYC exchanges pose?",
+      "options": {
+        "a": "They charge higher fees",
+        "b": "They can link your identity to your Bitcoin addresses",
+        "c": "They process transactions slowly",
+        "d": "They require complex passwords"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Privacy",
+      "explanation": "KYC exchanges collect personal information and can link it to Bitcoin addresses you withdraw to, creating a starting point for blockchain analysis.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q413",
+      "question": "What is the timing correlation attack?",
+      "options": {
+        "a": "Attacking Bitcoin's timestamp system",
+        "b": "Linking transactions that occur at similar times",
+        "c": "Exploiting network latency",
+        "d": "Synchronizing multiple attacks"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Privacy",
+      "explanation": "Timing correlation links transactions that occur close together in time, potentially revealing connections between addresses or identifying mixing patterns.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q414",
+      "question": "What is steganography in Bitcoin context?",
+      "options": {
+        "a": "Hiding messages or data within Bitcoin transactions",
+        "b": "A type of signature algorithm",
+        "c": "A method for faster transactions",
+        "d": "A wallet encryption technique"
+      },
+      "correct_answer": "a",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Privacy",
+      "explanation": "Steganography hides secret messages or data within normal-looking Bitcoin transactions, such as encoding information in transaction amounts or addresses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q415",
+      "question": "What is the best practice for receiving Bitcoin payments privately?",
+      "options": {
+        "a": "Always use the same address",
+        "b": "Generate a unique address for each payment",
+        "c": "Only accept payments through exchanges",
+        "d": "Use only paper wallets"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Privacy",
+      "explanation": "Using a unique address for each payment prevents linking different payments together and protects both your and the sender's privacy.",
+      "created_at": "2025-01-22T00:00:00Z"
+    }
+  ]
+}

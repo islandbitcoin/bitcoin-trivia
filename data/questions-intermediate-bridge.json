@@ -1,0 +1,324 @@
+{
+  "questions": [
+    {
+      "id": "q346",
+      "question": "What is a UTXO in Bitcoin?",
+      "options": {
+        "a": "Unified Transaction Exchange Operator",
+        "b": "Unspent Transaction Output",
+        "c": "Universal Transfer Execution Object",
+        "d": "Upstream Transaction Validation Order"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "UTXO stands for Unspent Transaction Output - the fundamental unit of bitcoin ownership that represents spendable bitcoin amounts.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q347",
+      "question": "What does 'double spending' mean in digital currency?",
+      "options": {
+        "a": "Spending twice the intended amount",
+        "b": "Spending the same digital coin more than once",
+        "c": "Making two purchases simultaneously",
+        "d": "Paying double transaction fees"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "Double spending is the risk of spending the same digital money twice, which Bitcoin prevents through its consensus mechanism.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q348",
+      "question": "What is a Bitcoin address derived from?",
+      "options": {
+        "a": "Your email address",
+        "b": "A public key",
+        "c": "Your wallet password",
+        "d": "Random number generation"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "Bitcoin addresses are derived from public keys through cryptographic hashing, allowing others to send you bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q349",
+      "question": "What happens to lost Bitcoin?",
+      "options": {
+        "a": "They are returned to the network",
+        "b": "They are permanently lost and reduce circulating supply",
+        "c": "They can be recovered by developers",
+        "d": "They are automatically redistributed"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Lost Bitcoin (from forgotten keys) becomes permanently inaccessible, effectively reducing the circulating supply and making remaining coins more scarce.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q350",
+      "question": "What is the purpose of Bitcoin's mempool?",
+      "options": {
+        "a": "Long-term storage of transactions",
+        "b": "Temporary holding area for unconfirmed transactions",
+        "c": "Backup of all historical transactions",
+        "d": "Archive of failed transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Technology",
+      "explanation": "The mempool is where valid transactions wait before being included in blocks, serving as a temporary holding area.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q351",
+      "question": "Why do Bitcoin transactions sometimes take longer to confirm?",
+      "options": {
+        "a": "Network congestion and low fees",
+        "b": "Internet connection speed",
+        "c": "Wallet software bugs",
+        "d": "Geographic location"
+      },
+      "correct_answer": "a",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Network",
+      "explanation": "When many transactions compete for limited block space, those with higher fees are prioritized, causing low-fee transactions to wait longer.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q352",
+      "question": "What is a Bitcoin fork?",
+      "options": {
+        "a": "A physical tool for mining",
+        "b": "A change to Bitcoin's protocol rules",
+        "c": "A wallet backup method",
+        "d": "A transaction type"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Development",
+      "explanation": "A fork is a change to Bitcoin's protocol rules, which can be either soft (backward compatible) or hard (breaking compatibility).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q353",
+      "question": "What is the main difference between a soft fork and hard fork?",
+      "options": {
+        "a": "Soft forks are easier to implement",
+        "b": "Hard forks are more secure",
+        "c": "Soft forks tighten rules, hard forks loosen them",
+        "d": "Hard forks require more miners"
+      },
+      "correct_answer": "c",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Development",
+      "explanation": "Soft forks tighten protocol rules (backward compatible), while hard forks loosen or change rules (require all nodes to upgrade).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q354",
+      "question": "What is a Bitcoin seed phrase?",
+      "options": {
+        "a": "Password for wallet encryption",
+        "b": "Backup words that can restore your wallet",
+        "c": "Mining algorithm parameters",
+        "d": "Network connection settings"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Security",
+      "explanation": "A seed phrase is a series of words (usually 12 or 24) that can mathematically regenerate all your private keys and restore your wallet.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q355",
+      "question": "Why is it important to verify Bitcoin software?",
+      "options": {
+        "a": "To get customer support",
+        "b": "To ensure the software hasn't been tampered with",
+        "c": "To run faster",
+        "d": "To access premium features"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Security",
+      "explanation": "Verifying software signatures ensures the code hasn't been modified by malicious actors, protecting your bitcoin from theft.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q356",
+      "question": "What is transaction malleability?",
+      "options": {
+        "a": "Ability to change transaction amounts",
+        "b": "Flexibility in transaction timing",
+        "c": "Ability to modify transaction ID without changing effects",
+        "d": "Option to cancel transactions"
+      },
+      "correct_answer": "c",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Technology",
+      "explanation": "Transaction malleability allows changing a transaction's ID without altering its economic effects, which SegWit helps address.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q357",
+      "question": "What is the difference between custodial and non-custodial wallets?",
+      "options": {
+        "a": "Custodial wallets are more secure",
+        "b": "Non-custodial wallets let you control your private keys",
+        "c": "Custodial wallets work offline",
+        "d": "Non-custodial wallets are free"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Security",
+      "explanation": "Non-custodial wallets give you full control of private keys, while custodial wallets have a third party hold keys for you.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q358",
+      "question": "What does 'not your keys, not your coins' mean?",
+      "options": {
+        "a": "You need physical keys to access Bitcoin",
+        "b": "Without private key control, you don't truly own the bitcoin",
+        "c": "Key management is complicated",
+        "d": "Bitcoin keys are expensive"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Security",
+      "explanation": "This phrase emphasizes that if you don't control the private keys, you rely on others to access your bitcoin - true ownership requires key control.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q359",
+      "question": "What is a multisig wallet?",
+      "options": {
+        "a": "Multiple wallets on one device",
+        "b": "Wallet requiring multiple signatures to spend",
+        "c": "Wallet with multiple currencies",
+        "d": "Wallet with multiple addresses"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Security",
+      "explanation": "Multisig requires multiple private keys to authorize spending, improving security through distributed control.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q360",
+      "question": "How does Bitcoin achieve consensus without a central authority?",
+      "options": {
+        "a": "Through majority voting",
+        "b": "Through proof-of-work and longest chain rule",
+        "c": "Through developer decisions",
+        "d": "Through government oversight"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Technology",
+      "explanation": "Bitcoin achieves decentralized consensus through proof-of-work mining and accepting the longest valid chain as the true history.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q361",
+      "question": "What is the economic purpose of mining difficulty?",
+      "options": {
+        "a": "To make mining harder for everyone",
+        "b": "To maintain consistent block times despite hashrate changes",
+        "c": "To increase Bitcoin's price",
+        "d": "To limit the number of miners"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Economics",
+      "explanation": "Difficulty adjusts to maintain ~10 minute block times regardless of total mining power, preserving Bitcoin's predictable monetary policy.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q362",
+      "question": "What is address reuse and why should it be avoided?",
+      "options": {
+        "a": "Using the same address multiple times; reduces privacy",
+        "b": "Copying addresses incorrectly; causes lost funds",
+        "c": "Using addresses for multiple cryptocurrencies; creates confusion",
+        "d": "Reusing old addresses; they become invalid"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Privacy",
+      "explanation": "Address reuse links transactions together, reducing privacy by making it easier to track spending patterns and wallet balances.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q363",
+      "question": "What is the purpose of change addresses in Bitcoin transactions?",
+      "options": {
+        "a": "To receive small amounts only",
+        "b": "To return excess funds to yourself",
+        "c": "To pay transaction fees",
+        "d": "To split payments to multiple recipients"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Transactions",
+      "explanation": "When you spend a UTXO that's larger than your payment, the excess bitcoin returns to a change address in your wallet.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q364",
+      "question": "What is a 51% attack?",
+      "options": {
+        "a": "When 51% of users sell their bitcoin",
+        "b": "When one entity controls majority of mining power",
+        "c": "When 51% of nodes go offline",
+        "d": "When transaction fees increase by 51%"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Security",
+      "explanation": "A 51% attack occurs when one entity controls over half the network's mining power, potentially allowing them to double-spend or rewrite recent history.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q365",
+      "question": "What is the relationship between hash rate and network security?",
+      "options": {
+        "a": "Higher hash rate makes the network less secure",
+        "b": "Higher hash rate makes the network more secure",
+        "c": "Hash rate doesn't affect security",
+        "d": "Only mining pools affect security"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Security",
+      "explanation": "Higher hash rate means more computational power securing the network, making it exponentially more expensive to attack Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    }
+  ]
+}

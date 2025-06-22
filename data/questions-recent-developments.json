@@ -1,0 +1,164 @@
+{
+  "questions": [
+    {
+      "id": "q416",
+      "question": "What is Taproot in Bitcoin?",
+      "options": {
+        "a": "A new mining algorithm",
+        "b": "A soft fork upgrade that improves privacy and smart contract functionality",
+        "c": "A Lightning Network improvement",
+        "d": "A wallet security feature"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Development",
+      "explanation": "Taproot is a major Bitcoin upgrade activated in 2021 that enhances privacy, efficiency, and enables more sophisticated smart contracts.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q417",
+      "question": "What are Bitcoin Ordinals?",
+      "options": {
+        "a": "A ranking system for Bitcoin addresses",
+        "b": "A method for inscribing data onto individual satoshis",
+        "c": "A new consensus mechanism",
+        "d": "A type of Lightning channel"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Development",
+      "explanation": "Ordinals allow inscribing arbitrary data (like images or text) onto individual satoshis, creating a form of NFTs on Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q418",
+      "question": "What is the main benefit of Schnorr signatures in Taproot?",
+      "options": {
+        "a": "Faster transaction processing",
+        "b": "Signature aggregation and improved privacy",
+        "c": "Lower storage requirements",
+        "d": "Increased security"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Technology",
+      "explanation": "Schnorr signatures enable multiple signatures to be aggregated into one, saving space and making complex transactions look like simple ones.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q419",
+      "question": "What are BRC-20 tokens?",
+      "options": {
+        "a": "A new Bitcoin sidechain",
+        "b": "An experimental token standard using Ordinals inscriptions",
+        "c": "A Lightning Network token protocol",
+        "d": "A Bitcoin improvement proposal"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Development",
+      "explanation": "BRC-20 is an experimental token standard that uses Ordinal inscriptions to create fungible tokens on Bitcoin, though it's not an official standard.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q420",
+      "question": "What is RGB protocol?",
+      "options": {
+        "a": "A color-coding system for Bitcoin addresses",
+        "b": "A protocol for issuing assets and smart contracts on Bitcoin",
+        "c": "A new consensus mechanism",
+        "d": "A privacy enhancement for Lightning"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Development",
+      "explanation": "RGB is a protocol for issuing and transferring assets and smart contracts on Bitcoin using client-side validation and single-use seals.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q421",
+      "question": "What impact have Ordinals had on Bitcoin transaction fees?",
+      "options": {
+        "a": "No impact",
+        "b": "Consistently reduced fees",
+        "c": "Increased fees during high inscription activity",
+        "d": "Made fees more predictable"
+      },
+      "correct_answer": "c",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Ordinal inscriptions compete for block space with regular transactions, sometimes significantly increasing fees during periods of high inscription activity.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q422",
+      "question": "What is MAST (Merkelized Abstract Syntax Trees)?",
+      "options": {
+        "a": "A new mining technique",
+        "b": "A way to efficiently encode complex spending conditions",
+        "c": "A Lightning Network feature",
+        "d": "A wallet backup method"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Technology",
+      "explanation": "MAST allows complex spending conditions to be encoded efficiently, with only the executed branch revealed on-chain, enabled by Taproot.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q423",
+      "question": "What is a Bitcoin ETF?",
+      "options": {
+        "a": "A new type of Bitcoin transaction",
+        "b": "An exchange-traded fund that tracks Bitcoin's price",
+        "c": "A Bitcoin improvement proposal",
+        "d": "A mining pool protocol"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "A Bitcoin ETF is a traditional financial product that allows investors to gain exposure to Bitcoin without directly owning it.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q424",
+      "question": "What controversy surrounds Bitcoin Ordinals?",
+      "options": {
+        "a": "They're technically impossible",
+        "b": "Debate over whether non-monetary data belongs on Bitcoin",
+        "c": "They require hard forks",
+        "d": "They compromise Bitcoin's security"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Culture",
+      "explanation": "Some Bitcoin users believe the blockchain should only be used for monetary transactions, while others see Ordinals as a legitimate use of Bitcoin's data capacity.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q425",
+      "question": "What is the difference between inscriptions and traditional NFTs?",
+      "options": {
+        "a": "No difference at all",
+        "b": "Inscriptions store data directly on Bitcoin, NFTs typically store references",
+        "c": "NFTs are more secure",
+        "d": "Inscriptions are always more expensive"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "Bitcoin inscriptions store the actual data on-chain permanently, while most NFTs store only references to data hosted elsewhere.",
+      "created_at": "2025-01-22T00:00:00Z"
+    }
+  ]
+}
