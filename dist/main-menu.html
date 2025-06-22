@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Trivia - Learn, Play, Master</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #fff;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 3rem 0;
+            margin-bottom: 3rem;
+        }
+        
+        .logo {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(45deg, #f7931a, #ffb347, #ffa500);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-weight: bold;
+        }
+        
+        .tagline {
+            font-size: 1.5rem;
+            opacity: 0.9;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            font-size: 1rem;
+            opacity: 0.7;
+        }
+        
+        .stats-bar {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 3rem;
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #f7931a;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .game-modes {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+        
+        .mode-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 2px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .mode-card:hover {
+            transform: translateY(-10px);
+            border-color: #f7931a;
+            box-shadow: 0 20px 40px rgba(247, 147, 26, 0.3);
+        }
+        
+        .mode-card.primary {
+            border-color: #f7931a;
+            background: rgba(247, 147, 26, 0.1);
+        }
+        
+        .mode-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            display: block;
+        }
+        
+        .mode-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #f7931a;
+        }
+        
+        .mode-description {
+            margin-bottom: 1.5rem;
+            opacity: 0.9;
+            line-height: 1.6;
+        }
+        
+        .mode-features {
+            list-style: none;
+            margin-bottom: 1.5rem;
+        }
+        
+        .mode-features li {
+            padding: 0.25rem 0;
+            opacity: 0.8;
+            font-size: 0.9rem;
+        }
+        
+        .mode-features li:before {
+            content: "✓ ";
+            color: #4CAF50;
+            font-weight: bold;
+        }
+        
+        .mode-button {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(45deg, #f7931a, #ffb347);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 1rem;
+        }
+        
+        .mode-button:hover {
+            background: linear-gradient(45deg, #e8821a, #f7931a);
+            transform: translateY(-2px);
+        }
+        
+        .community-section {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+        }
+        
+        .community-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            color: #f7931a;
+            text-align: center;
+        }
+        
+        .community-actions {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .community-button {
+            padding: 0.75rem 1.5rem;
+            border: 2px solid #f7931a;
+            background: transparent;
+            color: #f7931a;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .community-button:hover {
+            background: #f7931a;
+            color: white;
+            transform: translateY(-2px);
+        }
+        
+        .news-ticker {
+            background: rgba(76, 175, 80, 0.1);
+            border: 1px solid #4CAF50;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        
+        .news-content {
+            color: #4CAF50;
+            font-weight: bold;
+            animation: scroll-left 30s linear infinite;
+        }
+        
+        @keyframes scroll-left {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 2rem 0;
+            opacity: 0.7;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .new-badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #FF4444;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 15px;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">₿ Bitcoin Trivia</div>
+            <div class="tagline">Learn, Play, Master</div>
+            <div class="subtitle">The complete Bitcoin education platform</div>
+        </header>
+        
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-number">425</div>
+                <div class="stat-label">Total Questions</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">8</div>
+                <div class="stat-label">Game Modes</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">12</div>
+                <div class="stat-label">Categories</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">1-10</div>
+                <div class="stat-label">Difficulty Range</div>
+            </div>
+        </div>
+        
+        <div class="news-ticker">
+            <div class="news-content">
+                🎉 NEW: Lightning Network questions added! • Enhanced privacy & security content • Recent developments including Ordinals & Taproot • Improved difficulty progression
+            </div>
+        </div>
+        
+        <div class="game-modes">
+            <div class="mode-card primary" onclick="location.href='index.html'">
+                <div class="mode-icon">🎯</div>
+                <div class="mode-title">Classic Mode</div>
+                <div class="mode-description">
+                    Traditional trivia gameplay with progressive difficulty levels. Perfect for learning Bitcoin fundamentals.
+                </div>
+                <ul class="mode-features">
+                    <li>30 levels with 12 questions each</li>
+                    <li>Progressive difficulty 1-10</li>
+                    <li>Comprehensive topic coverage</li>
+                    <li>Track your progress</li>
+                </ul>
+                <button class="mode-button">Start Classic Game</button>
+            </div>
+            
+            <div class="mode-card" onclick="location.href='story-mode.html'">
+                <div class="new-badge">NEW</div>
+                <div class="mode-icon">📖</div>
+                <div class="mode-title">Story Mode</div>
+                <div class="mode-description">
+                    Learn Bitcoin through its chronological history. Follow the journey from cypherpunk origins to global adoption.
+                </div>
+                <ul class="mode-features">
+                    <li>8 historical chapters</li>
+                    <li>Curated question sequences</li>
+                    <li>Unlock achievements</li>
+                    <li>Educational progression</li>
+                </ul>
+                <button class="mode-button">Begin the Story</button>
+            </div>
+            
+            <div class="mode-card" onclick="location.href='challenge-mode.html'">
+                <div class="new-badge">NEW</div>
+                <div class="mode-icon">⚡</div>
+                <div class="mode-title">Challenge Mode</div>
+                <div class="mode-description">
+                    Test your skills with timed challenges, survival mode, and competitive gameplay against other players.
+                </div>
+                <ul class="mode-features">
+                    <li>Lightning rounds (5 min)</li>
+                    <li>Survival mode</li>
+                    <li>Daily challenges</li>
+                    <li>Global leaderboards</li>
+                </ul>
+                <button class="mode-button">Accept Challenge</button>
+            </div>
+            
+            <div class="mode-card" onclick="showComingSoon('Multiplayer Tournaments')">
+                <div class="mode-icon">👥</div>
+                <div class="mode-title">Multiplayer</div>
+                <div class="mode-description">
+                    Compete in real-time with other Bitcoin enthusiasts. Join tournaments and climb the rankings.
+                </div>
+                <ul class="mode-features">
+                    <li>Real-time competitions</li>
+                    <li>Tournament brackets</li>
+                    <li>Team challenges</li>
+                    <li>Global rankings</li>
+                </ul>
+                <button class="mode-button">Coming Soon</button>
+            </div>
+            
+            <div class="mode-card" onclick="showComingSoon('Study Groups')">
+                <div class="mode-icon">🎓</div>
+                <div class="mode-title">Study Mode</div>
+                <div class="mode-description">
+                    Focused learning with spaced repetition, weak area identification, and personalized study plans.
+                </div>
+                <ul class="mode-features">
+                    <li>Adaptive learning</li>
+                    <li>Spaced repetition</li>
+                    <li>Progress analytics</li>
+                    <li>Custom study sets</li>
+                </ul>
+                <button class="mode-button">Coming Soon</button>
+            </div>
+            
+            <div class="mode-card" onclick="showComingSoon('Practice Sandbox')">
+                <div class="mode-icon">🛠️</div>
+                <div class="mode-title">Practice Mode</div>
+                <div class="mode-description">
+                    Hands-on Bitcoin simulations. Practice with testnet, try different scenarios, and experiment safely.
+                </div>
+                <ul class="mode-features">
+                    <li>Bitcoin testnet integration</li>
+                    <li>Wallet simulations</li>
+                    <li>Transaction practice</li>
+                    <li>Risk-free learning</li>
+                </ul>
+                <button class="mode-button">Coming Soon</button>
+            </div>
+        </div>
+        
+        <div class="community-section">
+            <div class="community-title">Join the Bitcoin Learning Community</div>
+            <div class="community-actions">
+                <a href="submit.html" class="community-button">
+                    📝 Submit Questions
+                </a>
+                <a href="admin.html" class="community-button">
+                    ⚖️ Review Submissions
+                </a>
+                <a href="discussions.html" class="community-button">
+                    💬 Discussions
+                </a>
+                <a href="#" class="community-button" onclick="showComingSoon('Study Groups')">
+                    👥 Study Groups
+                </a>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Bitcoin Trivia • Open Source Learning Platform</p>
+            <p>Help improve Bitcoin education for everyone</p>
+        </div>
+    </div>
+    
+    <script>
+        function showComingSoon(feature) {
+            alert(`${feature} - Coming Soon!\n\nThis feature is part of our roadmap and will be available in future updates. Stay tuned for more exciting Bitcoin learning tools!`);
+        }
+        
+        // Add some interactive animations
+        document.querySelectorAll('.mode-card').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.style.transform = 'translateY(-10px) rotateY(5deg)';
+            });
+            
+            card.addEventListener('mouseleave', () => {
+                card.style.transform = 'translateY(0) rotateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>

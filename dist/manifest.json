@@ -1,0 +1,82 @@
+{
+  "name": "Bitcoin Trivia - Learn Bitcoin Through Gaming",
+  "short_name": "BTC Trivia",
+  "description": "A comprehensive Bitcoin education platform with 425+ questions, multiple game modes, and offline play",
+  "start_url": "/index-secure.html",
+  "display": "standalone",
+  "background_color": "#f7931a",
+  "theme_color": "#f7931a",
+  "orientation": "portrait",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "games", "finance"],
+  "shortcuts": [
+    {
+      "name": "Classic Game",
+      "short_name": "Play",
+      "description": "Start playing Bitcoin trivia",
+      "url": "/index-secure.html",
+      "icons": [{ "src": "icons/play-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Story Mode",
+      "short_name": "Story",
+      "description": "Learn Bitcoin history",
+      "url": "/story-mode.html",
+      "icons": [{ "src": "icons/story-96.png", "sizes": "96x96" }]
+    },
+    {
+      "name": "Submit Question",
+      "short_name": "Submit",
+      "description": "Contribute a question",
+      "url": "/submit.html",
+      "icons": [{ "src": "icons/submit-96.png", "sizes": "96x96" }]
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/game-1.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "label": "Classic trivia gameplay"
+    },
+    {
+      "src": "screenshots/game-2.png",
+      "sizes": "540x720",
+      "type": "image/png",
+      "label": "Story mode chapters"
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "features": [
+    "Offline play support",
+    "425+ Bitcoin questions",
+    "Multiple game modes",
+    "No account required",
+    "Privacy focused",
+    "Community driven"
+  ],
+  "share_target": {
+    "action": "/submit.html",
+    "method": "GET",
+    "params": {
+      "title": "question",
+      "text": "details",
+      "url": "source"
+    }
+  }
+}

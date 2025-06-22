@@ -1,0 +1,21 @@
+{
+  "question_schema": {
+    "id": "string",
+    "question": "string",
+    "options": {
+      "a": "string",
+      "b": "string",
+      "c": "string",
+      "d": "string"
+    },
+    "correct_answer": "string",
+    "difficulty": "number (1-10)",
+    "level": "number (1-21)",
+    "category": "string",
+    "explanation": "string (optional)",
+    "submitted_by": "string (optional)",
+    "approved_by": "string (optional)",
+    "created_at": "string (ISO date)",
+    "approved_at": "string (ISO date, optional)"
+  }
+}

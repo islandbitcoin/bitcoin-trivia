@@ -1,0 +1,724 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    
+    <!-- Security Headers -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://unpkg.com; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://raw.githubusercontent.com; font-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;">
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin">
+    <meta http-equiv="Permissions-Policy" content="geolocation=(), microphone=(), camera=()">
+    
+    <title>Bitcoin Trivia Game - Secure Edition</title>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f7931a 0%, #ff9500 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            user-select: none;
+        }
+        
+        .game-container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+            max-width: 600px;
+            width: 100%;
+            overflow: hidden;
+        }
+        
+        .game-header {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .game-header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .security-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            background: rgba(76, 175, 80, 0.2);
+            border: 1px solid #4CAF50;
+            border-radius: 20px;
+            padding: 0.25rem 0.75rem;
+            font-size: 0.8rem;
+            margin-top: 0.5rem;
+        }
+        
+        .security-badge::before {
+            content: "🔒";
+        }
+        
+        .level-info {
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 2rem;
+            background: #34495e;
+            color: white;
+        }
+        
+        .menu {
+            padding: 2rem;
+            text-align: center;
+        }
+        
+        .menu h2 {
+            margin-bottom: 2rem;
+            color: #2c3e50;
+        }
+        
+        .menu-notice {
+            background: #e3f2fd;
+            border: 2px solid #2196f3;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            color: #1976d2;
+            font-weight: bold;
+        }
+        
+        .menu-notice a {
+            color: #1976d2;
+            text-decoration: underline;
+        }
+        
+        .menu-buttons {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .btn {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .btn-primary {
+            background: #f7931a;
+            color: white;
+        }
+        
+        .btn-primary:hover:not(:disabled) {
+            background: #e8821a;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(247, 147, 26, 0.3);
+        }
+        
+        .btn-secondary {
+            background: #95a5a6;
+            color: white;
+        }
+        
+        .btn-secondary:hover:not(:disabled) {
+            background: #7f8c8d;
+        }
+        
+        .btn-link {
+            background: transparent;
+            color: #3498db;
+            border: 2px solid #3498db;
+        }
+        
+        .btn-link:hover:not(:disabled) {
+            background: #3498db;
+            color: white;
+        }
+        
+        .game-content {
+            padding: 2rem;
+            display: none;
+        }
+        
+        .question-container {
+            margin-bottom: 2rem;
+        }
+        
+        .question {
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            color: #2c3e50;
+        }
+        
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        
+        .option {
+            padding: 1rem;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            background: white;
+        }
+        
+        .option:hover:not(.disabled) {
+            border-color: #f7931a;
+            background: #fff5e6;
+        }
+        
+        .option.selected {
+            border-color: #3498db;
+            background: #e3f2fd;
+        }
+        
+        .option.correct {
+            border-color: #27ae60;
+            background: #d4edda;
+            animation: correctPulse 0.5s;
+        }
+        
+        .option.incorrect {
+            border-color: #e74c3c;
+            background: #f8d7da;
+            animation: shake 0.5s;
+        }
+        
+        .option.disabled {
+            cursor: not-allowed;
+            opacity: 0.7;
+        }
+        
+        @keyframes correctPulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            25% { transform: translateX(-10px); }
+            75% { transform: translateX(10px); }
+        }
+        
+        .progress-bar {
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: #f7931a;
+            transition: width 0.5s;
+        }
+        
+        .explanation {
+            background: #e8f4f8;
+            border-left: 4px solid #3498db;
+            padding: 1rem;
+            margin-top: 1rem;
+            border-radius: 4px;
+            display: none;
+        }
+        
+        .explanation.show {
+            display: block;
+        }
+        
+        .stats {
+            display: flex;
+            justify-content: space-around;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 1rem;
+        }
+        
+        .stat-item {
+            text-align: center;
+        }
+        
+        .stat-label {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #2c3e50;
+        }
+        
+        .achievement-notification {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: #4CAF50;
+            color: white;
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transform: translateX(400px);
+            transition: transform 0.3s;
+            z-index: 1000;
+        }
+        
+        .achievement-notification.show {
+            transform: translateX(0);
+        }
+        
+        .streak-counter {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #FF5722;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 0.8rem;
+        }
+        
+        /* Loading indicator */
+        .loading {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #f7931a;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        /* Offline indicator */
+        .offline-badge {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            background: #e74c3c;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            display: none;
+        }
+        
+        .offline-badge.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="achievement-notification" id="achievementNotification">
+        <strong>🏆 Achievement Unlocked!</strong>
+        <div id="achievementText"></div>
+    </div>
+    
+    <div class="offline-badge" id="offlineBadge">
+        📵 Playing Offline
+    </div>
+    
+    <div class="game-container">
+        <div class="game-header">
+            <h1>⚡ Bitcoin Trivia Challenge</h1>
+            <p>Test your Bitcoin knowledge across 30 levels with 425 questions!</p>
+            <div class="security-badge">Secure & Private</div>
+        </div>
+        
+        <div id="menu" class="menu">
+            <h2>Welcome to Bitcoin Trivia!</h2>
+            <p style="margin-bottom: 2rem;">Challenge yourself with questions ranging from Bitcoin basics to expert-level knowledge.</p>
+            
+            <div class="menu-notice">
+                🎉 NEW! Check out our <a href="main-menu.html">Enhanced Game Modes</a> including Story Mode, Challenge Mode, and Community Features!
+            </div>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <div class="stat-label">Total Levels</div>
+                    <div class="stat-value">30</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Questions</div>
+                    <div class="stat-value">425</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-label">Your Streak</div>
+                    <div class="stat-value" id="streakDisplay">0</div>
+                </div>
+            </div>
+            
+            <div class="menu-buttons">
+                <button class="btn btn-primary" onclick="Game.start()">Start Classic Game</button>
+                <button class="btn btn-secondary" onclick="Game.selectLevel()">Select Level</button>
+                <a href="main-menu.html" class="btn btn-primary">Explore All Game Modes</a>
+                <a href="submit.html" class="btn btn-link">Submit a Question</a>
+            </div>
+        </div>
+        
+        <div id="game" class="game-content">
+            <div class="level-info">
+                <span>Level <span id="currentLevel">1</span></span>
+                <span>Question <span id="currentQuestion">1</span> of 12</span>
+                <span>Score: <span id="score">0</span></span>
+            </div>
+            
+            <div class="progress-bar">
+                <div id="progress" class="progress-fill" style="width: 0%"></div>
+            </div>
+            
+            <div class="question-container">
+                <div id="question" class="question"></div>
+                <div id="options" class="options"></div>
+                <div id="explanation" class="explanation"></div>
+            </div>
+            
+            <button id="nextButton" class="btn btn-primary" style="display: none;" onclick="Game.nextQuestion()">
+                Next Question
+            </button>
+        </div>
+    </div>
+    
+    <script src="js/security.js"></script>
+    <script>
+        // Secure Game Logic
+        const Game = {
+            questions: [],
+            currentLevel: 1,
+            currentQuestionIndex: 0,
+            score: 0,
+            streak: 0,
+            questionsPerLevel: 12,
+            selectedOption: null,
+            questionAnswered: false,
+            
+            // Initialize game
+            init: async function() {
+                // Load saved progress
+                this.loadProgress();
+                
+                // Update streak display
+                this.updateStreakDisplay();
+                
+                // Check online status
+                this.checkOnlineStatus();
+                
+                // Load questions
+                await this.loadQuestions();
+                
+                // Register service worker for offline play
+                if ('serviceWorker' in navigator) {
+                    navigator.serviceWorker.register('sw.js').catch(err => {
+                        console.log('Service worker registration failed:', err);
+                    });
+                }
+            },
+            
+            // Load questions from JSON
+            loadQuestions: async function() {
+                try {
+                    const response = await fetch('data/all-questions.json');
+                    const data = await response.json();
+                    this.questions = data.questions;
+                } catch (error) {
+                    console.error('Failed to load questions:', error);
+                    // Try loading from cache or local storage
+                    const cached = localStorage.getItem('cachedQuestions');
+                    if (cached) {
+                        const data = JSON.parse(cached);
+                        this.questions = data.questions;
+                    }
+                }
+            },
+            
+            // Start the game
+            start: function() {
+                if (this.questions.length === 0) {
+                    alert('Questions are still loading. Please try again.');
+                    return;
+                }
+                
+                document.getElementById('menu').style.display = 'none';
+                document.getElementById('game').style.display = 'block';
+                
+                this.showQuestion();
+            },
+            
+            // Show current question
+            showQuestion: function() {
+                const levelQuestions = this.questions.filter(q => q.level === this.currentLevel);
+                
+                if (this.currentQuestionIndex >= Math.min(levelQuestions.length, this.questionsPerLevel)) {
+                    this.levelComplete();
+                    return;
+                }
+                
+                const question = levelQuestions[this.currentQuestionIndex];
+                
+                // Update UI safely
+                document.getElementById('currentLevel').textContent = this.currentLevel;
+                document.getElementById('currentQuestion').textContent = this.currentQuestionIndex + 1;
+                document.getElementById('score').textContent = this.score;
+                
+                // Update progress bar
+                const progress = ((this.currentQuestionIndex + 1) / this.questionsPerLevel) * 100;
+                document.getElementById('progress').style.width = progress + '%';
+                
+                // Display question text safely
+                document.getElementById('question').textContent = question.question;
+                
+                // Create options safely
+                const optionsContainer = document.getElementById('options');
+                optionsContainer.innerHTML = ''; // Clear previous options
+                
+                ['a', 'b', 'c', 'd'].forEach(key => {
+                    const option = Security.createElement('div', {
+                        className: 'option',
+                        onclick: () => this.selectOption(key)
+                    }, question.options[key]);
+                    option.dataset.option = key;
+                    optionsContainer.appendChild(option);
+                });
+                
+                // Reset state
+                this.selectedOption = null;
+                this.questionAnswered = false;
+                document.getElementById('explanation').classList.remove('show');
+                document.getElementById('nextButton').style.display = 'none';
+            },
+            
+            // Handle option selection
+            selectOption: function(option) {
+                if (this.questionAnswered) return;
+                
+                // Update UI
+                document.querySelectorAll('.option').forEach(opt => {
+                    opt.classList.remove('selected');
+                });
+                
+                const selectedElement = document.querySelector(`[data-option="${option}"]`);
+                selectedElement.classList.add('selected');
+                this.selectedOption = option;
+                
+                // Auto-submit after short delay
+                setTimeout(() => this.checkAnswer(), 500);
+            },
+            
+            // Check if answer is correct
+            checkAnswer: function() {
+                if (!this.selectedOption || this.questionAnswered) return;
+                
+                this.questionAnswered = true;
+                const levelQuestions = this.questions.filter(q => q.level === this.currentLevel);
+                const question = levelQuestions[this.currentQuestionIndex];
+                
+                const isCorrect = this.selectedOption === question.correct_answer;
+                
+                // Update UI
+                document.querySelectorAll('.option').forEach(opt => {
+                    opt.classList.add('disabled');
+                    if (opt.dataset.option === question.correct_answer) {
+                        opt.classList.add('correct');
+                    } else if (opt.dataset.option === this.selectedOption && !isCorrect) {
+                        opt.classList.add('incorrect');
+                    }
+                });
+                
+                // Update score and streak
+                if (isCorrect) {
+                    this.score += question.difficulty * 10;
+                    this.streak++;
+                    this.checkAchievements();
+                } else {
+                    this.streak = 0;
+                }
+                
+                // Show explanation
+                if (question.explanation) {
+                    const explanationEl = document.getElementById('explanation');
+                    explanationEl.textContent = question.explanation;
+                    explanationEl.classList.add('show');
+                }
+                
+                // Show next button
+                document.getElementById('nextButton').style.display = 'block';
+                
+                // Save progress
+                this.saveProgress();
+            },
+            
+            // Move to next question
+            nextQuestion: function() {
+                this.currentQuestionIndex++;
+                this.showQuestion();
+            },
+            
+            // Level complete
+            levelComplete: function() {
+                const message = `Level ${this.currentLevel} Complete!\n\nScore: ${this.score}\nStreak: ${this.streak}`;
+                
+                if (confirm(message + '\n\nContinue to next level?')) {
+                    this.currentLevel++;
+                    this.currentQuestionIndex = 0;
+                    this.showQuestion();
+                } else {
+                    this.showMenu();
+                }
+            },
+            
+            // Show menu
+            showMenu: function() {
+                document.getElementById('menu').style.display = 'block';
+                document.getElementById('game').style.display = 'none';
+                this.updateStreakDisplay();
+            },
+            
+            // Save progress securely
+            saveProgress: function() {
+                const progress = {
+                    level: this.currentLevel,
+                    questionIndex: this.currentQuestionIndex,
+                    score: this.score,
+                    streak: this.streak,
+                    timestamp: Date.now()
+                };
+                
+                // Encrypt progress (basic example, use stronger encryption in production)
+                const encrypted = btoa(JSON.stringify(progress));
+                localStorage.setItem('gameProgress', encrypted);
+            },
+            
+            // Load progress
+            loadProgress: function() {
+                try {
+                    const encrypted = localStorage.getItem('gameProgress');
+                    if (encrypted) {
+                        const progress = JSON.parse(atob(encrypted));
+                        
+                        // Check if progress is from today
+                        const today = new Date().toDateString();
+                        const savedDate = new Date(progress.timestamp).toDateString();
+                        
+                        if (today === savedDate) {
+                            this.currentLevel = progress.level || 1;
+                            this.currentQuestionIndex = progress.questionIndex || 0;
+                            this.score = progress.score || 0;
+                            this.streak = progress.streak || 0;
+                        } else {
+                            // Reset daily streak if different day
+                            this.streak = 0;
+                        }
+                    }
+                } catch (error) {
+                    console.error('Failed to load progress:', error);
+                }
+            },
+            
+            // Update streak display
+            updateStreakDisplay: function() {
+                document.getElementById('streakDisplay').textContent = this.streak;
+            },
+            
+            // Check achievements
+            checkAchievements: function() {
+                const achievements = [
+                    { streak: 5, name: 'Getting Started', id: 'streak5' },
+                    { streak: 10, name: 'On Fire!', id: 'streak10' },
+                    { streak: 20, name: 'Bitcoin Scholar', id: 'streak20' },
+                    { streak: 50, name: 'Satoshi Level', id: 'streak50' }
+                ];
+                
+                achievements.forEach(achievement => {
+                    if (this.streak === achievement.streak) {
+                        this.showAchievement(achievement.name);
+                        this.saveAchievement(achievement.id);
+                    }
+                });
+            },
+            
+            // Show achievement notification
+            showAchievement: function(name) {
+                const notification = document.getElementById('achievementNotification');
+                document.getElementById('achievementText').textContent = name;
+                notification.classList.add('show');
+                
+                setTimeout(() => {
+                    notification.classList.remove('show');
+                }, 3000);
+            },
+            
+            // Save achievement
+            saveAchievement: function(id) {
+                const achievements = JSON.parse(localStorage.getItem('achievements') || '[]');
+                if (!achievements.includes(id)) {
+                    achievements.push(id);
+                    localStorage.setItem('achievements', JSON.stringify(achievements));
+                }
+            },
+            
+            // Check online status
+            checkOnlineStatus: function() {
+                const updateStatus = () => {
+                    const badge = document.getElementById('offlineBadge');
+                    if (!navigator.onLine) {
+                        badge.classList.add('show');
+                    } else {
+                        badge.classList.remove('show');
+                    }
+                };
+                
+                window.addEventListener('online', updateStatus);
+                window.addEventListener('offline', updateStatus);
+                updateStatus();
+            },
+            
+            // Select level
+            selectLevel: function() {
+                const level = prompt('Enter level (1-30):');
+                if (level && level >= 1 && level <= 30) {
+                    this.currentLevel = parseInt(level);
+                    this.currentQuestionIndex = 0;
+                    this.start();
+                }
+            }
+        };
+        
+        // Initialize game when DOM is ready
+        document.addEventListener('DOMContentLoaded', () => {
+            Game.init();
+        });
+    </script>
+</body>
+</html>

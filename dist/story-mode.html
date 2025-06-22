@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Story Mode - Learn Bitcoin Through History</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #fff;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            text-align: center;
+            padding: 2rem 0;
+            background: rgba(247, 147, 26, 0.1);
+            border-radius: 20px;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(45deg, #f7931a, #ffb347);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .subtitle {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-bottom: 1rem;
+        }
+        
+        .progress-overview {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            padding: 1.5rem;
+            margin-bottom: 2rem;
+            backdrop-filter: blur(10px);
+        }
+        
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+        
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #f7931a, #ffb347);
+            width: 15%;
+            transition: width 0.3s ease;
+        }
+        
+        .chapters-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+        
+        .chapter-card {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 2rem;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .chapter-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(247, 147, 26, 0.3);
+        }
+        
+        .chapter-card.locked {
+            opacity: 0.6;
+            cursor: not-allowed;
+        }
+        
+        .chapter-card.completed {
+            border-color: #4CAF50;
+            background: rgba(76, 175, 80, 0.1);
+        }
+        
+        .chapter-card.current {
+            border-color: #f7931a;
+            background: rgba(247, 147, 26, 0.1);
+        }
+        
+        .chapter-number {
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(45deg, #f7931a, #ffb347);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+        
+        .chapter-title {
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+            color: #f7931a;
+        }
+        
+        .chapter-period {
+            font-size: 0.9rem;
+            opacity: 0.8;
+            margin-bottom: 1rem;
+        }
+        
+        .chapter-description {
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+        
+        .chapter-stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1rem;
+        }
+        
+        .stat {
+            text-align: center;
+        }
+        
+        .stat-number {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #f7931a;
+        }
+        
+        .stat-label {
+            font-size: 0.8rem;
+            opacity: 0.8;
+        }
+        
+        .chapter-progress {
+            width: 100%;
+            height: 6px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 3px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+        
+        .chapter-progress-fill {
+            height: 100%;
+            background: linear-gradient(90deg, #4CAF50, #8BC34A);
+            transition: width 0.3s ease;
+        }
+        
+        .chapter-button {
+            width: 100%;
+            padding: 0.75rem;
+            border: none;
+            border-radius: 10px;
+            background: linear-gradient(45deg, #f7931a, #ffb347);
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .chapter-button:hover {
+            background: linear-gradient(45deg, #e8821a, #f7931a);
+            transform: translateY(-2px);
+        }
+        
+        .chapter-button:disabled {
+            background: rgba(255, 255, 255, 0.2);
+            cursor: not-allowed;
+            transform: none;
+        }
+        
+        .achievement-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: #4CAF50;
+            color: white;
+            padding: 0.25rem 0.5rem;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: bold;
+        }
+        
+        .difficulty-indicators {
+            display: flex;
+            gap: 0.25rem;
+            margin-top: 0.5rem;
+        }
+        
+        .difficulty-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .difficulty-dot.active {
+            background: #f7931a;
+        }
+        
+        .learning-path-info {
+            background: rgba(33, 150, 243, 0.1);
+            border-left: 4px solid #2196F3;
+            padding: 1rem;
+            border-radius: 0 10px 10px 0;
+            margin-bottom: 2rem;
+        }
+        
+        .back-button {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: #f7931a;
+            text-decoration: none;
+            font-weight: bold;
+            margin-bottom: 1rem;
+            transition: color 0.3s ease;
+        }
+        
+        .back-button:hover {
+            color: #ffb347;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📖 Bitcoin Story Mode</h1>
+            <p class="subtitle">Learn Bitcoin through its fascinating history</p>
+            <p>Master Bitcoin concepts by following the chronological story of digital money</p>
+        </header>
+        
+        <div class="progress-overview">
+            <h3>Your Learning Progress</h3>
+            <div class="progress-bar">
+                <div class="progress-fill" id="overallProgress"></div>
+            </div>
+            <p><span id="completedChapters">1</span> of <span id="totalChapters">8</span> chapters completed</p>
+        </div>
+        
+        <div class="learning-path-info">
+            <h3>🎯 How Story Mode Works</h3>
+            <p>Follow Bitcoin's journey from concept to global phenomenon. Each chapter unlocks after completing the previous one. 
+            Answer questions correctly to progress through the story and unlock achievements!</p>
+        </div>
+        
+        <div class="chapters-grid" id="chaptersGrid">
+            <!-- Chapters will be populated by JavaScript -->
+        </div>
+        
+        <a href="index.html" class="back-button">
+            ← Back to Main Game
+        </a>
+    </div>
+    
+    <script>
+        // Story Mode chapters data
+        const chapters = [
+            {
+                id: 1,
+                title: "The Cypherpunk Origins",
+                period: "1970s - 2008",
+                description: "Explore the cryptographic foundations and early digital cash attempts that laid the groundwork for Bitcoin.",
+                questions: 12,
+                difficulty: 2,
+                topics: ["Cryptography Basics", "Digital Cash History", "Cypherpunk Movement"],
+                completed: true,
+                current: false,
+                locked: false,
+                progress: 100
+            },
+            {
+                id: 2,
+                title: "The Genesis Block",
+                period: "2008 - 2009",
+                description: "Witness Satoshi's whitepaper publication and the first Bitcoin block. Understand the revolutionary breakthrough.",
+                questions: 15,
+                difficulty: 3,
+                topics: ["Bitcoin Whitepaper", "Genesis Block", "Early Economics"],
+                completed: false,
+                current: true,
+                locked: false,
+                progress: 60
+            },
+            {
+                id: 3,
+                title: "Early Adopters",
+                period: "2009 - 2011",
+                description: "Meet the first Bitcoin users, see the first transactions, and learn about early challenges and solutions.",
+                questions: 18,
+                difficulty: 3,
+                topics: ["First Transactions", "Early Users", "Pizza Day"],
+                completed: false,
+                current: false,
+                locked: true,
+                progress: 0
+            },
+            {
+                id: 4,
+                title: "Growing Pains",
+                period: "2011 - 2013",
+                description: "Navigate Bitcoin's first major challenges: bugs, forks, and the emergence of altcoins.",
+                questions: 20,
+                difficulty: 4,
+                topics: ["Major Bugs", "First Fork", "Mt. Gox"],
+                completed: false,
+                current: false,
+                locked: true,
+                progress: 0
+            },
+            {
+                id: 5,
+                title: "Mainstream Attention",
+                period: "2013 - 2017",
+                description: "Experience Bitcoin's first mainstream adoption wave and the scaling debate that shaped its future.",
+                questions: 22,
+                difficulty: 5,
+                topics: ["Scaling Debate", "SegWit", "Lightning Network"],
+                completed: false,
+                current: false,
+                locked: true,
+                progress: 0
+            },
+            {
+                id: 6,
+                title: "Institutional Adoption",
+                period: "2017 - 2021",
+                description: "Watch institutions embrace Bitcoin as digital gold and legal tender adoption begins.",
+                questions: 25,
+                difficulty: 6,
+                topics: ["Corporate Adoption", "El Salvador", "ETFs"],
+                completed: false,
+                current: false,
+                locked: true,
+                progress: 0
+            },
+            {
+                id: 7,
+                title: "Technical Evolution",
+                period: "2021 - 2023",
+                description: "Explore Taproot activation, Ordinals controversy, and Lightning Network growth.",
+                questions: 20,
+                difficulty: 7,
+                topics: ["Taproot", "Ordinals", "Lightning Growth"],
+                completed: false,
+                current: false,
+                locked: true,
+                progress: 0
+            },
+            {
+                id: 8,
+                title: "The Future Unfolds",
+                period: "2024 - Beyond",
+                description: "Understand current developments and potential future scenarios for Bitcoin.",
+                questions: 18,
+                difficulty: 8,
+                topics: ["Current Trends", "Future Scenarios", "Global Impact"],
+                completed: false,
+                current: false,
+                locked: true,
+                progress: 0
+            }
+        ];
+        
+        // Render chapters
+        function renderChapters() {
+            const grid = document.getElementById('chaptersGrid');
+            grid.innerHTML = '';
+            
+            chapters.forEach(chapter => {
+                const card = document.createElement('div');
+                card.className = `chapter-card ${chapter.completed ? 'completed' : ''} ${chapter.current ? 'current' : ''} ${chapter.locked ? 'locked' : ''}`;
+                
+                const difficultyDots = Array.from({length: 5}, (_, i) => 
+                    `<div class="difficulty-dot ${i < chapter.difficulty ? 'active' : ''}"></div>`
+                ).join('');
+                
+                card.innerHTML = `
+                    <div class="chapter-number">${chapter.id}</div>
+                    ${chapter.completed ? '<div class="achievement-badge">✓ Completed</div>' : ''}
+                    
+                    <div class="chapter-title">${chapter.title}</div>
+                    <div class="chapter-period">${chapter.period}</div>
+                    <div class="chapter-description">${chapter.description}</div>
+                    
+                    <div class="chapter-stats">
+                        <div class="stat">
+                            <div class="stat-number">${chapter.questions}</div>
+                            <div class="stat-label">Questions</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">${chapter.topics.length}</div>
+                            <div class="stat-label">Topics</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">${chapter.progress}%</div>
+                            <div class="stat-label">Progress</div>
+                        </div>
+                    </div>
+                    
+                    <div class="chapter-progress">
+                        <div class="chapter-progress-fill" style="width: ${chapter.progress}%"></div>
+                    </div>
+                    
+                    <div class="difficulty-indicators">
+                        ${difficultyDots}
+                    </div>
+                    
+                    <button class="chapter-button" ${chapter.locked ? 'disabled' : ''} onclick="startChapter(${chapter.id})">
+                        ${chapter.completed ? 'Review Chapter' : chapter.current ? 'Continue Chapter' : chapter.locked ? 'Locked' : 'Start Chapter'}
+                    </button>
+                `;
+                
+                grid.appendChild(card);
+            });
+            
+            updateOverallProgress();
+        }
+        
+        function updateOverallProgress() {
+            const completedCount = chapters.filter(c => c.completed).length;
+            const totalCount = chapters.length;
+            const progressPercent = (completedCount / totalCount) * 100;
+            
+            document.getElementById('overallProgress').style.width = progressPercent + '%';
+            document.getElementById('completedChapters').textContent = completedCount;
+            document.getElementById('totalChapters').textContent = totalCount;
+        }
+        
+        function startChapter(chapterId) {
+            const chapter = chapters.find(c => c.id === chapterId);
+            if (chapter && !chapter.locked) {
+                // In a real implementation, this would navigate to the chapter quiz
+                alert(`Starting Chapter ${chapterId}: ${chapter.title}\n\nThis would open a curated quiz with ${chapter.questions} questions focused on:\n${chapter.topics.join(', ')}`);
+                
+                // Simulate completing the chapter for demo
+                if (chapter.current) {
+                    chapter.completed = true;
+                    chapter.current = false;
+                    chapter.progress = 100;
+                    
+                    // Unlock next chapter
+                    const nextChapter = chapters.find(c => c.id === chapterId + 1);
+                    if (nextChapter) {
+                        nextChapter.locked = false;
+                        nextChapter.current = true;
+                    }
+                    
+                    renderChapters();
+                }
+            }
+        }
+        
+        // Initialize the page
+        renderChapters();
+    </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+{
+  "name": "bitcoin-trivia",
+  "version": "0.2.0",
+  "description": "A comprehensive Bitcoin education platform with 425+ questions, multiple game modes, and offline play",
+  "main": "index.html",
+  "scripts": {
+    "build": "node build.js",
+    "combine": "node scripts/combine-questions.js",
+    "serve": "npx http-server dist -p 8080",
+    "dev": "npx http-server . -p 8080"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/islandbitcoin/bitcoin-trivia.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "education",
+    "trivia",
+    "game",
+    "pwa",
+    "offline",
+    "quiz"
+  ],
+  "author": "Island Bitcoin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/islandbitcoin/bitcoin-trivia/issues"
+  },
+  "homepage": "https://github.com/islandbitcoin/bitcoin-trivia#readme",
+  "devDependencies": {},
+  "features": {
+    "offline": true,
+    "pwa": true,
+    "achievements": true,
+    "no-tracking": true,
+    "zero-config": true
+  }
+}
