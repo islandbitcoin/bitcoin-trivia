@@ -1,0 +1,772 @@
+{
+  "questions": [
+    {
+      "id": "q037",
+      "question": "What is the target block time for Bitcoin, and how is it maintained?",
+      "options": {
+        "a": "10 minutes, maintained by increasing block size",
+        "b": "10 minutes, maintained by difficulty adjustment",
+        "c": "1 minute, maintained by node consensus",
+        "d": "60 minutes, maintained by miner agreement"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "Bitcoin targets 10-minute block times through automatic difficulty adjustments every 2016 blocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q038",
+      "question": "What is a Bitcoin Improvement Proposal (BIP)?",
+      "options": {
+        "a": "A mandatory update all nodes must install",
+        "b": "A standardized format for proposing changes to Bitcoin",
+        "c": "A voting mechanism for miners",
+        "d": "A type of smart contract"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Development",
+      "explanation": "BIPs are design documents providing information or describing new features for Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q039",
+      "question": "What is the purpose of Bitcoin's nonce in mining?",
+      "options": {
+        "a": "To encrypt transaction data",
+        "b": "To identify the miner",
+        "c": "To find a valid block hash",
+        "d": "To timestamp the block"
+      },
+      "correct_answer": "c",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Mining",
+      "explanation": "Miners change the nonce value to find a hash that meets the difficulty target.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q040",
+      "question": "What is a soft fork in Bitcoin?",
+      "options": {
+        "a": "A backwards-compatible protocol upgrade",
+        "b": "A chain split creating two coins",
+        "c": "A temporary network outage",
+        "d": "A mining pool disagreement"
+      },
+      "correct_answer": "a",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "A soft fork is a backwards-compatible change that tightens or adds rules without breaking older versions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q041",
+      "question": "What is Bitcoin's replace-by-fee (RBF)?",
+      "options": {
+        "a": "A way to cancel confirmed transactions",
+        "b": "A method to increase fee on unconfirmed transactions",
+        "c": "A mining pool fee structure",
+        "d": "An exchange trading fee"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Transactions",
+      "explanation": "RBF allows users to replace an unconfirmed transaction with a higher fee version.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q042",
+      "question": "What is the significance of block height 210,000 in Bitcoin?",
+      "options": {
+        "a": "First transaction occurred",
+        "b": "First halving event",
+        "c": "Bitcoin reached $1",
+        "d": "Lightning Network launched"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "History",
+      "explanation": "The first Bitcoin halving occurred at block 210,000, reducing the reward from 50 to 25 BTC.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q043",
+      "question": "What is a Bitcoin full node's primary function?",
+      "options": {
+        "a": "Mining new blocks",
+        "b": "Validating and relaying transactions",
+        "c": "Storing private keys",
+        "d": "Creating new addresses"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Network",
+      "explanation": "Full nodes validate all transactions and blocks, enforcing consensus rules.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q044",
+      "question": "What is Bitcoin's coinbase transaction?",
+      "options": {
+        "a": "A transaction to the Coinbase exchange",
+        "b": "The first transaction in each block",
+        "c": "A special type of smart contract",
+        "d": "A transaction with no fees"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "The coinbase transaction is the first transaction in a block, creating new bitcoin as the mining reward.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q045",
+      "question": "What cryptographic curve does Bitcoin use for signatures?",
+      "options": {
+        "a": "RSA-2048",
+        "b": "secp256k1",
+        "c": "Ed25519",
+        "d": "P-256"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Technology",
+      "explanation": "Bitcoin uses the secp256k1 elliptic curve for its digital signature algorithm.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q046",
+      "question": "What is Bitcoin's lock time feature used for?",
+      "options": {
+        "a": "Preventing double spends",
+        "b": "Setting when a transaction can be included in a block",
+        "c": "Locking bitcoin permanently",
+        "d": "Freezing stolen funds"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Transactions",
+      "explanation": "Lock time allows a transaction to be time-locked until a specific block height or timestamp.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q047",
+      "question": "What is the purpose of Bitcoin testnet?",
+      "options": {
+        "a": "Mining bitcoin faster",
+        "b": "Testing and development without real value",
+        "c": "Private bitcoin transactions",
+        "d": "Stress testing the main network"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Development",
+      "explanation": "Testnet is a separate blockchain for testing where coins have no real value.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q048",
+      "question": "What happens to lost Bitcoin?",
+      "options": {
+        "a": "They are redistributed to miners",
+        "b": "They remain unspendable forever",
+        "c": "They are returned to Satoshi Nakamoto",
+        "d": "They are burned after 10 years"
+      },
+      "correct_answer": "b",
+      "difficulty": 4,
+      "level": 4,
+      "category": "Economics",
+      "explanation": "Lost Bitcoin (from lost keys) remain in their addresses forever, effectively reducing the circulating supply.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q049",
+      "question": "What is SegWit in Bitcoin?",
+      "options": {
+        "a": "A type of wallet",
+        "b": "Segregated Witness - a protocol upgrade",
+        "c": "A mining algorithm",
+        "d": "A privacy feature"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Technology",
+      "explanation": "SegWit (Segregated Witness) is a protocol upgrade that changed how data is stored in blocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q050",
+      "question": "What is the maximum size of a standard Bitcoin transaction?",
+      "options": {
+        "a": "100 KB",
+        "b": "1 MB",
+        "c": "10 KB",
+        "d": "No limit"
+      },
+      "correct_answer": "a",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Transactions",
+      "explanation": "Standard transactions are limited to 100,000 bytes to prevent spam and ensure propagation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q051",
+      "question": "What is Bitcoin's 'dust limit'?",
+      "options": {
+        "a": "The minimum mining fee",
+        "b": "The smallest spendable amount",
+        "c": "The maximum transaction size",
+        "d": "The block size limit"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Transactions",
+      "explanation": "The dust limit is the minimum output value that is economically spendable (typically 546 satoshis).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q052",
+      "question": "What consensus mechanism did Satoshi implement to prevent sybil attacks?",
+      "options": {
+        "a": "Proof of Stake",
+        "b": "Proof of Work",
+        "c": "Byzantine Fault Tolerance",
+        "d": "Federated Consensus"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Security",
+      "explanation": "Proof of Work prevents sybil attacks by requiring computational resources to participate in consensus.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q053",
+      "question": "What is a Bitcoin HD wallet?",
+      "options": {
+        "a": "High Definition wallet with better graphics",
+        "b": "Hierarchical Deterministic wallet",
+        "c": "Hardware Device wallet",
+        "d": "Heavy Duty wallet for large amounts"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Technology",
+      "explanation": "HD wallets use a seed phrase to derive an entire tree of key pairs deterministically.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q054",
+      "question": "What is the purpose of Bitcoin's checkpoint system?",
+      "options": {
+        "a": "To speed up initial sync",
+        "b": "To prevent deep chain reorganizations",
+        "c": "To backup the blockchain",
+        "d": "To mark important transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Security",
+      "explanation": "Checkpoints prevent attackers from replacing large portions of blockchain history.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q055",
+      "question": "What is Bitcoin's UTXO set?",
+      "options": {
+        "a": "Unconfirmed Transaction eXchange Order",
+        "b": "The set of all unspent transaction outputs",
+        "c": "User Transaction eXecution Operation",
+        "d": "A type of mining pool"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Technology",
+      "explanation": "The UTXO set contains all spendable bitcoin outputs and is crucial for transaction validation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q056",
+      "question": "What year did Bitcoin first reach parity with the US dollar?",
+      "options": {
+        "a": "2009",
+        "b": "2010",
+        "c": "2011",
+        "d": "2012"
+      },
+      "correct_answer": "c",
+      "difficulty": 5,
+      "level": 5,
+      "category": "History",
+      "explanation": "Bitcoin first reached $1 USD in February 2011.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q057",
+      "question": "What is a Bitcoin covenant?",
+      "options": {
+        "a": "A promise between miners",
+        "b": "A restriction on how coins can be spent",
+        "c": "A type of multisig wallet",
+        "d": "A Lightning Network channel"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Development",
+      "explanation": "Covenants are proposed mechanisms to add spending conditions to Bitcoin outputs.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q058",
+      "question": "What is Bitcoin's ban score?",
+      "options": {
+        "a": "A user's reputation rating",
+        "b": "A node's misbehavior score",
+        "c": "A transaction priority score",
+        "d": "A mining difficulty score"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Network",
+      "explanation": "Nodes track misbehavior scores for peers and ban those exceeding the threshold.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q059",
+      "question": "What is the purpose of Bitcoin's version bits?",
+      "options": {
+        "a": "To identify wallet software",
+        "b": "To signal support for soft forks",
+        "c": "To mark transaction types",
+        "d": "To encode private keys"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Development",
+      "explanation": "Version bits (BIP 9) allow miners to signal readiness for soft fork deployments.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q060",
+      "question": "What is Bitcoin's assumevalid feature?",
+      "options": {
+        "a": "Assuming all transactions are valid",
+        "b": "Skipping signature validation for old blocks",
+        "c": "Validating only recent transactions",
+        "d": "A consensus voting mechanism"
+      },
+      "correct_answer": "b",
+      "difficulty": 5,
+      "level": 5,
+      "category": "Technology",
+      "explanation": "Assumevalid allows nodes to skip expensive script validation for blocks before a certain height during initial sync.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q061",
+      "question": "What is the difference between P2PKH and P2SH addresses?",
+      "options": {
+        "a": "P2PKH is newer than P2SH",
+        "b": "P2SH allows for more complex spending conditions",
+        "c": "P2PKH is more secure",
+        "d": "They are the same thing"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Technology",
+      "explanation": "P2SH (Pay to Script Hash) enables complex scripts like multisig, while P2PKH is a simple public key hash.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q062",
+      "question": "What is Bitcoin's compact block relay?",
+      "options": {
+        "a": "A way to compress the blockchain",
+        "b": "A method to reduce bandwidth when propagating blocks",
+        "c": "A type of light wallet",
+        "d": "A mining optimization"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Network",
+      "explanation": "Compact blocks (BIP 152) reduce bandwidth by sending block headers and short transaction IDs.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q063",
+      "question": "What is the purpose of Bitcoin's CHECKSEQUENCEVERIFY opcode?",
+      "options": {
+        "a": "To verify transaction order",
+        "b": "To create relative timelocks",
+        "c": "To check signature sequences",
+        "d": "To validate block sequences"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Technology",
+      "explanation": "CSV enables relative timelocks, allowing outputs to be spent only after a relative time.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q064",
+      "question": "What attack does Bitcoin's 'first seen' rule help prevent?",
+      "options": {
+        "a": "51% attacks",
+        "b": "Double-spend attempts",
+        "c": "Sybil attacks",
+        "d": "Eclipse attacks"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Security",
+      "explanation": "Nodes typically reject conflicting transactions, keeping the first valid transaction they see.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q065",
+      "question": "What is Bitcoin's BIP 32 about?",
+      "options": {
+        "a": "Block size increase",
+        "b": "Hierarchical Deterministic wallets",
+        "c": "Lightning Network",
+        "d": "Mining algorithm change"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Development",
+      "explanation": "BIP 32 defines the standard for HD wallets, enabling key derivation from a master seed.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q066",
+      "question": "What is the purpose of Bitcoin's bloom filters?",
+      "options": {
+        "a": "To encrypt transactions",
+        "b": "To enable SPV wallets to request relevant transactions",
+        "c": "To compress the blockchain",
+        "d": "To filter spam transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Technology",
+      "explanation": "Bloom filters allow lightweight clients to request only transactions matching certain patterns.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q067",
+      "question": "What is Bitcoin's transaction malleability issue?",
+      "options": {
+        "a": "Transactions can be reversed",
+        "b": "Transaction IDs can change without changing the transaction",
+        "c": "Transactions can be duplicated",
+        "d": "Transaction fees can be stolen"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Security",
+      "explanation": "Transaction malleability allowed the transaction ID to be changed without invalidating the transaction.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q068",
+      "question": "What is the 'nothing at stake' problem?",
+      "options": {
+        "a": "A Bitcoin mining issue",
+        "b": "A problem specific to Proof of Stake",
+        "c": "A Lightning Network vulnerability",
+        "d": "A wallet security issue"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Technology",
+      "explanation": "This is a Proof of Stake problem where validators can vote on multiple chains without cost, not applicable to Bitcoin's PoW.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q069",
+      "question": "What is Bitcoin's fee estimation based on?",
+      "options": {
+        "a": "Fixed rates set by miners",
+        "b": "Recent blocks' fee rates and confirmation times",
+        "c": "Network difficulty",
+        "d": "Bitcoin price"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Transactions",
+      "explanation": "Fee estimation algorithms analyze recent blocks to suggest appropriate fee rates.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q070",
+      "question": "What is a Bitcoin watch-only address?",
+      "options": {
+        "a": "An address that can only receive",
+        "b": "An address you can monitor but not spend from",
+        "c": "A time-locked address",
+        "d": "A multisig address"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Technology",
+      "explanation": "Watch-only addresses allow monitoring balance and transactions without the private key.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q071",
+      "question": "What is the role of Bitcoin's 'inv' message?",
+      "options": {
+        "a": "To invite new nodes",
+        "b": "To announce new transactions or blocks",
+        "c": "To invalidate transactions",
+        "d": "To invest in mining"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Network",
+      "explanation": "The 'inv' (inventory) message announces the availability of new transactions or blocks to peers.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q072",
+      "question": "What percentage of Bitcoin's supply is estimated to be permanently lost?",
+      "options": {
+        "a": "1-5%",
+        "b": "10-20%",
+        "c": "30-40%",
+        "d": "50%+"
+      },
+      "correct_answer": "b",
+      "difficulty": 6,
+      "level": 6,
+      "category": "Economics",
+      "explanation": "Various studies estimate 10-20% of Bitcoin is permanently lost due to lost keys, with some estimates around 3-4 million BTC.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q073",
+      "question": "What is Taproot in Bitcoin?",
+      "options": {
+        "a": "A privacy-focused wallet",
+        "b": "A soft fork upgrade improving privacy and efficiency",
+        "c": "A type of mining hardware",
+        "d": "A decentralized exchange"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Technology",
+      "explanation": "Taproot is a soft fork that enhances privacy, scalability, and enables more complex smart contracts.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q074",
+      "question": "What is MAST in the context of Bitcoin?",
+      "options": {
+        "a": "Mining Algorithm Security Test",
+        "b": "Merkelized Abstract Syntax Trees",
+        "c": "Multi-Asset Storage Technology",
+        "d": "Maximum Allowed Script Time"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Technology",
+      "explanation": "MAST allows complex scripts to be compressed using Merkle trees, revealing only executed parts.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q075",
+      "question": "What is the purpose of Bitcoin's OP_RETURN?",
+      "options": {
+        "a": "To return funds to sender",
+        "b": "To embed arbitrary data in transactions",
+        "c": "To reverse transactions",
+        "d": "To calculate mining returns"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Technology",
+      "explanation": "OP_RETURN creates provably unspendable outputs that can store up to 80 bytes of arbitrary data.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q076",
+      "question": "What is Bitcoin's selfish mining attack?",
+      "options": {
+        "a": "Mining only for personal profit",
+        "b": "Withholding found blocks strategically",
+        "c": "Refusing to share mining rewards",
+        "d": "Mining empty blocks"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Security",
+      "explanation": "Selfish mining involves strategically withholding blocks to gain a mining advantage.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q077",
+      "question": "What is the difference between hot and cold storage?",
+      "options": {
+        "a": "Temperature requirements for hardware",
+        "b": "Online vs offline key storage",
+        "c": "Fast vs slow transaction speed",
+        "d": "New vs old Bitcoin"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Security",
+      "explanation": "Hot storage keeps keys online for convenience, while cold storage keeps them offline for security.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q078",
+      "question": "What is Bitcoin's PSBT?",
+      "options": {
+        "a": "Public Secure Bitcoin Transfer",
+        "b": "Partially Signed Bitcoin Transaction",
+        "c": "Private Storage Bitcoin Technology",
+        "d": "Peer-to-peer Synchronized Bitcoin Trading"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Technology",
+      "explanation": "PSBT is a standard format for transactions that need signatures from multiple parties or devices.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q079",
+      "question": "What is the Byzantine Generals Problem?",
+      "options": {
+        "a": "A Bitcoin scaling issue",
+        "b": "A distributed consensus challenge Bitcoin solves",
+        "c": "A type of network attack",
+        "d": "A mining pool coordination problem"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Technology",
+      "explanation": "Bitcoin solves this classic distributed systems problem of achieving consensus among untrusted parties.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q080",
+      "question": "What is Bitcoin's coin selection algorithm optimizing for?",
+      "options": {
+        "a": "Maximum privacy",
+        "b": "Minimum transaction fee",
+        "c": "Fastest confirmation",
+        "d": "Largest output value"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Technology",
+      "explanation": "Coin selection algorithms typically optimize for fee minimization while avoiding dust.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q081",
+      "question": "What is a Bitcoin eclipse attack?",
+      "options": {
+        "a": "Blocking sunlight from mining farms",
+        "b": "Isolating a node from the honest network",
+        "c": "A coordinated selling attack",
+        "d": "Hiding transactions from explorers"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Security",
+      "explanation": "Eclipse attacks isolate nodes by controlling all their connections to manipulate their blockchain view.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q082",
+      "question": "What was the Bitcoin Alert System?",
+      "options": {
+        "a": "Price alert notifications",
+        "b": "A centralized warning system removed in 2016",
+        "c": "Mining difficulty alerts",
+        "d": "Security breach detection"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "History",
+      "explanation": "The Alert System allowed broadcasting warnings but was retired due to centralization concerns.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q083",
+      "question": "What is Bitcoin's sigop limit?",
+      "options": {
+        "a": "Maximum signatures per wallet",
+        "b": "Maximum signature operations per block",
+        "c": "Signature optimization protocol",
+        "d": "Signing operation speed"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Technology",
+      "explanation": "Blocks are limited to 80,000 signature operations to prevent computational DoS attacks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q084",
+      "question": "What is the purpose of Bitcoin's witness discount?",
+      "options": {
+        "a": "Cheaper transactions for witnesses",
+        "b": "Incentivizing SegWit adoption",
+        "c": "Discounting old transactions",
+        "d": "Reducing mining costs"
+      },
+      "correct_answer": "b",
+      "difficulty": 7,
+      "level": 7,
+      "category": "Economics",
+      "explanation": "SegWit transactions count witness data at 1/4 weight, effectively providing a fee discount.",
+      "created_at": "2025-01-22T00:00:00Z"
+    }
+  ]
+}

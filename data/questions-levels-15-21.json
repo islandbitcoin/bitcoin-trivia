@@ -1,0 +1,1348 @@
+{
+  "questions": [
+    {
+      "id": "q169",
+      "question": "What is the theoretical minimum time between blocks if all miners collaborated?",
+      "options": {
+        "a": "0 seconds",
+        "b": "1 second",
+        "c": "10 minutes",
+        "d": "Limited by network propagation"
+      },
+      "correct_answer": "d",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Network",
+      "explanation": "Even with infinite hashpower, blocks are limited by network propagation time to avoid forks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q170",
+      "question": "What is 'Transaction Pinning' attack?",
+      "options": {
+        "a": "Freezing transactions",
+        "b": "Making transactions unconfirmable",
+        "c": "Pinning to specific blocks",
+        "d": "Transaction acceleration"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Security",
+      "explanation": "Transaction pinning prevents fee bumping by exploiting mempool limits.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q171",
+      "question": "What is 'BIP 125' defining?",
+      "options": {
+        "a": "SegWit activation",
+        "b": "RBF signaling",
+        "c": "HD wallets",
+        "d": "P2SH format"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Development",
+      "explanation": "BIP 125 defines opt-in Replace-By-Fee (RBF) signaling.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q172",
+      "question": "What is 'Package Relay' improving?",
+      "options": {
+        "a": "Block propagation",
+        "b": "CPFP fee bumping",
+        "c": "Transaction packaging",
+        "d": "Relay efficiency"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Technology",
+      "explanation": "Package relay allows Child-Pays-For-Parent to work better by evaluating related transactions together.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q173",
+      "question": "What is the 'Stale Block' rate target?",
+      "options": {
+        "a": "0%",
+        "b": "~0.4%",
+        "c": "1%",
+        "d": "No specific target"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Network",
+      "explanation": "Bitcoin targets approximately 0.4% stale block rate with 10-minute blocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q174",
+      "question": "What is 'Blind Merged Mining'?",
+      "options": {
+        "a": "Anonymous mining",
+        "b": "Sidechain mining without validation",
+        "c": "Hidden mining pools",
+        "d": "Privacy mining"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Mining",
+      "explanation": "BMM allows miners to mine sidechains without running their nodes.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q175",
+      "question": "What is 'OP_CHECKDATASIG' proposal?",
+      "options": {
+        "a": "Data validation opcode",
+        "b": "Not a Bitcoin proposal",
+        "c": "Signature checking improvement",
+        "d": "Database signature"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Development",
+      "explanation": "OP_CHECKDATASIG is a Bitcoin Cash opcode, not proposed for Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q176",
+      "question": "What is 'Epoch' in Bitcoin context?",
+      "options": {
+        "a": "2016 blocks difficulty period",
+        "b": "210,000 blocks halving period",
+        "c": "144 blocks daily period",
+        "d": "No standard epoch definition"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Technology",
+      "explanation": "An epoch typically refers to the 2016 block difficulty adjustment period.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q177",
+      "question": "What is 'BIP 152' Compact Blocks mode?",
+      "options": {
+        "a": "High-bandwidth and low-bandwidth",
+        "b": "Fast and slow",
+        "c": "Compressed and uncompressed",
+        "d": "Public and private"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Network",
+      "explanation": "BIP 152 defines high-bandwidth (unsolicited) and low-bandwidth (requested) modes.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q178",
+      "question": "What is 'Graftroot' proposal?",
+      "options": {
+        "a": "Alternative to Taproot",
+        "b": "Delegation without revealing",
+        "c": "Root key grafting",
+        "d": "Merkle root optimization"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Development",
+      "explanation": "Graftroot allows delegation of spending conditions without revealing them in advance.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q179",
+      "question": "What is Bitcoin's 'IBD' phase?",
+      "options": {
+        "a": "Initial Block Download",
+        "b": "Internal Block Database",
+        "c": "Integrated Blockchain Data",
+        "d": "Indexed Block Directory"
+      },
+      "correct_answer": "a",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Network",
+      "explanation": "IBD (Initial Block Download) is when a node syncs the entire blockchain.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q180",
+      "question": "What is 'BIP 70' payment protocol status?",
+      "options": {
+        "a": "Widely used",
+        "b": "Deprecated",
+        "c": "Mandatory",
+        "d": "In development"
+      },
+      "correct_answer": "b",
+      "difficulty": 8,
+      "level": 15,
+      "category": "Development",
+      "explanation": "BIP 70 payment protocol has been deprecated due to complexity and security concerns.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q181",
+      "question": "What specific BIP activated OP_CHECKLOCKTIMEVERIFY?",
+      "options": {
+        "a": "BIP 62",
+        "b": "BIP 65",
+        "c": "BIP 66",
+        "d": "BIP 68"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Development",
+      "explanation": "BIP 65 introduced OP_CHECKLOCKTIMEVERIFY (CLTV) for absolute timelocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q182",
+      "question": "What is the 'CAT-20' incident?",
+      "options": {
+        "a": "OP_CAT vulnerability",
+        "b": "20 concatenation limit",
+        "c": "Not a real Bitcoin incident",
+        "d": "Category 20 bug"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 16,
+      "category": "History",
+      "explanation": "CAT-20 is not a Bitcoin incident - this is a trick question.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q183",
+      "question": "What exact version introduced 'sendheaders' message?",
+      "options": {
+        "a": "0.11.0",
+        "b": "0.12.0",
+        "c": "0.13.0",
+        "d": "0.14.0"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Network",
+      "explanation": "Bitcoin Core 0.12.0 introduced the sendheaders P2P message.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q184",
+      "question": "What is Bitcoin's 'policy' vs 'consensus' distinction?",
+      "options": {
+        "a": "Same thing",
+        "b": "Policy is stricter than consensus",
+        "c": "Consensus is stricter than policy",
+        "d": "Unrelated concepts"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Technology",
+      "explanation": "Policy rules (like standard transactions) are stricter than consensus rules.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q185",
+      "question": "What is 'BIP 30' addressing?",
+      "options": {
+        "a": "Duplicate coinbase transactions",
+        "b": "Block size limit",
+        "c": "Transaction format",
+        "d": "Mining algorithm"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Security",
+      "explanation": "BIP 30 prevents duplicate coinbase transactions from overwriting previous ones.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q186",
+      "question": "What is 'wtxid' in SegWit?",
+      "options": {
+        "a": "Witness transaction ID",
+        "b": "Weighted transaction ID",
+        "c": "Wallet transaction ID",
+        "d": "Wire transaction ID"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Technology",
+      "explanation": "wtxid is the transaction ID including witness data, solving malleability.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q187",
+      "question": "What block contains duplicate coinbase transactions?",
+      "options": {
+        "a": "Block 91,722 and 91,880",
+        "b": "Block 100,000 and 200,000",
+        "c": "Block 91,812 and 91,842",
+        "d": "No such blocks exist"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 16,
+      "category": "History",
+      "explanation": "Blocks 91,812 and 91,842 have identical coinbase transactions, addressed by BIP 30.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q188",
+      "question": "What is 'signet' in Bitcoin?",
+      "options": {
+        "a": "Signature network",
+        "b": "Test network with PoA",
+        "c": "Signaling network",
+        "d": "Private network type"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Development",
+      "explanation": "Signet is a test network using proof-of-authority for predictable block times.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q189",
+      "question": "What's the maximum coinbase script size?",
+      "options": {
+        "a": "100 bytes",
+        "b": "1000 bytes",
+        "c": "No limit",
+        "d": "Same as regular scripts"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Technology",
+      "explanation": "Coinbase scripts are limited to 100 bytes.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q190",
+      "question": "What is 'TXINDEX' in Bitcoin Core?",
+      "options": {
+        "a": "Transaction position in block",
+        "b": "Optional transaction database",
+        "c": "Transaction ID index",
+        "d": "Exchange index"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Technology",
+      "explanation": "TXINDEX is an optional index maintaining all transaction lookups.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q191",
+      "question": "What consensus rule does 'SCRIPT_VERIFY_NULLFAIL' enforce?",
+      "options": {
+        "a": "Null data in scripts fails",
+        "b": "Failed signatures must be empty",
+        "c": "Null opcodes are invalid",
+        "d": "Empty scripts fail"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Technology",
+      "explanation": "NULLFAIL requires that failed CHECK(MULTI)SIG operations have empty signatures.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q192",
+      "question": "What's the 'nLockTime' overflow behavior?",
+      "options": {
+        "a": "Wraps around",
+        "b": "Transaction invalid",
+        "c": "Interpreted as block height",
+        "d": "No overflow possible"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 16,
+      "category": "Technology",
+      "explanation": "nLockTime is a 32-bit field; values >= 500000000 are timestamps, no overflow.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q193",
+      "question": "Which soft fork fixed the 'timewarp' bug?",
+      "options": {
+        "a": "SegWit",
+        "b": "Taproot",
+        "c": "None yet",
+        "d": "BIP 66"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Security",
+      "explanation": "The timewarp bug allowing difficulty manipulation hasn't been fixed yet.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q194",
+      "question": "What's special about block 501726?",
+      "options": {
+        "a": "First SegWit block",
+        "b": "Largest block pre-SegWit",
+        "c": "Contains timewarp attack",
+        "d": "Nothing special"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 17,
+      "category": "History",
+      "explanation": "Block 501726 has no special significance - this is a trick question.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q195",
+      "question": "What exact byte sequence starts a mainnet message?",
+      "options": {
+        "a": "0xF9BEB4D9",
+        "b": "0xFABFB5DA",
+        "c": "0x0B110907",
+        "d": "0xFFFFFFFF"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Network",
+      "explanation": "Bitcoin mainnet messages start with magic bytes 0xF9BEB4D9.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q196",
+      "question": "What's the consensus bug in OP_LSHIFT?",
+      "options": {
+        "a": "Buffer overflow",
+        "b": "Sign extension issue",
+        "c": "It's disabled, no bug",
+        "d": "Shift by negative"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Technology",
+      "explanation": "OP_LSHIFT is disabled; the question about its bug is misleading.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q197",
+      "question": "What BIP number is assigned to 'OP_CAT revival'?",
+      "options": {
+        "a": "BIP 347",
+        "b": "BIP 420",
+        "c": "No BIP assigned yet",
+        "d": "BIP 520"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Development",
+      "explanation": "OP_CAT revival proposals exist but no official BIP number assigned.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q198",
+      "question": "What's the FindAndDelete consensus quirk?",
+      "options": {
+        "a": "Removes all occurrences",
+        "b": "Only in executed branch",
+        "c": "Consensus-critical comparison",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Technology",
+      "explanation": "FindAndDelete has multiple consensus-critical quirks in script execution.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q199",
+      "question": "When did Bitcoin first process 1MB+ blocks?",
+      "options": {
+        "a": "Never before SegWit",
+        "b": "Block 481,824",
+        "c": "Block 494,784",
+        "d": "Block 478,559"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 17,
+      "category": "History",
+      "explanation": "Block 481,824 was the first to exceed 1MB with SegWit.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q200",
+      "question": "What's the BIP 34 consensus bug?",
+      "options": {
+        "a": "Coinbase height encoding",
+        "b": "Version 2 blocks only",
+        "c": "Off-by-one error potential",
+        "d": "No bug exists"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Security",
+      "explanation": "BIP 34 has a potential off-by-one error in height encoding validation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q201",
+      "question": "What's the 'negative zero' script behavior?",
+      "options": {
+        "a": "Treated as false",
+        "b": "Treated as true",
+        "c": "Consensus failure",
+        "d": "Arithmetic operations differ"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Technology",
+      "explanation": "Script has quirky negative zero handling in arithmetic vs boolean context.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q202",
+      "question": "What exact nonce overflow behavior occurs?",
+      "options": {
+        "a": "Wraps to 0",
+        "b": "Increments extranonce",
+        "c": "Mining software dependent",
+        "d": "Block becomes invalid"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Mining",
+      "explanation": "Nonce overflow handling depends on mining software implementation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q203",
+      "question": "What's CHECKSEQUENCEVERIFY's relative lock precision?",
+      "options": {
+        "a": "1 second",
+        "b": "512 seconds",
+        "c": "600 seconds",
+        "d": "1 block"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Technology",
+      "explanation": "CSV time-based locks have 512-second granularity.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q204",
+      "question": "What's the pruning minimum in Bitcoin Core?",
+      "options": {
+        "a": "288 blocks",
+        "b": "550 MB",
+        "c": "1 GB",
+        "d": "No minimum"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 17,
+      "category": "Technology",
+      "explanation": "Bitcoin Core requires minimum 550 MB when pruning is enabled.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q205",
+      "question": "What exploit used 'anyone-can-spend' before SegWit activation?",
+      "options": {
+        "a": "No exploit occurred",
+        "b": "Funds were stolen",
+        "c": "Miners took them as fees",
+        "d": "Outputs were burned"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 18,
+      "category": "History",
+      "explanation": "Some miners claimed anyone-can-spend SegWit outputs as fees before activation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q206",
+      "question": "What's the 'BIP 91' significance?",
+      "options": {
+        "a": "Direct SegWit activation",
+        "b": "Reduced activation threshold",
+        "c": "New address format",
+        "d": "Mining centralization fix"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 18,
+      "category": "History",
+      "explanation": "BIP 91 reduced SegWit activation threshold to avoid chain split.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q207",
+      "question": "What's 'MINIMALIF' consensus rule?",
+      "options": {
+        "a": "IF conditions must be 0 or 1",
+        "b": "Minimal IF statement usage",
+        "c": "IF optimization requirement",
+        "d": "No such rule"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 18,
+      "category": "Technology",
+      "explanation": "MINIMALIF requires OP_IF/NOTIF conditions to be exactly 0 or 1.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q208",
+      "question": "What's Bitcoin's 'natural fork rate'?",
+      "options": {
+        "a": "0.1%",
+        "b": "0.4%",
+        "c": "1.0%",
+        "d": "2.0%"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 18,
+      "category": "Network",
+      "explanation": "Bitcoin naturally experiences ~0.4% stale blocks due to propagation delays.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q209",
+      "question": "What's 'BIP 143' defining?",
+      "options": {
+        "a": "SegWit address format",
+        "b": "SegWit signature verification",
+        "c": "SegWit activation",
+        "d": "SegWit block format"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 18,
+      "category": "Development",
+      "explanation": "BIP 143 defines signature verification for version 0 witness program.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q210",
+      "question": "What's 'rolling UTXO set hashes' purpose?",
+      "options": {
+        "a": "Consensus enforcement",
+        "b": "Fast sync verification",
+        "c": "Not implemented",
+        "d": "Debug feature only"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 18,
+      "category": "Development",
+      "explanation": "Rolling UTXO hashes are proposed but not implemented in Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q211",
+      "question": "What's the 'BIP 66' strict DER bug?",
+      "options": {
+        "a": "Rejected valid signatures",
+        "b": "Accepted invalid signatures",
+        "c": "Consensus fork at block 363,724",
+        "d": "No bug existed"
+      },
+      "correct_answer": "c",
+      "difficulty": 9,
+      "level": 18,
+      "category": "History",
+      "explanation": "BIP 66 caused a consensus fork due to inconsistent validation.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q212",
+      "question": "What's 'descriptor wallets' in Bitcoin Core?",
+      "options": {
+        "a": "Legacy wallet type",
+        "b": "Output script descriptors",
+        "c": "Wallet metadata",
+        "d": "Hardware wallet support"
+      },
+      "correct_answer": "b",
+      "difficulty": 9,
+      "level": 18,
+      "category": "Technology",
+      "explanation": "Descriptor wallets use output script descriptors for key management.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q213",
+      "question": "What's the 'bech32 length extension' bug?",
+      "options": {
+        "a": "Accepts invalid addresses",
+        "b": "Length limit overflow",
+        "c": "Checksum weakness",
+        "d": "Fixed in bech32m"
+      },
+      "correct_answer": "d",
+      "difficulty": 9,
+      "level": 18,
+      "category": "Technology",
+      "explanation": "Bech32 had a length extension bug fixed in bech32m for taproot.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q214",
+      "question": "What's 'FIBRE' network for?",
+      "options": {
+        "a": "Fast Internet Bitcoin Relay Engine",
+        "b": "Fiber optic Bitcoin nodes",
+        "c": "File-based relay",
+        "d": "Not Bitcoin-related"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 18,
+      "category": "Network",
+      "explanation": "FIBRE is a fast block relay network for miners.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q215",
+      "question": "What's 'BIP 340' tag hashing for?",
+      "options": {
+        "a": "Domain separation",
+        "b": "Performance optimization",
+        "c": "Backward compatibility",
+        "d": "Debug purposes"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 18,
+      "category": "Technology",
+      "explanation": "Tagged hashing provides domain separation for different uses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q216",
+      "question": "What's the 'CSV activation' block?",
+      "options": {
+        "a": "419,328",
+        "b": "481,824",
+        "c": "709,632",
+        "d": "500,000"
+      },
+      "correct_answer": "a",
+      "difficulty": 9,
+      "level": 18,
+      "category": "History",
+      "explanation": "CHECKSEQUENCEVERIFY activated at block 419,328.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q217",
+      "question": "What prevents 'block withholding' in pools?",
+      "options": {
+        "a": "Cryptographic proofs",
+        "b": "Economic incentives only",
+        "c": "Protocol enforcement",
+        "d": "Nothing prevents it"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Mining",
+      "explanation": "Block withholding attacks on pools have no protocol-level prevention.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q218",
+      "question": "What's the 'clean stack' rule?",
+      "options": {
+        "a": "Stack must be empty after execution",
+        "b": "Only true remains after script",
+        "c": "SegWit-only rule",
+        "d": "No such rule exists"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Technology",
+      "explanation": "Clean stack rule requires only a single true value after script execution.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q219",
+      "question": "What exact timestamp has special handling?",
+      "options": {
+        "a": "500,000,000",
+        "b": "4,294,967,295",
+        "c": "2,147,483,647",
+        "d": "No special timestamps"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Technology",
+      "explanation": "Timestamp 500,000,000 is the boundary between height and time locks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q220",
+      "question": "What's 'sigops cost' in Taproot?",
+      "options": {
+        "a": "0 for key path",
+        "b": "1 per signature",
+        "c": "50 per input",
+        "d": "Same as legacy"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Technology",
+      "explanation": "Taproot key path spends have 0 sigops cost.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q221",
+      "question": "What causes 'transaction eviction'?",
+      "options": {
+        "a": "Time limits",
+        "b": "Mempool size limits",
+        "c": "Fee market dynamics",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Network",
+      "explanation": "Transactions can be evicted due to time, size limits, or fee competition.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q222",
+      "question": "What's 'BIP 113' median time rule?",
+      "options": {
+        "a": "Median of 3 blocks",
+        "b": "Median of 11 blocks",
+        "c": "Median of 6 blocks",
+        "d": "Average time calculation"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Technology",
+      "explanation": "BIP 113 uses median time past (11 blocks) for lock time calculations.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q223",
+      "question": "What's the 'quadratic sighash' problem?",
+      "options": {
+        "a": "O(n²) hashing time",
+        "b": "Four signature types",
+        "c": "Square root calculations",
+        "d": "Fixed in all transactions"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Security",
+      "explanation": "Legacy sighash has O(n²) complexity, fixed in SegWit.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q224",
+      "question": "What opcode is 0x63?",
+      "options": {
+        "a": "OP_IF",
+        "b": "OP_NOTIF",
+        "c": "OP_ELSE",
+        "d": "OP_ENDIF"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Technology",
+      "explanation": "Opcode 0x63 is OP_IF in Bitcoin Script.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q225",
+      "question": "What's 'transaction sponsorship'?",
+      "options": {
+        "a": "Implemented fee bumping",
+        "b": "Proposed fee payment method",
+        "c": "Corporate funding",
+        "d": "Marketing term"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Development",
+      "explanation": "Transaction sponsorship is a proposed method for third-party fee payment.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q226",
+      "question": "What's unique about block 629,999?",
+      "options": {
+        "a": "Last before halving",
+        "b": "Largest block",
+        "c": "Contains special message",
+        "d": "Nothing unique"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 19,
+      "category": "History",
+      "explanation": "Block 629,999 was the last block with 12.5 BTC reward before 2020 halving.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q227",
+      "question": "What's 'witness unknown' spending?",
+      "options": {
+        "a": "Always valid",
+        "b": "Always invalid",
+        "c": "Future upgrade path",
+        "d": "Security vulnerability"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Technology",
+      "explanation": "Unknown witness versions are reserved for future soft forks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q228",
+      "question": "What's the 'UTREEXO' proposal?",
+      "options": {
+        "a": "UTXO compression",
+        "b": "UTXO accumulator",
+        "c": "Transaction indexing",
+        "d": "Mining optimization"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 19,
+      "category": "Development",
+      "explanation": "UTREEXO proposes a hash-based accumulator for UTXO set.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q229",
+      "question": "In Script, what does '0x01 0x81' evaluate to?",
+      "options": {
+        "a": "-1",
+        "b": "129",
+        "c": "-129",
+        "d": "Script fails"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Technology",
+      "explanation": "0x81 with length 0x01 represents -1 in Script number encoding.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q230",
+      "question": "What's the 'March 2013 fork' root cause?",
+      "options": {
+        "a": "Database lock limits",
+        "b": "Block size disagreement",
+        "c": "Double spend attempt",
+        "d": "Mining pool attack"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 20,
+      "category": "History",
+      "explanation": "Berkeley DB lock limits caused the March 2013 consensus fork.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q231",
+      "question": "What's 'OP_CODESEPARATOR' consensus impact?",
+      "options": {
+        "a": "Changes signature hash",
+        "b": "No practical use",
+        "c": "Both A and B",
+        "d": "Disabled opcode"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Technology",
+      "explanation": "OP_CODESEPARATOR changes sighash calculation but has no practical use.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q232",
+      "question": "What's block 490,897's significance?",
+      "options": {
+        "a": "Empty block",
+        "b": "Antbleed discovery",
+        "c": "Record transaction count",
+        "d": "No significance"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 20,
+      "category": "History",
+      "explanation": "Block 490,897 contained the Antbleed vulnerability disclosure.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q233",
+      "question": "What exact version fixed transaction malleability?",
+      "options": {
+        "a": "0.8.0",
+        "b": "0.9.0",
+        "c": "Never fully fixed pre-SegWit",
+        "d": "0.10.0"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Security",
+      "explanation": "Transaction malleability was never fully fixed until SegWit.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q234",
+      "question": "What's 'OP_SHA256' hex opcode?",
+      "options": {
+        "a": "0xa8",
+        "b": "0xa9",
+        "c": "0xaa",
+        "d": "0xab"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Technology",
+      "explanation": "OP_SHA256 is opcode 0xa8 in Bitcoin Script.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q235",
+      "question": "What causes 'bad-blk-sigops' rejection?",
+      "options": {
+        "a": "Too many legacy sigops",
+        "b": "Invalid signatures",
+        "c": "Sigop count mismatch",
+        "d": "All are possible"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Technology",
+      "explanation": "bad-blk-sigops occurs when a block exceeds the 80,000 sigop limit.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q236",
+      "question": "What's 'OP_PUSHDATA4' maximum?",
+      "options": {
+        "a": "520 bytes",
+        "b": "4,294,967,295 bytes",
+        "c": "Limited by script size",
+        "d": "No limit"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Technology",
+      "explanation": "OP_PUSHDATA4 can specify 4GB but limited by 10KB script size.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q237",
+      "question": "What's the 'sigop flood' attack vector?",
+      "options": {
+        "a": "Bare multisig outputs",
+        "b": "P2SH validation cost",
+        "c": "SegWit witness abuse",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Security",
+      "explanation": "Multiple vectors exist for creating high sigop density blocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q238",
+      "question": "What's 'SINGLE|ANYONECANPAY' vulnerability?",
+      "options": {
+        "a": "Fee sniping",
+        "b": "Input malleability",
+        "c": "Output theft",
+        "d": "No vulnerability"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Security",
+      "explanation": "SINGLE|ANYONECANPAY allows fee sniping by adding inputs.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q239",
+      "question": "What timestamp causes nLockTime ambiguity?",
+      "options": {
+        "a": "November 1985",
+        "b": "January 1987",
+        "c": "September 2001",
+        "d": "No ambiguity exists"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Technology",
+      "explanation": "Timestamps near 500,000,000 (Nov 1985) could be confused with block heights.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q240",
+      "question": "What's consensus-critical in 'OP_CHECKMULTISIG' ordering?",
+      "options": {
+        "a": "Pubkey order matters",
+        "b": "Signature order must match",
+        "c": "No ordering requirement",
+        "d": "Random order accepted"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 20,
+      "category": "Technology",
+      "explanation": "Signatures must be in same order as corresponding pubkeys.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q241",
+      "question": "What block had the inflation bug fix?",
+      "options": {
+        "a": "74,638",
+        "b": "184,467",
+        "c": "225,430",
+        "d": "501,726"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 21,
+      "category": "History",
+      "explanation": "The value overflow bug creating 184B BTC was fixed after block 74,638.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q242",
+      "question": "What's 'SCRIPT_VERIFY_CONST_SCRIPTCODE' preventing?",
+      "options": {
+        "a": "OP_CODESEPARATOR in SegWit",
+        "b": "Script malleability",
+        "c": "FindAndDelete usage",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 21,
+      "category": "Technology",
+      "explanation": "This flag prevents various script malleability vectors in SegWit.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q243",
+      "question": "What exact block activated P2SH on testnet?",
+      "options": {
+        "a": "Block 1",
+        "b": "Block 514",
+        "c": "Block 100,000",
+        "d": "Different per testnet reset"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 21,
+      "category": "History",
+      "explanation": "Testnet has been reset multiple times, so P2SH activation varies.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q244",
+      "question": "What's the 'BIP 50' incident?",
+      "options": {
+        "a": "March 2013 fork",
+        "b": "Value overflow",
+        "c": "51% attack",
+        "d": "Proposed but not used"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 21,
+      "category": "History",
+      "explanation": "BIP 50 documents the March 2013 blockchain fork incident.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q245",
+      "question": "What's special about script '0x51'?",
+      "options": {
+        "a": "OP_TRUE",
+        "b": "Push value 1",
+        "c": "OP_1",
+        "d": "All are correct"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 21,
+      "category": "Technology",
+      "explanation": "0x51 is OP_1/OP_TRUE, which pushes value 1 onto stack.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q246",
+      "question": "What's the 'coinbase maturity' rationale?",
+      "options": {
+        "a": "Prevent spending orphaned coinbase",
+        "b": "Mining pool protection",
+        "c": "Network propagation time",
+        "d": "Arbitrary choice"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 21,
+      "category": "Technology",
+      "explanation": "100-block maturity prevents spending coinbase from orphaned blocks.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q247",
+      "question": "What's 'standardness' rule for bare multisig?",
+      "options": {
+        "a": "Maximum 3-of-3",
+        "b": "No limit",
+        "c": "Not standard",
+        "d": "15-of-15 maximum"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 21,
+      "category": "Technology",
+      "explanation": "Bare multisig is only standard up to 3-of-3.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q248",
+      "question": "When can OP_RETURN outputs be spent?",
+      "options": {
+        "a": "Never",
+        "b": "After 100 blocks",
+        "c": "With special key",
+        "d": "In coinbase only"
+      },
+      "correct_answer": "a",
+      "difficulty": 10,
+      "level": 21,
+      "category": "Technology",
+      "explanation": "OP_RETURN creates provably unspendable outputs.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q249",
+      "question": "What's the 'time warp' attack period?",
+      "options": {
+        "a": "2 weeks",
+        "b": "2016 blocks",
+        "c": "Both are correct",
+        "d": "4 weeks"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 21,
+      "category": "Security",
+      "explanation": "Time warp exploits the 2016 block (2 week) retarget period.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q250",
+      "question": "What's Bitcoin's 'economic finality'?",
+      "options": {
+        "a": "6 confirmations",
+        "b": "Cost to reverse > value",
+        "c": "Protocol guarantee",
+        "d": "2016 blocks"
+      },
+      "correct_answer": "b",
+      "difficulty": 10,
+      "level": 21,
+      "category": "Economics",
+      "explanation": "Economic finality occurs when reversal cost exceeds transaction value.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q251",
+      "question": "What's unique about block 666,833?",
+      "options": {
+        "a": "Empty block",
+        "b": "Taproot activation",
+        "c": "Record fee block",
+        "d": "Nothing significant"
+      },
+      "correct_answer": "c",
+      "difficulty": 10,
+      "level": 21,
+      "category": "History",
+      "explanation": "Block 666,833 had record high fees during Ordinals congestion.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q252",
+      "question": "What happens at block 6,930,000?",
+      "options": {
+        "a": "Last satoshi mined",
+        "b": "Subsidy becomes 0",
+        "c": "33rd halving",
+        "d": "All of the above"
+      },
+      "correct_answer": "d",
+      "difficulty": 10,
+      "level": 21,
+      "category": "Economics",
+      "explanation": "Around block 6,930,000 (year 2140), the 33rd halving reduces subsidy to 0.",
+      "created_at": "2025-01-22T00:00:00Z"
+    }
+  ]
+}
