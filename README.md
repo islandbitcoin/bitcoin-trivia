@@ -1,81 +1,100 @@
-# Bitcoin Trivia Game Database
+# Bitcoin Trivia Game Platform
 
-A comprehensive Bitcoin trivia question database with community submission and admin approval system. This repository contains 252+ questions across 21 levels with varying difficulty from beginner to expert.
+A comprehensive Bitcoin education platform featuring multiple game modes, 425+ questions, and community features. Learn Bitcoin through engaging gameplay, from basic concepts to expert-level knowledge.
 
-## 🎮 Game Structure
+## 🎮 What's New in v0.1.0
 
-- **21 Levels**: Each level contains 12 questions
-- **Difficulty Scale**: 1-10 (1 = beginner, 10 = expert/trick questions)
-- **Categories**: History, Technology, Mining, Economics, Security, Network, Development, Privacy, Culture, Transactions, Basics
+- **425 Total Questions** with improved educational balance
+- **Story Mode**: Learn Bitcoin through 8 historical chapters
+- **Challenge Mode**: Lightning rounds, survival mode, and daily challenges  
+- **Enhanced Content**: Lightning Network, Privacy, Recent Developments
+- **Community Features**: Discussion system and improved submission process
+- **Better Difficulty Progression**: Smoother learning curve from beginner to expert
+
+## 🚀 Quick Start
+
+### Play the Game
+Visit `main-menu.html` to explore all game modes:
+- **Classic Mode**: Traditional trivia with 30 levels
+- **Story Mode**: Historical journey through Bitcoin's development
+- **Challenge Mode**: Competitive gameplay with leaderboards
+- **Community**: Join discussions and submit questions
+
+### Game Structure
+
+- **30 Levels**: Expanded from 21 to 30 levels
+- **425 Questions**: Carefully balanced across categories
+- **Difficulty Scale**: 1-10 (better progression)
+- **12 Categories**: Including new Lightning Network and Practical Usage
 
 ## 📁 Project Structure
 
 ```
 bitcoin-trivia/
+├── main-menu.html             # New enhanced main menu
+├── index.html                 # Classic game mode
+├── story-mode.html            # Story-based learning
+├── challenge-mode.html        # Competitive challenges
+├── discussions.html           # Community discussions
+├── submit.html                # Submit questions (with Nostr login)
+├── admin.html                 # Review submissions
 ├── data/
-│   ├── questions.json          # Main database with all questions
-│   ├── questions-levels-1-3.json   # Questions for levels 1-3
-│   └── schema.json            # Question data schema
-├── submit.html                # Public submission form
-├── admin.html                 # Admin approval interface
-├── .github/
-│   └── workflows/
-│       └── process-submission.yml  # Automated submission processing
-└── README.md                  # This file
+│   ├── questions.json         # Combined database (425 questions)
+│   ├── all-questions.json     # Alternative combined format
+│   ├── questions-levels-*.json     # Level-specific files
+│   ├── questions-economics-fundamentals.json
+│   ├── questions-lightning-network.json
+│   ├── questions-privacy-security.json
+│   └── schema.json            # Question schema
+├── scripts/
+│   └── combine-questions.js   # Merge question files
+└── .github/
+    └── workflows/
+        └── process-submission.yml
 ```
 
-## 🚀 Getting Started
+## 📊 Content Overview
 
-### For Players/Web App Developers
+### Question Distribution by Category
+- **Technology**: ~30% (reduced from 40.8%)
+- **Economics**: ~12% (increased from 3.6%)
+- **History**: ~11%
+- **Lightning Network**: ~5% (new)
+- **Development**: ~10%
+- **Security**: ~8%
+- **Privacy**: ~6% (increased from 1.4%)
+- **Mining**: ~6%
+- **Practical Usage**: ~4% (new)
+- **Network**: ~5%
+- **Other**: ~3%
 
-The question database is available in JSON format in the `data/` directory. Each question follows this schema:
+### Difficulty Distribution
+- **Beginner (1-3)**: Better coverage for newcomers
+- **Intermediate (4-6)**: Significantly expanded bridge content
+- **Advanced (7-8)**: Challenging but educational
+- **Expert (9-10)**: Deep protocol knowledge
 
-```json
-{
-  "id": "q001",
-  "question": "Who is the pseudonymous creator of Bitcoin?",
-  "options": {
-    "a": "Vitalik Buterin",
-    "b": "Satoshi Nakamoto",
-    "c": "Nick Szabo",
-    "d": "Hal Finney"
-  },
-  "correct_answer": "b",
-  "difficulty": 1,
-  "level": 1,
-  "category": "History",
-  "explanation": "Satoshi Nakamoto is the pseudonym used by the unknown person or group who created Bitcoin.",
-  "created_at": "2025-01-22T00:00:00Z"
-}
-```
+## 🎯 Game Modes
 
-### For Contributors
+### Classic Mode
+Traditional level-based progression through all 425 questions.
 
-1. **Submit a Question**: 
-   - Open `submit.html` in your browser
-   - Fill out the form with your trivia question
-   - Submit for review
+### Story Mode
+8 chapters covering Bitcoin's history:
+1. The Cypherpunk Origins (1970s-2008)
+2. The Genesis Block (2008-2009)
+3. Early Adopters (2009-2011)
+4. Growing Pains (2011-2013)
+5. Mainstream Attention (2013-2017)
+6. Institutional Adoption (2017-2021)
+7. Technical Evolution (2021-2023)
+8. The Future Unfolds (2024+)
 
-2. **Submission Requirements**:
-   - Question must be factual and verifiable
-   - Provide 4 multiple choice options
-   - Include a clear explanation
-   - Select appropriate difficulty (1-10)
-   - Choose relevant category
-
-### For Administrators
-
-1. **Review Submissions**:
-   - Open `admin.html` in your browser
-   - Review pending submissions
-   - Approve, edit, or reject questions
-   - Assign questions to appropriate levels
-
-2. **GitHub Workflow**:
-   - Submissions create GitHub issues with `trivia-submission` label
-   - Add `approved` label to approve a question
-   - Add `rejected` label to reject a question
-   - Workflow automatically updates the database
+### Challenge Mode
+- **Lightning Round**: 20 questions in 5 minutes
+- **Survival Mode**: How long can you last?
+- **Expert Gauntlet**: 10 difficulty 9-10 questions
+- **Daily Challenges**: New themed challenges every day
 
 ## 🔧 Setup Instructions
 
@@ -83,7 +102,7 @@ The question database is available in JSON format in the `data/` directory. Each
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/bitcoin-trivia.git
+   git clone https://github.com/islandbitcoin/bitcoin-trivia.git
    cd bitcoin-trivia
    ```
 
@@ -96,81 +115,94 @@ The question database is available in JSON format in the `data/` directory. Each
    npx http-server
    ```
 
-3. Access the pages:
-   - Submission form: `http://localhost:8000/submit.html`
-   - Admin panel: `http://localhost:8000/admin.html`
+3. Access the game:
+   - Main Menu: `http://localhost:8000/main-menu.html`
+   - Classic Game: `http://localhost:8000/index.html`
 
-### GitHub Pages Deployment
+### Combining Question Files
 
-1. Enable GitHub Pages in repository settings
-2. Set source to main branch, root directory
-3. Access pages at:
-   - `https://yourusername.github.io/bitcoin-trivia/submit.html`
-   - `https://yourusername.github.io/bitcoin-trivia/admin.html`
+After editing individual question files:
+```bash
+node scripts/combine-questions.js
+```
 
-## 📊 Question Distribution
-
-### Current Status
-- Levels 1-3: ✅ Complete (36 questions)
-- Levels 4-7: 🚧 In Progress
-- Levels 8-14: 📝 Planned
-- Levels 15-21: 📝 Planned
-
-### Difficulty Guidelines
-
-| Difficulty | Description | Example Topics |
-|------------|-------------|----------------|
-| 1-3 | Basic concepts anyone interested in Bitcoin should know | What is Bitcoin, who created it, basic terminology |
-| 4-7 | Intermediate knowledge requiring some study | Technical concepts, protocol details, ecosystem knowledge |
-| 8-10 | Expert level requiring deep understanding | Advanced cryptography, protocol intricacies, historical minutiae |
+This merges all question files into `questions.json` and `all-questions.json`.
 
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
+### Submit Questions
+1. Visit `submit.html`
+2. Optionally login with Nostr for attribution
+3. Fill out the question form
+4. Submit for community review
 
-1. **Submit Questions**: Use the submission form to contribute new questions
-2. **Review Questions**: Help validate facts and explanations
-3. **Report Issues**: Found an error? Open a GitHub issue
-4. **Improve Code**: Submit PRs for the submission/admin interfaces
+### Review Questions
+1. Visit `admin.html`
+2. Filter and review pending submissions
+3. Approve or reject with feedback
+
+### Question Guidelines
+- **Accuracy**: Must be factually correct and verifiable
+- **Educational**: Include helpful explanations
+- **Balanced**: Avoid overly technical memorization
+- **Relevant**: Focus on practical Bitcoin knowledge
 
 ## 📝 API Usage
 
-For web app integration, fetch questions directly:
+For integration into other projects:
 
 ```javascript
 // Fetch all questions
-fetch('https://raw.githubusercontent.com/yourusername/bitcoin-trivia/main/data/questions.json')
+fetch('https://raw.githubusercontent.com/islandbitcoin/bitcoin-trivia/main/data/all-questions.json')
   .then(response => response.json())
   .then(data => {
+    console.log(`Total questions: ${data.total_questions}`);
     const questions = data.questions;
-    // Use questions in your app
   });
 
-// Get questions for a specific level
-const level = 5;
-const levelQuestions = questions.filter(q => q.level === level);
+// Filter by category
+const lightningQuestions = questions.filter(q => q.category === 'Lightning Network');
 
-// Get questions by difficulty
-const easyQuestions = questions.filter(q => q.difficulty <= 3);
+// Filter by difficulty range
+const intermediateQuestions = questions.filter(q => q.difficulty >= 4 && q.difficulty <= 6);
 ```
 
-## 🔐 Security Notes
+## 🔐 Security & Privacy
 
-- Never commit sensitive data or private keys
-- The admin interface should be protected in production
-- Consider implementing authentication for admin functions
-- Validate all submissions before adding to the database
+- **No tracking**: No analytics or user tracking
+- **Local storage**: Progress saved locally only
+- **Open source**: Fully auditable code
+- **Nostr integration**: Optional, privacy-preserving identity
 
-## 📄 License
+## 📈 Roadmap
 
-This project is open source and available under the MIT License.
+### Coming Soon
+- Multiplayer tournaments
+- Study mode with spaced repetition
+- Mobile app versions
+- More language translations
+- Integration with Lightning payments
+
+### Future Features
+- AI-powered difficulty adjustment
+- Custom question sets
+- Team challenges
+- Educational certificates
+- API for third-party apps
 
 ## 🙏 Acknowledgments
 
-- Bitcoin community for the wealth of knowledge
-- Contributors who submit quality trivia questions
-- Satoshi Nakamoto for creating Bitcoin
+- Bitcoin community for knowledge and feedback
+- All contributors who submitted questions
+- Nostr protocol for decentralized identity
+- Open source projects that inspired this platform
+
+## 📄 License
+
+MIT License - See LICENSE file for details
 
 ---
 
-**Note**: This is a community project. Always verify information independently when using for educational purposes.
+**Educational Purpose**: This platform is designed for Bitcoin education. Always verify information independently and never share private keys or seed phrases.
+
+**Contribute**: Help improve Bitcoin education by submitting questions, reporting errors, or contributing code!

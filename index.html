@@ -60,6 +60,21 @@
             color: #2c3e50;
         }
         
+        .menu-notice {
+            background: #e3f2fd;
+            border: 2px solid #2196f3;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+            color: #1976d2;
+            font-weight: bold;
+        }
+        
+        .menu-notice a {
+            color: #1976d2;
+            text-decoration: underline;
+        }
+        
         .menu-buttons {
             display: flex;
             flex-direction: column;
@@ -239,27 +254,32 @@
     <div class="game-container">
         <div class="game-header">
             <h1>⚡ Bitcoin Trivia Challenge</h1>
-            <p>Test your Bitcoin knowledge across 21 levels!</p>
+            <p>Test your Bitcoin knowledge across 30 levels with 425 questions!</p>
         </div>
         
         <div id="menu" class="menu">
             <h2>Welcome to Bitcoin Trivia!</h2>
             <p style="margin-bottom: 2rem;">Challenge yourself with questions ranging from Bitcoin basics to expert-level knowledge.</p>
             
+            <div class="menu-notice">
+                🎉 NEW! Check out our <a href="main-menu.html">Enhanced Game Modes</a> including Story Mode, Challenge Mode, and Community Features!
+            </div>
+            
             <div class="menu-buttons">
-                <button class="btn btn-primary" onclick="startGame()">Start Game</button>
+                <button class="btn btn-primary" onclick="startGame()">Start Classic Game</button>
                 <button class="btn btn-secondary" onclick="selectLevel()">Select Level</button>
+                <a href="main-menu.html" class="btn btn-primary">Explore All Game Modes</a>
                 <a href="submit.html" class="btn btn-link">Submit a Question</a>
             </div>
             
             <div class="stats" style="margin-top: 2rem;">
                 <div class="stat-item">
                     <div class="stat-label">Total Levels</div>
-                    <div class="stat-value">21</div>
+                    <div class="stat-value">30</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-label">Questions</div>
-                    <div class="stat-value">252+</div>
+                    <div class="stat-value">425</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-label">Difficulty</div>
