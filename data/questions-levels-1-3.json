@@ -1,0 +1,580 @@
+{
+  "questions": [
+    {
+      "id": "q001",
+      "question": "Who is the pseudonymous creator of Bitcoin?",
+      "options": {
+        "a": "Vitalik Buterin",
+        "b": "Satoshi Nakamoto",
+        "c": "Nick Szabo",
+        "d": "Hal Finney"
+      },
+      "correct_answer": "b",
+      "difficulty": 1,
+      "level": 1,
+      "category": "History",
+      "explanation": "Satoshi Nakamoto is the pseudonym used by the unknown person or group who created Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q002",
+      "question": "What is the maximum supply of Bitcoin?",
+      "options": {
+        "a": "21 million",
+        "b": "100 million",
+        "c": "No limit",
+        "d": "42 million"
+      },
+      "correct_answer": "a",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Basics",
+      "explanation": "Bitcoin has a hard cap of 21 million coins that will ever exist.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q003",
+      "question": "What year was the Bitcoin whitepaper published?",
+      "options": {
+        "a": "2007",
+        "b": "2008",
+        "c": "2009",
+        "d": "2010"
+      },
+      "correct_answer": "b",
+      "difficulty": 1,
+      "level": 1,
+      "category": "History",
+      "explanation": "The Bitcoin whitepaper was published on October 31, 2008.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q004",
+      "question": "What is the name of the smallest unit of Bitcoin?",
+      "options": {
+        "a": "Satoshi",
+        "b": "Wei",
+        "c": "Bit",
+        "d": "Nano"
+      },
+      "correct_answer": "a",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Basics",
+      "explanation": "A satoshi is the smallest unit of Bitcoin, equal to 0.00000001 BTC.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q005",
+      "question": "What technology does Bitcoin use to maintain its ledger?",
+      "options": {
+        "a": "SQL Database",
+        "b": "Blockchain",
+        "c": "Cloud Storage",
+        "d": "Distributed Hash Table"
+      },
+      "correct_answer": "b",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Technology",
+      "explanation": "Bitcoin uses blockchain technology to maintain a distributed, immutable ledger.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q006",
+      "question": "What is the process of creating new Bitcoin called?",
+      "options": {
+        "a": "Minting",
+        "b": "Printing",
+        "c": "Mining",
+        "d": "Forging"
+      },
+      "correct_answer": "c",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Mining",
+      "explanation": "Mining is the process of validating transactions and creating new Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q007",
+      "question": "How often is a new Bitcoin block created on average?",
+      "options": {
+        "a": "Every minute",
+        "b": "Every 10 minutes",
+        "c": "Every hour",
+        "d": "Every 30 seconds"
+      },
+      "correct_answer": "b",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Technology",
+      "explanation": "Bitcoin's difficulty adjustment ensures blocks are mined approximately every 10 minutes.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q008",
+      "question": "What is a Bitcoin wallet?",
+      "options": {
+        "a": "A physical leather wallet for Bitcoin",
+        "b": "A bank account for Bitcoin",
+        "c": "Software that stores private keys",
+        "d": "A mining device"
+      },
+      "correct_answer": "c",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Basics",
+      "explanation": "A Bitcoin wallet is software that stores the private keys needed to access Bitcoin addresses.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q009",
+      "question": "What consensus mechanism does Bitcoin use?",
+      "options": {
+        "a": "Proof of Stake",
+        "b": "Proof of Work",
+        "c": "Proof of Authority",
+        "d": "Delegated Proof of Stake"
+      },
+      "correct_answer": "b",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Technology",
+      "explanation": "Bitcoin uses Proof of Work consensus mechanism for network security.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q010",
+      "question": "What is the Bitcoin symbol?",
+      "options": {
+        "a": "BTC",
+        "b": "BCH",
+        "c": "BTG",
+        "d": "BSV"
+      },
+      "correct_answer": "a",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Basics",
+      "explanation": "BTC is the commonly used symbol for Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q011",
+      "question": "What type of currency is Bitcoin?",
+      "options": {
+        "a": "Fiat currency",
+        "b": "Commodity currency",
+        "c": "Cryptocurrency",
+        "d": "Central bank digital currency"
+      },
+      "correct_answer": "c",
+      "difficulty": 1,
+      "level": 1,
+      "category": "Basics",
+      "explanation": "Bitcoin is a decentralized cryptocurrency.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q012",
+      "question": "Is Bitcoin anonymous?",
+      "options": {
+        "a": "Yes, completely anonymous",
+        "b": "No, it's pseudonymous",
+        "c": "Only for large transactions",
+        "d": "Only for small transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 1,
+      "category": "Privacy",
+      "explanation": "Bitcoin is pseudonymous - transactions are linked to addresses, not real identities.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q013",
+      "question": "What happens to Bitcoin transaction fees?",
+      "options": {
+        "a": "They are burned",
+        "b": "They go to miners",
+        "c": "They go to Satoshi Nakamoto",
+        "d": "They are redistributed to all holders"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Mining",
+      "explanation": "Transaction fees are collected by miners as an incentive for processing transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q014",
+      "question": "What is a Bitcoin halving?",
+      "options": {
+        "a": "When Bitcoin price drops by half",
+        "b": "When mining rewards are cut in half",
+        "c": "When transaction fees double",
+        "d": "When blocks are mined twice as fast"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Economics",
+      "explanation": "Bitcoin halving occurs every 210,000 blocks, reducing the mining reward by 50%.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q015",
+      "question": "How many confirmations are typically recommended for a Bitcoin transaction?",
+      "options": {
+        "a": "1",
+        "b": "3",
+        "c": "6",
+        "d": "10"
+      },
+      "correct_answer": "c",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Transactions",
+      "explanation": "6 confirmations are generally considered secure for most transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q016",
+      "question": "What is the Genesis Block?",
+      "options": {
+        "a": "The last Bitcoin block",
+        "b": "The first Bitcoin block",
+        "c": "A block with no transactions",
+        "d": "A corrupted block"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "History",
+      "explanation": "The Genesis Block is the first block in the Bitcoin blockchain, mined on January 3, 2009.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q017",
+      "question": "What is a Bitcoin node?",
+      "options": {
+        "a": "A mining computer",
+        "b": "A computer running Bitcoin software",
+        "c": "A Bitcoin ATM",
+        "d": "A cryptocurrency exchange"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Network",
+      "explanation": "A node is any computer that connects to the Bitcoin network and validates transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q018",
+      "question": "What is the current Bitcoin block reward (as of 2024)?",
+      "options": {
+        "a": "50 BTC",
+        "b": "25 BTC",
+        "c": "12.5 BTC",
+        "d": "6.25 BTC"
+      },
+      "correct_answer": "d",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Mining",
+      "explanation": "After the 2020 halving, the block reward is 6.25 BTC. The next halving is expected in 2024.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q019",
+      "question": "What is a Bitcoin address?",
+      "options": {
+        "a": "A physical mailing address",
+        "b": "An IP address",
+        "c": "A unique identifier for receiving Bitcoin",
+        "d": "A website URL"
+      },
+      "correct_answer": "c",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Basics",
+      "explanation": "A Bitcoin address is a unique identifier where Bitcoin can be sent.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q020",
+      "question": "What does HODL mean in Bitcoin culture?",
+      "options": {
+        "a": "Hold On for Dear Life",
+        "b": "A misspelling of 'hold'",
+        "c": "Highly Optimized Distributed Ledger",
+        "d": "Both a and b"
+      },
+      "correct_answer": "d",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Culture",
+      "explanation": "HODL originated from a misspelling of 'hold' and is now a backronym for 'Hold On for Dear Life'.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q021",
+      "question": "What is Bitcoin's primary use case according to the whitepaper?",
+      "options": {
+        "a": "Store of value",
+        "b": "Peer-to-peer electronic cash",
+        "c": "Smart contract platform",
+        "d": "Digital gold"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "History",
+      "explanation": "The whitepaper describes Bitcoin as 'A Peer-to-Peer Electronic Cash System'.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q022",
+      "question": "What prevents double-spending in Bitcoin?",
+      "options": {
+        "a": "Central authority verification",
+        "b": "The blockchain and consensus mechanism",
+        "c": "User honesty",
+        "d": "Government regulation"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Technology",
+      "explanation": "The blockchain's distributed ledger and consensus mechanism prevent double-spending.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q023",
+      "question": "What is a private key in Bitcoin?",
+      "options": {
+        "a": "A password to access an exchange",
+        "b": "A secret number that allows spending Bitcoin",
+        "c": "An encryption algorithm",
+        "d": "A mining software license"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "Security",
+      "explanation": "A private key is a secret number that allows Bitcoin to be spent from a corresponding address.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q024",
+      "question": "What is Bitcoin Pizza Day?",
+      "options": {
+        "a": "When Bitcoin reached $10,000",
+        "b": "The day someone bought pizza with 10,000 BTC",
+        "c": "Satoshi Nakamoto's birthday",
+        "d": "The day Bitcoin was created"
+      },
+      "correct_answer": "b",
+      "difficulty": 2,
+      "level": 2,
+      "category": "History",
+      "explanation": "On May 22, 2010, Laszlo Hanyecz bought two pizzas for 10,000 BTC.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q025",
+      "question": "What is the Lightning Network?",
+      "options": {
+        "a": "A faster blockchain",
+        "b": "A Bitcoin mining pool",
+        "c": "A second-layer payment protocol",
+        "d": "An electricity network for miners"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Technology",
+      "explanation": "The Lightning Network is a second-layer solution for fast, cheap Bitcoin transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q026",
+      "question": "What cryptographic algorithm does Bitcoin use for mining?",
+      "options": {
+        "a": "SHA-256",
+        "b": "Scrypt",
+        "c": "Ethash",
+        "d": "X11"
+      },
+      "correct_answer": "a",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Technology",
+      "explanation": "Bitcoin uses SHA-256 (Secure Hash Algorithm 256-bit) for its proof-of-work.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q027",
+      "question": "What is a Bitcoin mempool?",
+      "options": {
+        "a": "A mining pool",
+        "b": "Memory storage for private keys",
+        "c": "Pool of unconfirmed transactions",
+        "d": "A type of wallet"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Technology",
+      "explanation": "The mempool is where valid transactions wait to be confirmed by miners.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q028",
+      "question": "What is Bitcoin's difficulty adjustment period?",
+      "options": {
+        "a": "Every 2016 blocks",
+        "b": "Every 1000 blocks",
+        "c": "Every month",
+        "d": "Every 100 blocks"
+      },
+      "correct_answer": "a",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Mining",
+      "explanation": "Bitcoin adjusts mining difficulty every 2016 blocks (approximately 2 weeks).",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q029",
+      "question": "What type of database structure does Bitcoin use?",
+      "options": {
+        "a": "Relational database",
+        "b": "Graph database",
+        "c": "Merkle tree",
+        "d": "NoSQL database"
+      },
+      "correct_answer": "c",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Technology",
+      "explanation": "Bitcoin uses Merkle trees to efficiently summarize and verify transaction data.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q030",
+      "question": "What is a Bitcoin full node?",
+      "options": {
+        "a": "A node that mines Bitcoin",
+        "b": "A node that stores the entire blockchain",
+        "c": "A node with the most connections",
+        "d": "A government-operated node"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Network",
+      "explanation": "A full node downloads and validates the entire blockchain history.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q031",
+      "question": "What is Bitcoin Script?",
+      "options": {
+        "a": "A programming language for smart contracts",
+        "b": "Bitcoin's transaction scripting language",
+        "c": "A mining software",
+        "d": "A wallet backup format"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Technology",
+      "explanation": "Bitcoin Script is a simple, stack-based programming language used in transactions.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q032",
+      "question": "What is the purpose of Bitcoin's UTXO model?",
+      "options": {
+        "a": "To track account balances",
+        "b": "To track unspent transaction outputs",
+        "c": "To create new Bitcoin",
+        "d": "To encrypt transactions"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Technology",
+      "explanation": "UTXO (Unspent Transaction Output) model tracks spendable Bitcoin amounts.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q033",
+      "question": "What was the first Bitcoin exchange?",
+      "options": {
+        "a": "Mt. Gox",
+        "b": "BitcoinMarket.com",
+        "c": "Coinbase",
+        "d": "Bitstamp"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "History",
+      "explanation": "BitcoinMarket.com, launched in March 2010, was the first Bitcoin exchange.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q034",
+      "question": "What is a Bitcoin orphan block?",
+      "options": {
+        "a": "A block with no transactions",
+        "b": "A valid block not included in the main chain",
+        "c": "A block mined by Satoshi",
+        "d": "An invalid block"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Mining",
+      "explanation": "Orphan blocks are valid blocks that are not part of the main blockchain.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q035",
+      "question": "What is the Bitcoin Improvement Proposal process called?",
+      "options": {
+        "a": "BEP",
+        "b": "BIP",
+        "c": "EIP",
+        "d": "PIP"
+      },
+      "correct_answer": "b",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Development",
+      "explanation": "BIP (Bitcoin Improvement Proposal) is the standard for proposing changes to Bitcoin.",
+      "created_at": "2025-01-22T00:00:00Z"
+    },
+    {
+      "id": "q036",
+      "question": "What percentage of Bitcoin's total supply has been mined (as of 2024)?",
+      "options": {
+        "a": "About 50%",
+        "b": "About 75%",
+        "c": "About 90%",
+        "d": "About 95%"
+      },
+      "correct_answer": "d",
+      "difficulty": 3,
+      "level": 3,
+      "category": "Economics",
+      "explanation": "As of 2024, approximately 95% of all Bitcoin that will ever exist has been mined.",
+      "created_at": "2025-01-22T00:00:00Z"
+    }
+  ]
+}

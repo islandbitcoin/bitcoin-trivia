@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitcoin Trivia Admin - Question Approval</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 2rem;
+            text-align: center;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .admin-panel {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 2rem;
+        }
+        
+        .stats-panel {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            height: fit-content;
+        }
+        
+        .stats-item {
+            padding: 1rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .stats-item:last-child {
+            border-bottom: none;
+        }
+        
+        .stats-label {
+            font-weight: bold;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .stats-value {
+            font-size: 2rem;
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        
+        .submissions-panel {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .filter-bar {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+        
+        .filter-bar select {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 1rem;
+        }
+        
+        .submission-card {
+            background: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s;
+        }
+        
+        .submission-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+        }
+        
+        .submission-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: start;
+            margin-bottom: 1rem;
+        }
+        
+        .submission-id {
+            font-size: 0.85rem;
+            color: #666;
+            font-family: monospace;
+        }
+        
+        .submission-meta {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+            font-size: 0.9rem;
+            color: #666;
+        }
+        
+        .meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+        }
+        
+        .difficulty-badge {
+            padding: 0.25rem 0.75rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: bold;
+        }
+        
+        .difficulty-1, .difficulty-2, .difficulty-3 {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        
+        .difficulty-4, .difficulty-5, .difficulty-6, .difficulty-7 {
+            background-color: #fff3cd;
+            color: #856404;
+        }
+        
+        .difficulty-8, .difficulty-9, .difficulty-10 {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+        
+        .question-content {
+            margin: 1.5rem 0;
+        }
+        
+        .question-text {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        
+        .options-list {
+            list-style: none;
+            margin-bottom: 1rem;
+        }
+        
+        .option {
+            padding: 0.5rem 0;
+            display: flex;
+            align-items: center;
+        }
+        
+        .option.correct {
+            color: #28a745;
+            font-weight: bold;
+        }
+        
+        .option-letter {
+            font-weight: bold;
+            margin-right: 0.5rem;
+            min-width: 20px;
+        }
+        
+        .explanation-box {
+            background: #e8f4f8;
+            border-left: 4px solid #17a2b8;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 4px;
+        }
+        
+        .explanation-box h4 {
+            color: #0c5460;
+            margin-bottom: 0.5rem;
+        }
+        
+        .action-buttons {
+            display: flex;
+            gap: 1rem;
+            margin-top: 1.5rem;
+        }
+        
+        .btn {
+            padding: 0.75rem 1.5rem;
+            border: none;
+            border-radius: 4px;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .btn-approve {
+            background-color: #28a745;
+            color: white;
+        }
+        
+        .btn-approve:hover {
+            background-color: #218838;
+        }
+        
+        .btn-reject {
+            background-color: #dc3545;
+            color: white;
+        }
+        
+        .btn-reject:hover {
+            background-color: #c82333;
+        }
+        
+        .btn-edit {
+            background-color: #ffc107;
+            color: #212529;
+        }
+        
+        .btn-edit:hover {
+            background-color: #e0a800;
+        }
+        
+        .empty-state {
+            text-align: center;
+            padding: 3rem;
+            color: #666;
+        }
+        
+        .empty-state h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .level-assignment {
+            margin: 1rem 0;
+            padding: 1rem;
+            background: #f0f0f0;
+            border-radius: 4px;
+        }
+        
+        .level-assignment label {
+            font-weight: bold;
+            margin-right: 1rem;
+        }
+        
+        .level-assignment select {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            color: white;
+            font-weight: bold;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s;
+            z-index: 1000;
+        }
+        
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .toast.success {
+            background-color: #28a745;
+        }
+        
+        .toast.error {
+            background-color: #dc3545;
+        }
+        
+        @media (max-width: 768px) {
+            .admin-panel {
+                grid-template-columns: 1fr;
+            }
+            
+            .stats-panel {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔐 Bitcoin Trivia Admin Panel</h1>
+            <p>Review and approve submitted questions</p>
+        </header>
+        
+        <div class="admin-panel">
+            <div class="stats-panel">
+                <h2>Dashboard</h2>
+                <div class="stats-item">
+                    <div class="stats-label">Pending Submissions</div>
+                    <div class="stats-value" id="pendingCount">0</div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-label">Total Questions</div>
+                    <div class="stats-value" id="totalQuestions">36</div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-label">Questions Needed</div>
+                    <div class="stats-value" id="questionsNeeded">216</div>
+                </div>
+                <div class="stats-item">
+                    <div class="stats-label">Levels Complete</div>
+                    <div class="stats-value" id="levelsComplete">3/21</div>
+                </div>
+            </div>
+            
+            <div class="submissions-panel">
+                <h2>Pending Submissions</h2>
+                <div class="filter-bar">
+                    <select id="difficultyFilter">
+                        <option value="">All Difficulties</option>
+                        <option value="1">Difficulty 1</option>
+                        <option value="2">Difficulty 2</option>
+                        <option value="3">Difficulty 3</option>
+                        <option value="4">Difficulty 4</option>
+                        <option value="5">Difficulty 5</option>
+                        <option value="6">Difficulty 6</option>
+                        <option value="7">Difficulty 7</option>
+                        <option value="8">Difficulty 8</option>
+                        <option value="9">Difficulty 9</option>
+                        <option value="10">Difficulty 10</option>
+                    </select>
+                    <select id="categoryFilter">
+                        <option value="">All Categories</option>
+                        <option value="History">History</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Mining">Mining</option>
+                        <option value="Economics">Economics</option>
+                        <option value="Security">Security</option>
+                        <option value="Network">Network</option>
+                        <option value="Development">Development</option>
+                        <option value="Privacy">Privacy</option>
+                        <option value="Culture">Culture</option>
+                        <option value="Transactions">Transactions</option>
+                        <option value="Basics">Basics</option>
+                    </select>
+                </div>
+                
+                <div id="submissionsList">
+                    <div class="empty-state">
+                        <h3>No pending submissions</h3>
+                        <p>New question submissions will appear here for review.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="toast" class="toast"></div>
+    
+    <script>
+        // Mock data for demonstration
+        const mockSubmissions = [
+            {
+                id: 'sub_1234567890',
+                question: 'What is the name of the first real-world transaction using Bitcoin?',
+                options: {
+                    a: 'The Coffee Purchase',
+                    b: 'The Pizza Transaction',
+                    c: 'The Silk Road Deal',
+                    d: 'The Tesla Purchase'
+                },
+                correct_answer: 'b',
+                difficulty: 2,
+                category: 'History',
+                explanation: 'On May 22, 2010, Laszlo Hanyecz made the first real-world transaction by buying two Papa John\'s pizzas for 10,000 BTC. This day is now celebrated as Bitcoin Pizza Day.',
+                submitted_by: 'BitcoinEnthusiast',
+                email: 'enthusiast@example.com',
+                created_at: '2025-01-22T10:30:00Z',
+                status: 'pending'
+            }
+        ];
+        
+        let submissions = [];
+        
+        function loadSubmissions() {
+            // In production, this would fetch from a backend or GitHub
+            submissions = mockSubmissions;
+            updateStats();
+            renderSubmissions();
+        }
+        
+        function updateStats() {
+            const pendingCount = submissions.filter(s => s.status === 'pending').length;
+            document.getElementById('pendingCount').textContent = pendingCount;
+            
+            // Calculate questions needed (252 total - 36 existing)
+            document.getElementById('questionsNeeded').textContent = 216;
+        }
+        
+        function renderSubmissions() {
+            const container = document.getElementById('submissionsList');
+            const difficultyFilter = document.getElementById('difficultyFilter').value;
+            const categoryFilter = document.getElementById('categoryFilter').value;
+            
+            const filteredSubmissions = submissions.filter(s => {
+                if (s.status !== 'pending') return false;
+                if (difficultyFilter && s.difficulty !== parseInt(difficultyFilter)) return false;
+                if (categoryFilter && s.category !== categoryFilter) return false;
+                return true;
+            });
+            
+            if (filteredSubmissions.length === 0) {
+                container.innerHTML = `
+                    <div class="empty-state">
+                        <h3>No pending submissions</h3>
+                        <p>New question submissions will appear here for review.</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            container.innerHTML = filteredSubmissions.map(sub => `
+                <div class="submission-card" data-id="${sub.id}">
+                    <div class="submission-header">
+                        <div>
+                            <div class="submission-id">ID: ${sub.id}</div>
+                            <div class="submission-meta">
+                                <span class="meta-item">👤 ${sub.submitted_by}</span>
+                                <span class="meta-item">📅 ${new Date(sub.created_at).toLocaleDateString()}</span>
+                                <span class="meta-item">📧 ${sub.email || 'No email'}</span>
+                            </div>
+                        </div>
+                        <span class="difficulty-badge difficulty-${sub.difficulty}">
+                            Difficulty ${sub.difficulty}
+                        </span>
+                    </div>
+                    
+                    <div class="question-content">
+                        <div class="question-text">${sub.question}</div>
+                        <ul class="options-list">
+                            <li class="option ${sub.correct_answer === 'a' ? 'correct' : ''}">
+                                <span class="option-letter">A:</span> ${sub.options.a}
+                            </li>
+                            <li class="option ${sub.correct_answer === 'b' ? 'correct' : ''}">
+                                <span class="option-letter">B:</span> ${sub.options.b}
+                            </li>
+                            <li class="option ${sub.correct_answer === 'c' ? 'correct' : ''}">
+                                <span class="option-letter">C:</span> ${sub.options.c}
+                            </li>
+                            <li class="option ${sub.correct_answer === 'd' ? 'correct' : ''}">
+                                <span class="option-letter">D:</span> ${sub.options.d}
+                            </li>
+                        </ul>
+                        <div class="meta-item">🏷️ ${sub.category}</div>
+                    </div>
+                    
+                    <div class="explanation-box">
+                        <h4>Explanation</h4>
+                        <p>${sub.explanation}</p>
+                    </div>
+                    
+                    <div class="level-assignment">
+                        <label for="level_${sub.id}">Assign to Level:</label>
+                        <select id="level_${sub.id}" data-difficulty="${sub.difficulty}">
+                            ${generateLevelOptions(sub.difficulty)}
+                        </select>
+                    </div>
+                    
+                    <div class="action-buttons">
+                        <button class="btn btn-approve" onclick="approveQuestion('${sub.id}')">
+                            ✅ Approve
+                        </button>
+                        <button class="btn btn-edit" onclick="editQuestion('${sub.id}')">
+                            ✏️ Edit
+                        </button>
+                        <button class="btn btn-reject" onclick="rejectQuestion('${sub.id}')">
+                            ❌ Reject
+                        </button>
+                    </div>
+                </div>
+            `).join('');
+        }
+        
+        function generateLevelOptions(difficulty) {
+            // Suggest appropriate levels based on difficulty
+            const minLevel = Math.max(1, Math.floor((difficulty - 1) * 2.1) + 1);
+            const maxLevel = Math.min(21, minLevel + 4);
+            
+            let options = '';
+            for (let i = 1; i <= 21; i++) {
+                const selected = i >= minLevel && i <= maxLevel ? 'selected' : '';
+                options += `<option value="${i}" ${selected}>Level ${i}</option>`;
+            }
+            return options;
+        }
+        
+        function approveQuestion(id) {
+            const submission = submissions.find(s => s.id === id);
+            const levelSelect = document.getElementById(`level_${id}`);
+            const level = parseInt(levelSelect.value);
+            
+            if (confirm(`Approve this question for Level ${level}?`)) {
+                // In production, this would update the database
+                submission.status = 'approved';
+                submission.level = level;
+                submission.approved_at = new Date().toISOString();
+                submission.approved_by = 'Admin';
+                
+                showToast('Question approved successfully!', 'success');
+                renderSubmissions();
+                updateStats();
+            }
+        }
+        
+        function editQuestion(id) {
+            // In production, this would open an edit modal
+            showToast('Edit functionality coming soon!', 'error');
+        }
+        
+        function rejectQuestion(id) {
+            const reason = prompt('Please provide a reason for rejection:');
+            if (reason) {
+                const submission = submissions.find(s => s.id === id);
+                submission.status = 'rejected';
+                submission.rejection_reason = reason;
+                
+                showToast('Question rejected', 'error');
+                renderSubmissions();
+                updateStats();
+            }
+        }
+        
+        function showToast(message, type) {
+            const toast = document.getElementById('toast');
+            toast.textContent = message;
+            toast.className = `toast ${type} show`;
+            
+            setTimeout(() => {
+                toast.classList.remove('show');
+            }, 3000);
+        }
+        
+        // Event listeners
+        document.getElementById('difficultyFilter').addEventListener('change', renderSubmissions);
+        document.getElementById('categoryFilter').addEventListener('change', renderSubmissions);
+        
+        // Initialize
+        loadSubmissions();
+    </script>
+</body>
+</html>

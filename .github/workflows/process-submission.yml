@@ -1,0 +1,183 @@
+name: Process Trivia Submission
+
+on:
+  issues:
+    types: [opened, labeled]
+
+jobs:
+  process-submission:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'trivia-submission')
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Parse submission
+      id: parse
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const issueBody = context.payload.issue.body;
+          
+          // Parse the submission from issue body
+          const questionMatch = issueBody.match(/\*\*Question:\*\* (.+)/);
+          const optionsMatch = issueBody.match(/\*\*Options:\*\*\n- A: (.+)\n- B: (.+)\n- C: (.+)\n- D: (.+)/);
+          const correctMatch = issueBody.match(/\*\*Correct Answer:\*\* ([A-D])/);
+          const difficultyMatch = issueBody.match(/\*\*Difficulty:\*\* (\d+)\/10/);
+          const categoryMatch = issueBody.match(/\*\*Category:\*\* (.+)/);
+          const explanationMatch = issueBody.match(/\*\*Explanation:\*\* (.+)/);
+          const submittedByMatch = issueBody.match(/\*\*Submitted by:\*\* (.+)/);
+          const submissionIdMatch = issueBody.match(/\*Submission ID: (.+)\*/);
+          
+          if (!questionMatch || !optionsMatch || !correctMatch) {
+            core.setFailed('Invalid submission format');
+            return;
+          }
+          
+          const submission = {
+            id: submissionIdMatch ? submissionIdMatch[1] : `sub_${Date.now()}`,
+            question: questionMatch[1],
+            options: {
+              a: optionsMatch[1],
+              b: optionsMatch[2],
+              c: optionsMatch[3],
+              d: optionsMatch[4]
+            },
+            correct_answer: correctMatch[1].toLowerCase(),
+            difficulty: parseInt(difficultyMatch[1]),
+            category: categoryMatch[1],
+            explanation: explanationMatch[1],
+            submitted_by: submittedByMatch[1],
+            issue_number: context.issue.number,
+            created_at: new Date().toISOString()
+          };
+          
+          core.setOutput('submission', JSON.stringify(submission));
+    
+    - name: Add to pending submissions
+      if: contains(github.event.issue.labels.*.name, 'trivia-submission') && !contains(github.event.issue.labels.*.name, 'approved') && !contains(github.event.issue.labels.*.name, 'rejected')
+      run: |
+        SUBMISSION='${{ steps.parse.outputs.submission }}'
+        
+        # Read current questions file
+        if [ -f "data/questions.json" ]; then
+          CURRENT=$(cat data/questions.json)
+        else
+          CURRENT='{"questions": [], "pending_submissions": []}'
+        fi
+        
+        # Add submission to pending_submissions array
+        UPDATED=$(echo "$CURRENT" | jq --argjson sub "$SUBMISSION" '.pending_submissions += [$sub]')
+        
+        # Write back to file
+        echo "$UPDATED" > data/questions.json
+        
+        # Commit changes
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/questions.json
+        git commit -m "Add pending submission from issue #${{ github.event.issue.number }}"
+        git push
+
+  approve-submission:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'trivia-submission') && contains(github.event.issue.labels.*.name, 'approved')
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+    
+    - name: Move submission to approved
+      run: |
+        # Extract issue number from the issue
+        ISSUE_NUMBER=${{ github.event.issue.number }}
+        
+        # Read current questions file
+        CURRENT=$(cat data/questions.json)
+        
+        # Find the submission in pending_submissions by issue_number
+        SUBMISSION=$(echo "$CURRENT" | jq --arg num "$ISSUE_NUMBER" '.pending_submissions[] | select(.issue_number == ($num | tonumber))')
+        
+        if [ -z "$SUBMISSION" ]; then
+          echo "No pending submission found for issue #$ISSUE_NUMBER"
+          exit 1
+        fi
+        
+        # Add approved metadata
+        APPROVED_SUBMISSION=$(echo "$SUBMISSION" | jq --arg date "$(date -u +%Y-%m-%dT%H:%M:%SZ)" '. + {approved_at: $date, approved_by: "GitHub Action", status: "approved"}')
+        
+        # Move from pending to questions array and remove from pending
+        UPDATED=$(echo "$CURRENT" | jq --arg num "$ISSUE_NUMBER" --argjson sub "$APPROVED_SUBMISSION" '
+          .questions += [$sub] |
+          .pending_submissions = [.pending_submissions[] | select(.issue_number != ($num | tonumber))]
+        ')
+        
+        # Write back to file
+        echo "$UPDATED" > data/questions.json
+        
+        # Also update the main questions file with all approved questions
+        ALL_QUESTIONS=$(echo "$UPDATED" | jq '.questions')
+        echo "{\"questions\": $ALL_QUESTIONS}" > data/all-questions.json
+        
+        # Commit changes
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add data/questions.json data/all-questions.json
+        git commit -m "Approve submission from issue #${{ github.event.issue.number }}"
+        git push
+    
+    - name: Close issue
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.update({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+            state: 'closed'
+          });
+          
+          github.rest.issues.createComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+            body: '✅ This trivia question has been approved and added to the database. Thank you for your contribution!'
+          });
+
+  reject-submission:
+    runs-on: ubuntu-latest
+    if: contains(github.event.issue.labels.*.name, 'trivia-submission') && contains(github.event.issue.labels.*.name, 'rejected')
+    
+    steps:
+    - name: Close issue with rejection
+      uses: actions/github-script@v6
+      with:
+        script: |
+          github.rest.issues.update({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+            state: 'closed'
+          });
+          
+          github.rest.issues.createComment({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            issue_number: context.issue.number,
+            body: '❌ This trivia question has been rejected. Thank you for your submission, but it does not meet our current requirements. Please feel free to submit another question!'
+          });
