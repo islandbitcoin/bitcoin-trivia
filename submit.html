@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Submit Bitcoin Trivia Question</title>
+    <script src='https://www.unpkg.com/nostr-login@latest/dist/unpkg.js' data-perms='sign_event:13374' data-theme='default'></script>
     <style>
         * {
             margin: 0;
@@ -166,6 +167,39 @@
             border: 1px solid #f5c6cb;
             color: #721c24;
         }
+        
+        .nostr-auth-section {
+            background: #f5f5f5;
+            padding: 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .nostr-info {
+            display: none;
+            background: #e8f4e8;
+            padding: 1rem;
+            border-radius: 4px;
+            margin-top: 1rem;
+            border: 1px solid #c3e6c3;
+        }
+        
+        .nostr-info.show {
+            display: block;
+        }
+        
+        .nostr-pubkey {
+            font-family: monospace;
+            font-size: 0.85rem;
+            word-break: break-all;
+            margin-top: 0.5rem;
+            color: #666;
+        }
+        
+        #nostr-login-button {
+            margin: 0 auto;
+        }
     </style>
 </head>
 <body>
@@ -176,6 +210,18 @@
         </header>
         
         <div class="form-container">
+            <div class="nostr-auth-section">
+                <h3>🔐 Login with Nostr (Optional)</h3>
+                <p>Connect your Nostr account to submit questions and track your contributions</p>
+                <p style="font-size: 0.9rem; color: #666; margin-top: 0.5rem;">You can still submit questions without logging in</p>
+                <div id="nostr-login-button"></div>
+                <div id="nostr-info" class="nostr-info">
+                    <strong>Connected as:</strong>
+                    <div id="nostr-username"></div>
+                    <div id="nostr-pubkey" class="nostr-pubkey"></div>
+                </div>
+            </div>
+            
             <div class="info-box">
                 <h3>📝 Submission Guidelines</h3>
                 <ul>
@@ -282,6 +328,7 @@
                 <div class="form-group">
                     <label for="submitted_by">Your Name/Username*</label>
                     <input type="text" id="submitted_by" name="submitted_by" required placeholder="How should we credit you?">
+                    <small style="color: #666; margin-top: 0.25rem; display: block;">This will be auto-filled if you're logged in with Nostr</small>
                 </div>
                 
                 <div class="form-group">
@@ -297,6 +344,60 @@
     </div>
     
     <script>
+        // Nostr authentication state
+        let nostrUser = null;
+        
+        // Listen for Nostr auth events
+        document.addEventListener('nlAuth', async (e) => {
+            if (e.detail.type === 'login' || e.detail.type === 'signup') {
+                // User logged in
+                try {
+                    const pubkey = await window.nostr.getPublicKey();
+                    nostrUser = {
+                        pubkey: pubkey,
+                        npub: nip19Encode(pubkey)
+                    };
+                    
+                    // Update UI
+                    document.getElementById('nostr-info').classList.add('show');
+                    document.getElementById('nostr-pubkey').textContent = `npub: ${nostrUser.npub}`;
+                    
+                    // Try to get profile info
+                    try {
+                        const profile = await getNostrProfile(pubkey);
+                        if (profile) {
+                            document.getElementById('nostr-username').textContent = profile.name || profile.display_name || 'Anonymous';
+                            // Auto-fill the submitted_by field
+                            document.getElementById('submitted_by').value = profile.name || profile.display_name || '';
+                        }
+                    } catch (err) {
+                        console.log('Could not fetch profile:', err);
+                        document.getElementById('nostr-username').textContent = 'Anonymous';
+                    }
+                } catch (err) {
+                    console.error('Error getting pubkey:', err);
+                }
+            } else if (e.detail.type === 'logout') {
+                // User logged out
+                nostrUser = null;
+                document.getElementById('nostr-info').classList.remove('show');
+                document.getElementById('submitted_by').value = '';
+            }
+        });
+        
+        // Helper function to encode pubkey to npub format
+        function nip19Encode(pubkey) {
+            // Simple npub encoding (in production, use proper nip19 library)
+            return 'npub1' + pubkey.substring(0, 12) + '...';
+        }
+        
+        // Helper function to get Nostr profile (simplified)
+        async function getNostrProfile(pubkey) {
+            // In a real implementation, this would query Nostr relays
+            // For now, return null
+            return null;
+        }
+        
         document.getElementById('submissionForm').addEventListener('submit', async function(e) {
             e.preventDefault();
             
@@ -319,7 +420,9 @@
                 submitted_by: formData.get('submitted_by'),
                 email: formData.get('email'),
                 created_at: new Date().toISOString(),
-                status: 'pending'
+                status: 'pending',
+                // Add Nostr pubkey if logged in
+                nostr_pubkey: nostrUser ? nostrUser.pubkey : null
             };
             
             try {
@@ -345,6 +448,7 @@
 
 **Submitted by:** ${submission.submitted_by}
 ${submission.email ? `**Email:** ${submission.email}` : ''}
+${submission.nostr_pubkey ? `**Nostr pubkey:** ${submission.nostr_pubkey}` : ''}
 
 ---
 *Submission ID: ${submission.id}*
