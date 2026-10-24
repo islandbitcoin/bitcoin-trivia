@@ -1,6 +1,6 @@
 # Bitcoin Trivia Game Platform
 
-A comprehensive Bitcoin education platform featuring multiple game modes, 425+ questions, and community features. Learn Bitcoin through engaging gameplay, from basic concepts to expert-level knowledge.
+A Bitcoin education platform featuring multiple game modes, 425+ questions, and community features. Learn Bitcoin through engaging gameplay, from basic concepts to expert-level knowledge.
 
 ## 🎮 What's New in v0.1.0
 
